@@ -31,7 +31,6 @@ const config = {
   blogDescription: 'The blog of Ghost Ship, famed for its speed.',
   blogSummary:
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
-
   dateFormat: 'D MMMM YYYY',
   matomoOptions: {
     siteId: null,
@@ -49,6 +48,11 @@ const config = {
   // `useDatesInSlugs: false` -> `/blog/my-post/`
   // `useDatesInSlugs: true`  -> `/blog/2019-05-09-my-post/`
   useDatesInSlugs: true,
+
+  // Site width is total width of your site including headers, footers, and backgrounds, expressed in a value CSS understands.
+  siteWidth: '128rem',
+  // Content width is the width of content (ie, paragraphs and blocks of text), expressed in a CSS value.
+  contentWidth: '64rem',
 };
 
 // Make sure pathPrefix is empty if not needed
