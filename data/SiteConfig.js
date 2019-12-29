@@ -1,27 +1,27 @@
 const config = {
   // Set to your site's language/locale.
-  language: 'en-US',
+  language: 'en-UK',
   // Site title.
-  siteTitle: 'Ghost Ship Gatsby Starter',
+  siteTitle: 'Mic Drop',
   // Short site title for homescreen (PWA/Progressive Web Apps).
   // Staying under 12 characters will prevent any truncation on phone screens.
-  siteTitleShort: 'Ghost Ship',
+  siteTitleShort: 'Mic Drop',
   // Alternative site title for SEO.
-  siteTitleAlt: 'Ghost Ship: Stranded on an island with but your wits and React',
+  siteTitleAlt: 'Mic Drop: The menubar app for turning your microphone off, fast.',
   // Logo used for SEO and manifest.
   siteLogo: '/logos/logo-1024.png',
   // Domain of your website without pathPrefix.
-  siteUrl: 'https://yourdomain.com',
+  siteUrl: 'https://getmicdrop.com',
   // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   pathPrefix: '/',
   // Website description used for RSS feeds/meta description tag.
   siteDescription:
-    'Ghost ship is a Gatsby starter that offers blogging, optimised images, a portfolio, and more.',
+    'Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teacher, and anyone spending a lot of time on video.',
   // Path to the RSS file.
   siteRss: '/blog/rss.xml',
-  twitter: '@tweettweet',
+  twitter: '@octopusthinks',
   // Copyright string for the footer of the website and RSS feed.
-  copyright: `Copyright © ${new Date().getFullYear()}. Your name here.`,
+  copyright: `Copyright ©${new Date().getFullYear()}. Octopus Think.`,
 
   // Ghost Ship Settings
   enableBlogAuthors: true,
