@@ -21,7 +21,7 @@ export const Page = (props) => {
     <App>
       <SEO title={title} description={description} />
       <PageWrapper>
-        <PageHeader pageTitle={title} summary={summary} description={description} />
+        <PageHeader>{title}</PageHeader>
         <PageBody>
           <MDXRenderer>{body}</MDXRenderer>
         </PageBody>
