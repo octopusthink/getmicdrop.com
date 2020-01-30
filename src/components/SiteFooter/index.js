@@ -21,11 +21,11 @@ const SiteFooter = () => {
       Made with{' '}
       <span role="img" aria-label="love">
         ❤️
-      </span>{' '}
+      </span>
       and{' '}
       <span role="img" aria-label="cephalopods">
         🐙
-      </span>{' '}
+      </span>
       by{' '}
       <Link as="a" href="https://octopusthink.com">
         Octopus Think
