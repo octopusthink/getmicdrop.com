@@ -1,10 +1,5 @@
-import {
-  Heading,
-  List,
-  Link,
-  PageTitle,
-  Paragraph,
-} from '@octopusthink/nautilus';
+/* eslint-disable react/jsx-props-no-spreading */
+import { Heading, List, Link, PageTitle, Paragraph } from '@octopusthink/nautilus';
 import React, { createElement } from 'react';
 import RehypeReact from 'rehype-react';
 
@@ -23,6 +18,7 @@ export const markdown = (htmlAst) => {
       a: (originalProps) => {
         const props = { ...originalProps };
 
+        // eslint-disable-next-line react/destructuring-assignment
         if (props.href.startsWith('/') && !props.href.startsWith('//')) {
           props.to = props.href;
           delete props.href;

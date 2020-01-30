@@ -3,8 +3,6 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-const moment = require('moment');
-
 const config = require('./data/SiteConfig.js');
 
 module.exports = {

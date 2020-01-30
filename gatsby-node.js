@@ -6,12 +6,11 @@ const moment = require('moment');
 const { singular } = require('pluralize');
 
 const siteConfig = require('./data/SiteConfig');
-const { enableBlog, enablePortfolio } = require('./src/utils/settings');
 
 const projectPath = path.resolve(fs.realpathSync(process.cwd()), '.');
 const srcPath = path.resolve(fs.realpathSync(process.cwd()), 'src');
 
-const { postsPerPage, useDatesInSlugs } = siteConfig;
+const { useDatesInSlugs } = siteConfig;
 
 // Create pages of any other type.
 const makePages = ({ actions, pages }) => {

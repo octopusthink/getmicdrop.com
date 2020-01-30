@@ -8,19 +8,6 @@ const SignUpForm = () => {
   const [formEnabled, setFormEnabled] = useState(false);
   const emailRef = useRef();
 
-  useEffect(() => {
-    if (hasBlurredEmail) {
-      onEmailChange();
-    }
-  });
-
-  const onEmailBlur = () => {
-    if (!hasBlurredEmail) {
-      setHasBlurredEmail(true);
-    }
-    onEmailChange();
-  };
-
   const onEmailChange = () => {
     if (!emailRef.current || !emailRef.current.value.length) {
       setEmailError('Please enter your email address.');
@@ -42,6 +29,19 @@ const SignUpForm = () => {
       setEmailError(null);
     }
   };
+
+  const onEmailBlur = () => {
+    if (!hasBlurredEmail) {
+      setHasBlurredEmail(true);
+    }
+    onEmailChange();
+  };
+
+  useEffect(() => {
+    if (hasBlurredEmail) {
+      onEmailChange();
+    }
+  });
 
   const onSubmit = (event) => {
     onEmailChange();
