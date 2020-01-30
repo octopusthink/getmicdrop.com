@@ -16,7 +16,7 @@ export const App = (props) => {
       <Global
         styles={css`
           body {
-            background: ${theme.colors.neutral.white};
+            background: ${theme.colors.neutral.grey0};
             margin: 0;
           }
         `}
