@@ -52,7 +52,7 @@
     "gatsby-transformer-yaml": "^2.2.12",
     "gh-pages": "^2.0.1",
     "identity-obj-proxy": "^3.0.0",
-    "inter-ui": "^3.10.0",
+    "inter-ui": "^3.11.0",
     "invariant": "^2.2.4",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
