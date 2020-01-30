@@ -83,12 +83,12 @@ module.exports = {
         ignore: ['**/*.js'],
       },
     },
-    {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        logo: './static/favicon.png',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-favicon',
+    //   options: {
+    //     logo: './static/favicon.png',
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
