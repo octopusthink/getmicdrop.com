@@ -28,6 +28,7 @@ const SiteFooter = () => {
       <Link as="a" href="https://octopusthink.com">
         Octopus Think
       </Link>
+      {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
       {` · `}
       <Link to="/privacy">Privacy policy</Link>
     </footer>
