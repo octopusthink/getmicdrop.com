@@ -4,7 +4,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const PageHeader = (props) => {
-  const { children } = props;
+  const { children, homepage } = props;
   const theme = useTheme();
   const { site } = useStaticQuery(
     graphql`
@@ -12,11 +12,16 @@ const PageHeader = (props) => {
         site {
           siteMetadata {
             title
+            titleHomepage
           }
         }
       }
     `,
   );
+  let siteTitle = site.siteMetadata.title;
+  if (homepage) {
+    siteTitle = site.siteMetadata.titleHomepage;
+  }
 
   return (
     <header
@@ -26,7 +31,7 @@ const PageHeader = (props) => {
       `}
     >
       <PageTitle>
-        <span>{site.siteMetadata.title}</span>
+        <span>{siteTitle}</span>
         <span
           css={css`
             display: block;

@@ -10,6 +10,7 @@ const config = require('./data/SiteConfig.js');
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
+    titleHomepage: config.siteTitleHomepage,
     description: config.siteDescription,
     author: config.twitter,
     siteUrl: config.siteUrl,
