@@ -1,3 +1,4 @@
+import { css } from '@emotion/core';
 import { Button, TextField } from '@octopusthink/nautilus';
 import EmailValidator from 'email-validator';
 import React, { useEffect, useRef, useState } from 'react';
@@ -75,9 +76,15 @@ const SignUpForm = () => {
       <TextField label="What software and equipment do you use for video meetings?" name="MERGE7" />
       <TextField label="Do you use any assistive technology?" name="MERGE8" />
 
-      <Button disabled={!formEnabled} primary type="submit">
-        Send me an invite!
-      </Button>
+      <div
+        css={css`
+          text-align: center;
+        `}
+      >
+        <Button disabled={!formEnabled} primary type="submit">
+          Send me an invite!
+        </Button>
+      </div>
     </form>
   );
 };

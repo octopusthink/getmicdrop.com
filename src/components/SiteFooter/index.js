@@ -12,8 +12,10 @@ const SiteFooter = () => {
         border-top: 4px solid ${theme.colors.neutral.black};
         margin: 8rem auto 0;
         max-width: ${theme.site.maxContentWidth};
-        padding: 1.6rem;
+        padding: 2.4rem 0 1.6rem;
         text-align: center;
+        font-weight: 500;
+        font-size: 1.5rem;
       `}
     >
       Made with{' '}

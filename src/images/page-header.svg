@@ -4,9 +4,9 @@
     <title>page-header</title>
     <desc>Created with Sketch.</desc>
     <g id="page-header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFF9F3" x="0" y="0" width="768" height="328"></rect>
+        <rect fill="#FFFBF7" x="0" y="0" width="768" height="328"></rect>
         <rect id="Rectangle" fill="#990811" transform="translate(480.554890, -99.856058) scale(-1, 1) rotate(-15.000000) translate(-480.554890, 99.856058) " x="15.0548905" y="-373.856058" width="931" height="548"></rect>
-        <text id="Bringing-order" transform="translate(403.000000, 133.500000) rotate(15.000000) translate(-403.000000, -133.500000) " font-family="Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#FFF9F3">
+        <text id="Bringing-order" transform="translate(403.000000, 133.500000) rotate(15.000000) translate(-403.000000, -133.500000) " font-family="Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#FFFBF7">
             <tspan x="62" y="163">Bringing order</tspan>
         </text>
         <text id="to-your-meetings." transform="translate(451.000000, 191.500000) rotate(15.000000) translate(-451.000000, -191.500000) " font-family="Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#990811">

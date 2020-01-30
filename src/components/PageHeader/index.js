@@ -27,10 +27,15 @@ const PageHeader = (props) => {
     <header
       css={css`
         border-bottom: 4px solid ${theme.colors.neutral.black};
-        margin-bottom: 8rem;
+        margin-bottom: 4.8rem;
       `}
     >
-      <PageTitle>
+      <PageTitle
+        css={css`
+          margin-bottom: 2.4rem;
+          letter-spacing: -0.03em;
+        `}
+      >
         <span>{siteTitle}</span>
         <span
           css={css`

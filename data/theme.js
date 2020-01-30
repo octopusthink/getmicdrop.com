@@ -1,6 +1,6 @@
 const colors = {
   white: '#FFFFFF',
-  grey0: '#FFF9F3',
+  grey0: '#FFFBF7',
   grey100: '#ebedf0',
   grey200: '#dee0e5',
   grey300: '#cfd3da',
@@ -142,12 +142,12 @@ export const theme = {
     },
 
     state: {
-      interactive: colors.blue200,
-      interactiveText: colors.blue600,
-      hover: colors.cyan200,
-      hoverText: colors.cyan600,
-      focusOutline: colors.blue200,
-      focusText: colors.blue800,
+      interactive: colors.red500,
+      interactiveText: colors.red600,
+      hover: colors.yellow200,
+      hoverText: colors.yellow600,
+      focusOutline: colors.yellow300,
+      focusText: colors.yellow900,
       disabled: colors.grey700,
       disabledDark: colors.grey800,
       disabledLight: colors.grey200,
@@ -170,9 +170,9 @@ export const theme = {
 
     buttons: {
       neutral: colors.white,
-      default: colors.blue600,
-      defaultDark: colors.blue800,
-      defaultLight: colors.blue200,
+      default: colors.red600,
+      defaultDark: colors.red800,
+      defaultLight: colors.red200,
     },
   },
 
@@ -250,13 +250,13 @@ export const theme = {
     },
 
     baseSizes: {
-      desktop: 18,
-      mobile: 16,
+      desktop: 20,
+      mobile: 18,
     },
 
     scaleModifiers: {
-      desktop: 1.15,
-      mobile: 1.15,
+      desktop: 1.125,
+      mobile: 1.05,
     },
 
     lineHeights: {
@@ -297,7 +297,7 @@ export const theme = {
     mobilePadding: '1.6rem',
     tabletPadding: '3.2rem',
     desktopPadding: '6.4rem',
-    maxContentWidth: '72rem',
+    maxContentWidth: '64rem',
     maxSiteWidth: '120rem',
   },
 };
