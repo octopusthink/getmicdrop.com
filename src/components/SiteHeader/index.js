@@ -1,12 +1,10 @@
-import { PageTitle, SkipLink, useTheme } from '@octopusthink/nautilus';
+import { SkipLink } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
-
 import React from 'react';
+
 import BackgroundImage from 'src/images/page-header.svg';
 
 const SiteHeader = () => {
-  const theme = useTheme();
-
   return (
     <header
       css={css`

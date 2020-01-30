@@ -8,6 +8,8 @@ const config = {
   siteTitleShort: 'Mic Drop',
   // Alternative site title for SEO.
   siteTitleAlt: 'Mic Drop: The menubar app for turning your microphone off, fast.',
+  // Alternative site title for homepage.
+  siteTitleHomepage: 'Shh! Mic Drop is in beta.',
   // Logo used for SEO and manifest.
   siteLogo: '/logos/logo-1024.png',
   // Domain of your website without pathPrefix.
