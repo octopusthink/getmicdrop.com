@@ -1,42 +1,40 @@
 const config = {
   // Set to your site's language/locale.
-  language: 'en-US',
+  language: 'en-GB',
   // Site title.
-  siteTitle: 'Ghost Ship Gatsby Starter',
+  siteTitle: 'Mic Drop',
   // Short site title for homescreen (PWA/Progressive Web Apps).
   // Staying under 12 characters will prevent any truncation on phone screens.
-  siteTitleShort: 'Ghost Ship',
+  siteTitleShort: 'Mic Drop',
   // Alternative site title for SEO.
-  siteTitleAlt: 'Ghost Ship: Stranded on an island with but your wits and React',
+  siteTitleAlt: 'Mic Drop: The menubar app for turning your microphone off, fast.',
+  // Alternative site title for homepage.
+  siteTitleHomepage: 'Shh! Mic Drop is in beta.',
   // Logo used for SEO and manifest.
   siteLogo: '/logos/logo-1024.png',
   // Domain of your website without pathPrefix.
-  siteUrl: 'https://yourdomain.com',
+  siteUrl: 'https://getmicdrop.com',
   // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   pathPrefix: '/',
   // Website description used for RSS feeds/meta description tag.
   siteDescription:
-    'Ghost ship is a Gatsby starter that offers blogging, optimised images, a portfolio, and more.',
+    'Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teacher, and anyone spending a lot of time on video.',
   // Path to the RSS file.
   siteRss: '/blog/rss.xml',
-  twitter: '@tweettweet',
+  twitter: '@octopusthinks',
   // Copyright string for the footer of the website and RSS feed.
-  copyright: `Copyright © ${new Date().getFullYear()}. Your name here.`,
-
-  // Ghost Ship Settings
-  enableBlogAuthors: true,
-  enableBlogTags: true,
+  copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
 
   blogTitle: 'Our Blog',
   blogDescription: 'The blog of Ghost Ship, famed for its speed.',
   blogSummary:
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
-
   dateFormat: 'D MMMM YYYY',
+
   matomoOptions: {
-    siteId: null,
-    matomoUrl: 'https://your.matomoserver.com',
-    siteUrl: 'https://yourdomain.com',
+    siteId: '6',
+    matomoUrl: 'https://analytics.octopusth.ink',
+    siteUrl: 'https://octopusthink.com',
     requireConsent: false,
     // Removes the need for cookie notices and is less creepy! :-)
     disableCookies: true,
@@ -49,6 +47,11 @@ const config = {
   // `useDatesInSlugs: false` -> `/blog/my-post/`
   // `useDatesInSlugs: true`  -> `/blog/2019-05-09-my-post/`
   useDatesInSlugs: true,
+
+  // Site width is total width of your site including headers, footers, and backgrounds, expressed in a value CSS understands.
+  siteWidth: '128rem',
+  // Content width is the width of content (ie, paragraphs and blocks of text), expressed in a CSS value.
+  contentWidth: '64rem',
 };
 
 // Make sure pathPrefix is empty if not needed

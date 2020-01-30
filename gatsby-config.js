@@ -3,129 +3,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-const moment = require('moment');
-
 const config = require('./data/SiteConfig.js');
-
-let feedSettings;
-let matomoSettings;
-const mapping = {};
-
-const { enableBlog } = require('./src/utils/settings');
-
-if (enableBlog) {
-  feedSettings = {
-    resolve: 'gatsby-plugin-feed',
-    options: {
-      query: `
-        {
-          site {
-            siteMetadata {
-              title
-              description
-              siteUrl
-              site_url: siteUrl
-            }
-          }
-        }
-      `,
-      feeds: [
-        {
-          serialize: ({ query: { site, allMdx } }) => {
-            return allMdx.edges.map((edge) => {
-              return {
-                ...edge.node.fields,
-                title: edge.node.fields.title,
-                description: edge.node.html,
-                date: edge.node.fields.date,
-                url: `${site.siteMetadata.siteUrl}${edge.node.fields.slug}`,
-                author: edge.node.fields.authors
-                  .map((author) => {
-                    return author.name;
-                  })
-                  .join(', '),
-              };
-            });
-          },
-          query: `
-            {
-              allMdx(
-                sort: { fields: [fields___date], order: DESC }
-                filter: {
-                  fileAbsolutePath: { regex: "//content/blog/" }
-                  fields: { timestamp: { lte: ${parseInt(moment.utc().format('X'), 10)} } }
-                }
-              ) {
-                edges {
-                  node {
-                    excerpt
-                    html
-                    fields {
-                      authors {
-                        name
-                      }
-                      date
-                      slug
-                      summary
-                      title
-                      tags {
-                        name
-                        summary
-                      }
-                    }
-                    timeToRead
-                  }
-                }
-              }
-            }
-          `,
-          output: config.siteRss,
-          title: config.blogTitleRSS || config.blogTitle,
-          description: config.blogDescription,
-          generator: 'Ghost Ship (https://github.com/octopusthink/ghost-ship)',
-          site_url: config.siteUrl,
-          language: config.language,
-          copyright: config.copyright,
-          custom_namespaces: {
-            atom: 'http://www.w3.org/2005/Atom',
-          },
-          custom_elements: [
-            {
-              'atom:link': [
-                {
-                  _attr: {
-                    href: `${config.siteUrl}${config.siteRss}`,
-                    rel: 'self',
-                    type: 'application/rss+xml',
-                  },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-  };
-
-  if (config.enableBlogAuthors) {
-    mapping['Mdx.fields.authors'] = 'AuthorsYaml';
-  }
-
-  if (config.enableBlogTags) {
-    mapping['Mdx.fields.tags'] = 'TagsYaml';
-  }
-}
-
-if (config.matomoOptions && Object.keys(config.matomoOptions).length) {
-  matomoSettings = {
-    resolve: 'gatsby-plugin-matomo',
-    options: config.matomoOptions,
-  };
-}
 
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
+    titleHomepage: config.siteTitleHomepage,
     description: config.siteDescription,
     author: config.twitter,
     siteUrl: config.siteUrl,
@@ -141,10 +24,12 @@ module.exports = {
         component: require.resolve(`./src/components/NautilusWrapper`),
       },
     },
-    feedSettings,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
-    matomoSettings,
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: config.matomoOptions,
+    },
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
@@ -198,12 +83,12 @@ module.exports = {
         ignore: ['**/*.js'],
       },
     },
-    {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        logo: './static/favicon.png',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-favicon',
+    //   options: {
+    //     logo: './static/favicon.png',
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -213,5 +98,4 @@ module.exports = {
       },
     },
   ],
-  mapping,
 };
