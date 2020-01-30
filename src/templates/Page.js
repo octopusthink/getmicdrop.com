@@ -34,9 +34,9 @@ export const pageQuery = graphql`
   query($id: String!) {
     page: mdx(id: { eq: $id }) {
       fields {
-        metaDescription
+        # metaDescription
         slug
-        summary
+        # summary
         title
       }
       body

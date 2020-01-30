@@ -1,6 +1,6 @@
 const config = {
   // Set to your site's language/locale.
-  language: 'en-UK',
+  language: 'en-GB',
   // Site title.
   siteTitle: 'Mic Drop',
   // Short site title for homescreen (PWA/Progressive Web Apps).
@@ -21,21 +21,18 @@ const config = {
   siteRss: '/blog/rss.xml',
   twitter: '@octopusthinks',
   // Copyright string for the footer of the website and RSS feed.
-  copyright: `Copyright ©${new Date().getFullYear()}. Octopus Think.`,
-
-  // Ghost Ship Settings
-  enableBlogAuthors: true,
-  enableBlogTags: true,
+  copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
 
   blogTitle: 'Our Blog',
   blogDescription: 'The blog of Ghost Ship, famed for its speed.',
   blogSummary:
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
   dateFormat: 'D MMMM YYYY',
+
   matomoOptions: {
-    siteId: null,
-    matomoUrl: 'https://your.matomoserver.com',
-    siteUrl: 'https://yourdomain.com',
+    siteId: '6',
+    matomoUrl: 'https://analytics.octopusth.ink',
+    siteUrl: 'https://octopusthink.com',
     requireConsent: false,
     // Removes the need for cookie notices and is less creepy! :-)
     disableCookies: true,

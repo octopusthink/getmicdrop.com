@@ -13,120 +13,6 @@ const srcPath = path.resolve(fs.realpathSync(process.cwd()), 'src');
 
 const { postsPerPage, useDatesInSlugs } = siteConfig;
 
-// Gatsby Integers only support 32-bit integers, so this uses that as the
-// maximum timestamp value. Sort of a hack, but using `Number.MAX_SAFE_INTEGER`
-// will throw errors.
-const nowTimestamp =
-  process.env.NODE_ENV === 'production' || process.env.HIDE_FUTURE_POSTS
-    ? parseInt(moment.utc().format('X'), 10)
-    : 2147483647;
-
-// Tags used across the site.
-const siteTags = new Set();
-
-const makeBlogPosts = ({ actions, blogPosts }) => {
-  const { createPage } = actions;
-
-  const postsToPublish = blogPosts.edges.filter((edge) => {
-    return edge.node.fields.timestamp <= nowTimestamp;
-  });
-
-  postsToPublish.sort((postA, postB) => {
-    const dateA = moment.utc(postA.node.fields.date);
-    const dateB = moment.utc(postB.node.fields.date);
-
-    if (dateA.isBefore(dateB)) {
-      return 1;
-    }
-    if (dateB.isBefore(dateA)) {
-      return -1;
-    }
-
-    return 0;
-  });
-
-  postsToPublish.forEach((edge, index) => {
-    const nextID = index + 1 < postsToPublish.length ? index + 1 : 0;
-    const prevID = index - 1 >= 0 ? index - 1 : postsToPublish.length - 1;
-    const nextEdge = postsToPublish[nextID];
-    const prevEdge = postsToPublish[prevID];
-
-    // Don't create blog posts in the future when building for production.
-    if (edge.node.fields.timestamp <= nowTimestamp) {
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve('src/templates/Blog/Post.js'),
-        context: {
-          nowTimestamp,
-          id: edge.node.id,
-          slug: edge.node.fields.slug,
-          nexttitle: nextEdge.node.fields.title,
-          nextslug: `${nextEdge.node.fields.slug}`,
-          prevtitle: prevEdge.node.fields.title,
-          prevslug: `${prevEdge.node.fields.slug}`,
-        },
-      });
-
-      if (edge.node.fields.tags) {
-        edge.node.fields.tags.forEach((tag) => {
-          siteTags.add(tag);
-        });
-      }
-    }
-  });
-
-  const numberOfPages = Math.ceil(postsToPublish.length / postsPerPage);
-
-  Array(numberOfPages)
-    .fill(null)
-    .forEach((item, i) => {
-      const index = i + 1;
-      createPage({
-        path: index === 1 ? `/blog` : `/blog/page=${index}`,
-        component: path.resolve('src/templates/Blog/index.js'),
-        context: {
-          nowTimestamp,
-          limit: postsPerPage,
-          skip: i * postsPerPage,
-          currentPage: index,
-          numberOfPages,
-          postsPerPage,
-        },
-      });
-    });
-};
-
-// Make pages for each blog tag.
-const makeBlogTags = ({ actions, tags }) => {
-  const { createPage } = actions;
-
-  tags.forEach((tag) => {
-    const slug = `/blog/tags/${tag.id}/`;
-
-    createPage({
-      path: slug,
-      component: path.resolve('src/templates/Blog/Tag.js'),
-      context: { nowTimestamp, slug, tagId: tag.id },
-    });
-  });
-};
-
-const makePortfolioPages = ({ actions, portfolioItems }) => {
-  const { createPage } = actions;
-
-  portfolioItems.edges.forEach((edge) => {
-    // Create pages for each of the portfolio items.
-    createPage({
-      path: edge.node.fields.slug,
-      component: path.resolve('src/templates/Portfolio/Single.js'),
-      context: {
-        id: edge.node.id,
-        slug: edge.node.fields.slug,
-      },
-    });
-  });
-};
-
 // Create pages of any other type.
 const makePages = ({ actions, pages }) => {
   const { createPage } = actions;
@@ -270,55 +156,6 @@ const onCreateNode = ({ actions, node, getNode }) => {
 const createPages = async ({ actions, graphql }) => {
   const markdownQueryResult = await graphql(`
     query {
-      ${
-        enableBlog
-          ? `blogPosts: allMdx(filter: {
-        fileAbsolutePath: { regex: "//content/blog/" }
-        fields: { timestamp: { lte: ${nowTimestamp} } }
-      }) {
-        edges {
-          node {
-            id
-            fields {
-              authors {
-                id
-                avatar
-                name
-                bio
-              }
-              date
-              slug
-              timestamp
-              title
-              tags {
-                id
-                name
-                summary
-              }
-              updated
-            }
-          }
-        }
-      }`
-          : ''
-      }
-      ${
-        enablePortfolio
-          ? `portfolioItems: allMdx(filter: {
-        fileAbsolutePath: { regex: "//content/portfolio/" }
-      }) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-              title
-            }
-          }
-        }
-      }`
-          : ''
-      }
       pages: allMdx(filter: { fileAbsolutePath: { regex: "//content/(?!blog|portfolio).+?/" } }) {
         edges {
           node {
@@ -340,25 +177,7 @@ const createPages = async ({ actions, graphql }) => {
     throw markdownQueryResult.errors;
   }
 
-  const { blogPosts, pages, portfolioItems } = markdownQueryResult.data;
-
-  // If we're running a blog, create the blog post pages.
-  if (enableBlog) {
-    makeBlogPosts({ actions, blogPosts });
-    makeBlogTags({
-      actions,
-      blogPosts,
-      tags: siteTags,
-    });
-  }
-
-  // Create portfolio pages, if they're enabled.
-  if (enablePortfolio) {
-    makePortfolioPages({
-      actions,
-      portfolioItems,
-    });
-  }
+  const { pages } = markdownQueryResult.data;
 
   makePages({ actions, pages });
 };
