@@ -9,7 +9,7 @@
         <text id="Bringing-order" transform="translate(403.000000, 133.500000) rotate(15.000000) translate(-403.000000, -133.500000) " font-family="Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#FFFBF7">
             <tspan x="62" y="163">Bringing order</tspan>
         </text>
-        <text id="to-your-meetings." transform="translate(451.000000, 191.500000) rotate(15.000000) translate(-451.000000, -191.500000) " font-family="Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#990811">
+        <text id="to-your-meetings." transform="translate(451.000000, 191.500000) rotate(15.000000) translate(-451.000000, -191.500000) " font-family="inter,Inter-Bold, Inter" font-size="82" font-weight="bold" letter-spacing="-4.437838" fill="#990811">
             <tspan x="110" y="221">to your meetings.</tspan>
         </text>
     </g>
