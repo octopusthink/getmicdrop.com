@@ -33,7 +33,7 @@ export const App = (props) => {
         <main
           id="content"
           css={css`
-            margin: 2.4rem auto;
+            margin: 40vw auto 4.8rem;
             max-width: ${config.contentWidth};
           `}
         >
