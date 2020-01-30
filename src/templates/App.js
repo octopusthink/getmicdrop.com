@@ -3,7 +3,6 @@ import { useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import 'typeface-inter';
 
-import config from 'data/SiteConfig';
 import GhostShipMDX from 'components/GhostShipMDX';
 import SiteHeader from 'components/SiteHeader';
 import SiteFooter from 'components/SiteFooter';
@@ -25,7 +24,7 @@ export const App = (props) => {
       <div
         css={css`
           margin: 0 auto;
-          max-width: ${config.siteWidth};
+          max-width: ${theme.site.maxSiteWidth};
           padding: 1.6rem;
         `}
       >
@@ -34,7 +33,7 @@ export const App = (props) => {
           id="content"
           css={css`
             margin: 40vw auto 4.8rem;
-            max-width: ${config.contentWidth};
+            max-width: ${theme.site.maxContentWidth};
           `}
         >
           {children}
