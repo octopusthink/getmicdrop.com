@@ -34,6 +34,10 @@ export const App = (props) => {
           css={css`
             margin: 50vw auto 4.8rem;
             max-width: ${theme.site.maxContentWidth};
+
+            @media screen and (min-width: 900px) {
+              margin-top: 30vw;
+            }
           `}
         >
           {children}

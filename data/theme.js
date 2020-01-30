@@ -91,11 +91,8 @@ const colors = {
 };
 
 const fonts = {
-  systemFonts:
-    '-apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif',
-  HarrietDisplay: 'Harriet Display',
-  HarrietText: 'Harriet Text',
-  Graphik: 'Graphik',
+  Inter:
+    'Inter, -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif',
 };
 
 export const theme = {
@@ -234,9 +231,9 @@ export const theme = {
   // All themeable typography variables go here.
   typography: {
     fonts: {
-      body: fonts.systemFonts,
-      heading: fonts.systemFonts,
-      interfaceUI: fonts.systemFonts,
+      body: fonts.Inter,
+      heading: fonts.Inter,
+      interfaceUI: fonts.Inter,
     },
 
     fontWeights: {

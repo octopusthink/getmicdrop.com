@@ -46,7 +46,7 @@ const PageHeader = (props) => {
       <PageTitle
         css={css`
           margin-bottom: 0;
-          letter-spacing: -0.03em;
+          letter-spacing: -0.04em;
         `}
       >
         <span>{siteTitle}</span>
