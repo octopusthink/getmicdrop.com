@@ -16,7 +16,15 @@ const SiteFooter = () => {
         text-align: center;
       `}
     >
-      Made with ❤️ and 🐙 by{' '}
+      Made with{' '}
+      <span role="img" aria-label="love">
+        ❤️
+      </span>{' '}
+      and{' '}
+      <span role="img" aria-label="cephalopods">
+        🐙
+      </span>{' '}
+      by{' '}
       <Link as="a" href="https://octopusthink.com">
         Octopus Think
       </Link>
