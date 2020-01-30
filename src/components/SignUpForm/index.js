@@ -1,12 +1,18 @@
 import { Button, TextField } from '@octopusthink/nautilus';
 import EmailValidator from 'email-validator';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const SignUpForm = () => {
   const [emailError, setEmailError] = useState(null);
   const [hasBlurredEmail, setHasBlurredEmail] = useState(false);
   const [formEnabled, setFormEnabled] = useState(false);
   const emailRef = useRef();
+
+  useEffect(() => {
+    if (hasBlurredEmail) {
+      onEmailChange();
+    }
+  });
 
   const onEmailBlur = () => {
     if (!hasBlurredEmail) {
@@ -22,11 +28,7 @@ const SignUpForm = () => {
       return;
     }
 
-    if (!hasBlurredEmail) {
-      return;
-    }
-
-    if (!EmailValidator.validate(emailRef.current.value)) {
+    if (hasBlurredEmail && !EmailValidator.validate(emailRef.current.value)) {
       setEmailError('Please enter a valid email address.');
       setFormEnabled(false);
       return;
