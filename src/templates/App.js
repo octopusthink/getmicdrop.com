@@ -18,6 +18,7 @@ export const App = (props) => {
           body {
             background: ${theme.colors.neutral.grey0};
             margin: 0;
+            letter-spacing: -0.02em;
           }
         `}
       />

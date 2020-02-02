@@ -153,7 +153,7 @@ export const theme = {
     },
 
     text: {
-      default: colors.grey900,
+      default: colors.black,
       dark: colors.black,
       light: colors.grey800,
       inverse: colors.grey100,
