@@ -1,4 +1,5 @@
-import { Button, TextField } from '@octopusthink/nautilus';
+import { css } from '@emotion/core';
+import { Button, Heading, TextField } from '@octopusthink/nautilus';
 import EmailValidator from 'email-validator';
 import React, { useEffect, useRef, useState } from 'react';
 
@@ -59,7 +60,6 @@ const SignUpForm = () => {
       onSubmit={onSubmit}
     >
       <input type="hidden" name="group[20489][2]" value="1" />
-
       <TextField
         label="Email"
         name="MERGE0"
@@ -69,15 +69,23 @@ const SignUpForm = () => {
         onChange={onEmailChange}
         onBlur={onEmailBlur}
       />
+
+      <Heading level={3}>About you (optional)</Heading>
+
       <TextField label="Name" name="MERGE1" />
       <TextField label="Where do you work?" name="MERGE2" />
       <TextField label="How many video meetings do you attend per week?" name="MERGE6" />
       <TextField label="What software and equipment do you use for video meetings?" name="MERGE7" />
       <TextField label="Do you use any assistive technology?" name="MERGE8" />
-
-      <Button disabled={!formEnabled} primary type="submit">
-        Send me an invite!
-      </Button>
+      <div
+        css={css`
+          text-align: center;
+        `}
+      >
+        <Button disabled={!formEnabled} primary type="submit">
+          Send me an invite!
+        </Button>
+      </div>
     </form>
   );
 };
