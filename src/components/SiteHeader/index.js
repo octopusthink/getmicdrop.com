@@ -2,7 +2,7 @@ import { heading, SkipLink, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React from 'react';
 
-import Logo from 'src/images/logo-alt.svg';
+import Logo from 'src/images/logo.svg';
 
 const SiteHeader = () => {
   const theme = useTheme();

@@ -6,24 +6,45 @@ import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
   const theme = useTheme();
-  const { children } = props;
+  const { children, end } = props;
 
   return (
     <div
       css={css`
-        max-width: 40rem;
         margin-bottom: 8rem;
         position: relative;
+
+        ${end &&
+          css`
+            @media screen and (min-width: 640px) {
+              grid-column: 2;
+            }
+
+            @media screen and (min-width: 1400px) {
+              grid-column: 3;
+            }
+          `}
       `}
     >
       <img
         css={css`
-          width: 6rem;
-          height: 6rem;
-          transform: rotate(-45deg);
+          width: 6.4rem;
+          height: 6.4rem;
           position: absolute;
-          left: -6.8rem;
-          top: 0;
+
+          ${end &&
+            css`
+              transform: rotate(-45deg);
+              left: -6.8rem;
+              top: 0;
+            `}
+
+          ${!end &&
+            css`
+              transform: rotate(45deg);
+              left: -0.4rem;
+              top: -6.8rem;
+            `}
         `}
         src={Arrow}
         alt=""
