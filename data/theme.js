@@ -247,12 +247,12 @@ export const theme = {
     },
 
     baseSizes: {
-      desktop: 20,
-      mobile: 18,
+      desktop: 18,
+      mobile: 16,
     },
 
     scaleModifiers: {
-      desktop: 1.125,
+      desktop: 1.1,
       mobile: 1.05,
     },
 
