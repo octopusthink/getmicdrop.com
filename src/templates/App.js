@@ -32,7 +32,7 @@ export const App = (props) => {
           id="content"
           css={css`
             margin: 0 auto 4.8rem;
-            padding: 1.6rem;
+            //padding: 1.6rem;
           `}
         >
           {children}

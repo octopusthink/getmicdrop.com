@@ -6,13 +6,18 @@ import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
   const theme = useTheme();
-  const { children, end } = props;
+  const { alt, children, end } = props;
 
   return (
     <div
       css={css`
         margin-bottom: 8rem;
         position: relative;
+
+        ${alt &&
+          css`
+            color: white !important;
+          `}
 
         ${end &&
           css`
@@ -26,29 +31,32 @@ const TextBlock = (props) => {
           `}
       `}
     >
-      <img
-        css={css`
-          width: 6.4rem;
-          height: 6.4rem;
-          position: absolute;
+      {!alt && (
+        <img
+          css={css`
+            width: 6.4rem;
+            height: 6.4rem;
+            position: absolute;
 
-          ${end &&
-            css`
-              transform: rotate(-45deg);
-              left: -6.8rem;
-              top: 0;
-            `}
+            ${end &&
+              css`
+                transform: rotate(-45deg);
+                left: -6.8rem;
+                top: 0;
+              `}
 
-          ${!end &&
-            css`
-              transform: rotate(45deg);
-              left: -0.4rem;
-              top: -6.8rem;
-            `}
-        `}
-        src={Arrow}
-        alt=""
-      />
+            ${!end &&
+              css`
+                transform: rotate(45deg);
+                left: -0.4rem;
+                top: -6.8rem;
+              `}
+          `}
+          src={Arrow}
+          alt=""
+        />
+      )}
+
       {children}
     </div>
   );

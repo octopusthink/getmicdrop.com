@@ -5,6 +5,7 @@ import { css } from '@emotion/core';
 const Panel = (props) => {
   const theme = useTheme();
   const {
+    background,
     children,
     className,
     dark,
@@ -13,6 +14,7 @@ const Panel = (props) => {
     gridTablet,
     gridDesktop,
     gridWide,
+    negativeMargins,
   } = props;
 
   let hasGrid = false;
@@ -20,7 +22,7 @@ const Panel = (props) => {
     hasGrid = true;
   }
 
-  const panelBackground = dark ? theme.colors.neutral.black : theme.colors.neutral.white;
+  const panelBackground = dark ? theme.colors.neutral.black : 'transparent';
 
   return (
     <section
@@ -31,11 +33,38 @@ const Panel = (props) => {
         display: flex;
         flex-direction: column;
         position: relative;
-        overflow: hidden;
+        overflow-x: hidden;
+        min-height: 90vh;
+
+        ${negativeMargins &&
+          css`
+            margin-top: -16rem;
+            margin-bottom: -24rem;
+          `}
       `}
     >
+      {background && (
+        <img
+          css={css`
+            object-fit: cover;
+            width: 100%;
+            height: 90vh;
+            filter: grayscale(100%) contrast(80%) brightness(95%);
+          `}
+          src={background}
+          alt=""
+        />
+      )}
       <div
         css={css`
+          ${background &&
+            css`
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+            `}
           margin: 0 auto;
           padding-top: 8rem;
           padding-bottom: 8rem;
