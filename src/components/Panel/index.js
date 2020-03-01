@@ -29,12 +29,11 @@ const Panel = (props) => {
       className={className}
       css={css`
         background: ${panelBackground};
-        justify-content: center;
+        justify-content: flex-start;
         display: flex;
         flex-direction: column;
         position: relative;
         overflow-x: hidden;
-        min-height: 90vh;
 
         ${negativeMargins &&
           css`
@@ -48,7 +47,7 @@ const Panel = (props) => {
           css={css`
             object-fit: cover;
             width: 100%;
-            height: 90vh;
+            height: 70vh;
             filter: grayscale(100%) contrast(80%) brightness(95%);
           `}
           src={background}

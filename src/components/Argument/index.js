@@ -12,6 +12,11 @@ const Argument = (props) => {
         position: relative;
         z-index: 2;
 
+        ${!end &&
+          css`
+            grid-column: 1;
+          `}
+
         ${end &&
           css`
             @media screen and (min-width: 640px) {
