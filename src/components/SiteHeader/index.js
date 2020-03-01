@@ -1,4 +1,4 @@
-import { heading, SkipLink, useTheme } from '@octopusthink/nautilus';
+import { heading, Link, SkipLink, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React from 'react';
 
@@ -12,7 +12,7 @@ const SiteHeader = () => {
       css={css`
         background: ${theme.colors.neutral.black};
         width: 100%;
-        min-height: 90vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -20,15 +20,24 @@ const SiteHeader = () => {
       `}
     >
       <SkipLink />
-      <img
+      <Link
+        __unstyled
+        to="/"
         css={css`
           margin-bottom: -1.6rem;
           width: 100%;
-          max-width: 520px;
+          max-width: 40rem;
         `}
-        src={Logo}
-        alt="Mic Drop"
-      />
+      >
+        <img
+          src={Logo}
+          alt="Mic Drop"
+          css={css`
+            width: 100%;
+            height: auto;
+          `}
+        />
+      </Link>
       <div
         css={css`
           ${heading.small(theme)};

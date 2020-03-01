@@ -1,11 +1,9 @@
-import { useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import { css } from '@emotion/core';
 
 import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
-  const theme = useTheme();
   const { alt, children, end } = props;
 
   return (
