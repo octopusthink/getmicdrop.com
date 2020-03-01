@@ -16,7 +16,7 @@ export const App = (props) => {
       <Global
         styles={css`
           body {
-            background: ${theme.colors.neutral.grey0};
+            background: ${theme.colors.neutral.white};
             margin: 0;
             letter-spacing: -0.02em;
           }
@@ -25,20 +25,15 @@ export const App = (props) => {
       <div
         css={css`
           margin: 0 auto;
-          max-width: ${theme.site.maxSiteWidth};
-          padding: 1.6rem;
         `}
       >
         <SiteHeader />
         <main
           id="content"
           css={css`
-            margin: 50vw auto 4.8rem;
+            margin: 0 auto 4.8rem;
             max-width: ${theme.site.maxContentWidth};
-
-            @media screen and (min-width: 900px) {
-              margin-top: 30vw;
-            }
+            padding: 1.6rem;
           `}
         >
           {children}

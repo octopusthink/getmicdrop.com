@@ -1,25 +1,60 @@
-import { SkipLink } from '@octopusthink/nautilus';
+import { heading, metadata, SkipLink, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React from 'react';
 
-import BackgroundImage from 'src/images/page-header.svg';
+import Logo from 'src/images/logo-alt.svg';
 
 const SiteHeader = () => {
+  const theme = useTheme();
+
   return (
     <header
       css={css`
-        background: url(${BackgroundImage}) no-repeat;
-        background-size: contain;
-        height: 100%;
-        left: 0;
-        min-height: 100vh;
-        position: absolute;
-        top: 0;
+        background: ${theme.colors.neutral.black};
         width: 100%;
-        z-index: -1;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       `}
     >
       <SkipLink />
+      <img
+        css={css`
+          margin-bottom: -1.6rem;
+          width: 100%;
+          max-width: 520px;
+        `}
+        src={Logo}
+        alt="Mic Drop"
+      />
+      <div
+        css={css`
+          ${heading.small(theme)};
+          color: ${theme.colors.neutral.white};
+          width: 100%;
+          max-width: 520px;
+          padding-left: 1.9em;
+          display: none;
+        `}
+      >
+        Quick, turn your mic off!
+        <span
+          css={css`
+            display: none;
+          `}
+        >
+          Quieter. Calmer. Better.
+        </span>
+        <span
+          css={css`
+            display: none;
+          `}
+        >
+          The menubar app for controlling your microphone.
+        </span>
+      </div>
     </header>
   );
 };

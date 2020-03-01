@@ -1,30 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 346 385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
-    <g transform="matrix(1,0,0,1,-61,-602)">
-        <g id="finalish" transform="matrix(0.725367,0,0,0.836957,68.2537,614.554)">
-            <rect x="-10" y="-15" width="477" height="460" style="fill:none;"/>
-            <g transform="matrix(1.70948,0,0,1.48156,-323.331,-322.503)">
-                <path d="M322,258.162C322.06,258.122 338.185,247.573 363,253.162C401.335,261.797 422.086,309.945 422,310.162C421.913,310.379 390.21,363.661 322,366.162L322,366.162L322,366.162L322,366.162L322,366.162C253.79,363.661 222.087,310.379 222,310.162C221.913,309.945 242.665,261.797 281,253.162C305.815,247.573 321.939,258.122 322,258.162Z" style="fill:rgb(153,8,17);"/>
-            </g>
-            <g transform="matrix(1.73356,0,0,1.36754,-333.66,-287.387)">
-                <path d="M287,308C287,308 297.847,295 322.5,295C347.153,295 358,308 358,308C358,308 343.208,321 322.5,321C301.792,321 287,308 287,308Z" style="fill:white;"/>
-            </g>
-            <g transform="matrix(1.65663,0,0,1.43576,3.74273,-113.933)">
-                <path d="M155.739,123.017C158.458,123.206 159.266,123.494 160.78,124.08C166.294,126.217 170.383,131.597 170.932,137.524C170.992,138.178 170.985,138.343 171,139L171,226C170.809,234.272 163.907,241.605 155.739,241.983C147.142,242.38 139.203,234.797 139,226L139,139C139.063,136.276 139.314,135.455 139.829,133.915C141.785,128.082 147.363,123.639 153.524,123.068C154.953,122.936 155.284,123.007 155.739,123.017Z" style="fill:white;stroke:black;stroke-width:9.99px;"/>
-            </g>
-            <g transform="matrix(1.37861,0,0,1.19481,12.0578,-735.468)">
-                <path d="M135.302,786.366L109.968,783.454C119.702,771.168 131.379,759.121 146.41,758.952C146.562,758.951 146.715,758.951 146.867,758.951C163.186,759.078 179.288,766.855 194.723,773.659C199.312,775.682 201.563,780.892 202.769,785.938C212.582,805.574 206.209,857.243 204,873C202.832,881.331 183,887 183,887L183,914L103,914L102.872,892.881C100.187,892.907 97.492,892.278 95.073,890.898C91.246,888.716 88.481,884.857 87.406,880.581C83.497,863.558 79.831,846.541 71.542,831.096C68.668,825.743 65.532,820.536 62.36,815.364C62.36,815.364 60.386,811.8 60.073,808.524C59.259,800.018 66.329,791.5 75.136,791.023C75.576,791 76.017,791.003 76.458,791.007C78.489,791.107 78.826,791.224 79.73,791.441C83.38,792.316 86.683,794.512 88.902,797.538C90.328,799.482 90.585,800.177 91.327,801.394C93.096,804.304 94.824,807.234 96.489,810.194C97.401,808.192 98.558,806.438 100,805C106.195,798.82 119.892,791.857 135.302,786.366Z" style="fill:white;stroke:black;stroke-width:12px;"/>
-            </g>
-            <g transform="matrix(1.236,0,0,1.19481,46.1904,-87.8831)">
-                <path d="M191,374.28C191,371.366 188.361,369 185.111,369L80.889,369C77.639,369 75,371.366 75,374.28L75,411.72C75,414.634 77.639,417 80.889,417L185.111,417C188.361,417 191,414.634 191,411.72L191,374.28Z" style="fill:white;stroke:black;stroke-width:12.64px;"/>
-            </g>
-            <g transform="matrix(1.19645,0,0,1.19481,60.3244,-79.5195)">
-                <path d="M71.619,255.135C67.231,249.775 67.117,241.825 70.951,235.683C76.507,226.782 83.97,217.898 95.505,217.014C96.129,216.967 96.277,216.942 97.494,216.951C105.126,217.09 112.563,219.995 119.992,222.667C132.695,227.237 145.107,232.627 157.495,238.059L159.011,238.725" style="fill:white;stroke:black;stroke-width:12.82px;"/>
-            </g>
-            <g transform="matrix(1.37861,0,0,1.25274,31.3584,-101.874)">
-                <path d="M100.546,275.56C100.546,275.56 100.361,285.457 101.2,290.329C101.2,290.329 100.953,290.68 101.737,290.878C105.27,291.748 108.959,291.869 112.624,292.012C130.624,309.18 111.59,324.137 104.376,323.988C91.804,323.497 85.611,322.089 76.828,312.377C65.369,299.705 66.921,276.404 70.121,262.978C72.709,252.117 80.666,241.732 93.679,241.5C93.992,241.498 93.991,241.498 94.304,241.499C105.196,241.661 115.497,246.766 125.505,251.95C132.453,255.548 139.21,259.493 145.931,263.503" style="fill:white;stroke:black;stroke-width:11.71px;"/>
-            </g>
-        </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="307px" viewBox="0 0 320 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>logotype</title>
+    <desc>Created with Sketch.</desc>
+    <g id="logotype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="drop" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#000000">
+            <tspan x="34.1846591" y="220">drop</tspan>
+        </text>
+        <text id="mic" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#000000">
+            <tspan x="101.306818" y="152">mic</tspan>
+        </text>
+        <text id="↓" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-0.5594365" fill="#000000">
+            <tspan x="5.3251728" y="141">↓</tspan>
+        </text>
+        <text id="drop" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#990000">
+            <tspan x="31.1846591" y="218">drop</tspan>
+        </text>
+        <text id="mic" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#FFFFFF">
+            <tspan x="98.3068182" y="150">mic</tspan>
+        </text>
+        <circle id="Oval" stroke="#FFFFFF" stroke-width="12" cx="55.5" cy="57.5" r="30.5"></circle>
+        <rect id="Rectangle" fill="#121213" x="46" y="67" width="20" height="38"></rect>
+        <text id="↓" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-0.5594365" fill="#990000">
+            <tspan x="2.3251728" y="139">↓</tspan>
+        </text>
+        <text id="Quick,-turn-your-mic" font-family="Inter-Medium, Inter" font-size="23" font-weight="400" letter-spacing="-0.483784" fill="#FFFFFF">
+            <tspan x="34" y="278">Quick, turn your mic off!</tspan>
+        </text>
     </g>
 </svg>
