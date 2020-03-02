@@ -19,6 +19,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: './src/images/favicon.png',
+      },
+    },
+    {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/components/NautilusWrapper`),
@@ -83,12 +89,6 @@ module.exports = {
         ignore: ['**/*.js'],
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-favicon',
-    //   options: {
-    //     logo: './static/favicon.png',
-    //   },
-    // },
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

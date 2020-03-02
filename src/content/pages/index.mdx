@@ -3,12 +3,64 @@ title: Want to take it for a spin?
 component: Homepage
 ---
 
-import { css } from '@emotion/core'
+import { css } from '@emotion/core';
 
-import SignUpForm from 'components/SignUpForm'
+import Panel from 'components/Panel';
+import SignUpForm from 'components/SignUpForm';
+import TextBlock from 'components/TextBlock';
+import Argument from 'components/Argument';
 
-Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teacher, and anyone spending a lot of time on video.
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto 48rem">
+<TextBlock end>
 
-We're looking for beta testers to make sure everything works well before launch! If you'd like to get an invitation to join our beta programme, share your information below and we'll get back to you shortly.
+## The menubar app for controlling your microphone.
+
+Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teachers, and anyone spending a lot of time on video.
+
+</TextBlock>
+
+<Argument title="No clickety-clacking.">
+Ever been in a meeting listening to the dulcet tones of someone’s keyboard tapping away… only to realise that it’s you? No more!
+</Argument>
+
+</Panel>
+
+<Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins>
+
+</Panel>
+
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto 48rem">
+
+<Argument title="No awkwardness" top end>
+Is this thing on? Can you hear me now? A clear indicator means you’ll never ask yourself “Is my mic on?” anymore. You’ll always know. 
+</Argument>
+
+<TextBlock>
+
+## Mic Drop is currently in beta. Want to try it?
+
+We're looking for beta testers to make sure everything works well before launch. If you'd like to get an invitation to join our beta programme, share your information below and we'll get back to you shortly.
 
 <SignUpForm />
+
+</TextBlock>
+
+<Argument title="No Captain Crunching.">
+Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s content, without driving your co-workers bananas.
+</Argument>
+
+</Panel>
+
+<Panel fullwidth dark background="src/images/etienne-girardet-chp1ITgplkA-unsplash.jpg" negativeMargins>
+
+</Panel>
+
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto 48rem">
+
+<Argument title="No spying." top end>
+There are probably already more than enough machines in your house spying on you. We don’t ever listen in. (Check our privacy policy!)
+</Argument>
+
+</Panel>
+
+

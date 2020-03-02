@@ -3,8 +3,6 @@ import { PageTitle, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Logo from 'src/images/logo.svg';
-
 const PageHeader = (props) => {
   const { children, homepage } = props;
   const theme = useTheme();
@@ -33,16 +31,9 @@ const PageHeader = (props) => {
         margin-bottom: 4.8rem;
         padding-bottom: 2.4rem;
         display: flex;
+        display: none;
       `}
     >
-      <img
-        css={css`
-          width: 200px;
-          margin: 0 -4rem -0.8rem -2.4rem;
-        `}
-        src={Logo}
-        alt="A person making the shush face"
-      />
       <PageTitle
         css={css`
           margin-bottom: 0;
