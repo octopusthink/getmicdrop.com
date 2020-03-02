@@ -24,11 +24,13 @@ const config = {
   twitter: '@octopusthinks',
   // Copyright string for the footer of the website and RSS feed.
   copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
+  defaultImage: '/images/og-image.jpg', // Fallback image used when sharing to social sites.
 
   blogTitle: 'Our Blog',
   blogDescription: 'The blog of Ghost Ship, famed for its speed.',
   blogSummary:
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
+  blogUrl: '/blog/',
   dateFormat: 'D MMMM YYYY',
 
   matomoOptions: {
