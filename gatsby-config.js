@@ -8,14 +8,16 @@ const config = require('./data/SiteConfig.js');
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
+    defaultImage: config.defaultImage,
     titleHomepage: config.siteTitleHomepage,
     description: config.siteDescription,
     author: config.twitter,
-    siteUrl: config.siteUrl,
     copyright: config.copyright,
     blogTitle: config.blogTitle,
     blogDescription: config.blogDescription,
     blogSummary: config.blogSummary,
+    language: config.language,
+    siteUrl: config.siteUrl,
   },
   plugins: [
     {
