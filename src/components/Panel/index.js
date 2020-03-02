@@ -84,13 +84,19 @@ const Panel = (props) => {
       >
         <div
           css={css`
+            ${!fullwidth &&
+              css`
+                margin: auto;
+                max-width: ${theme.site.maxSiteWidth};
+              `}
+
             ${!hasGrid &&
               !fullwidth &&
               css`
                 margin: auto;
                 max-width: ${theme.site.maxContentWidth};
               `}
-
+            
             @media screen and (max-width: 639px) {
               grid-gap: ${theme.site.mobilePadding};
               ${gridMobile &&
