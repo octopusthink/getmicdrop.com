@@ -16,9 +16,9 @@ const config = {
   siteUrl: 'https://getmicdrop.com',
   // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   pathPrefix: '/',
-  // Website description used for RSS feeds/meta description tag.
+  // Website description used for RSS feeds/meta description tag. 170 char.
   siteDescription:
-    'Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teacher, and anyone spending a lot of time on video.',
+    'Mic Drop makes meetings better. A tiny Mac app to help you quickly mute (and unmute!) your microphone using a customisable hotkey or menubar control.',
   // Path to the RSS file.
   siteRss: '/blog/rss.xml',
   twitter: '@octopusthinks',
