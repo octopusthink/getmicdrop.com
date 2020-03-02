@@ -2,6 +2,8 @@ import { useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import { css } from '@emotion/core';
 
+import Image from 'components/Image';
+
 const Panel = (props) => {
   const theme = useTheme();
   const {
@@ -43,7 +45,7 @@ const Panel = (props) => {
       `}
     >
       {background && (
-        <img
+        <Image
           css={css`
             object-fit: cover;
             width: 100%;

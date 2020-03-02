@@ -4,28 +4,17 @@
     <title>logotype</title>
     <desc>Created with Sketch.</desc>
     <g id="logotype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="drop" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#000000">
-            <tspan x="34.1846591" y="220">drop</tspan>
-        </text>
-        <text id="mic" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#000000">
-            <tspan x="101.306818" y="152">mic</tspan>
-        </text>
-        <text id="↓" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-0.5594365" fill="#000000">
-            <tspan x="5.3251728" y="141">↓</tspan>
+        <rect id="Rectangle" fill="#990000" x="207" y="274" width="70" height="8"></rect>
+        <text id="Quieter.-Calmer.-Bet" font-family="Inter-Medium, Inter" font-size="23" font-weight="400" letter-spacing="-0.483784" fill="#FFFFFF">
+            <tspan x="34" y="278">Quieter. Calmer. Better.</tspan>
         </text>
         <text id="drop" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#990000">
-            <tspan x="31.1846591" y="218">drop</tspan>
+            <tspan x="31.1846591" y="229">drop</tspan>
         </text>
         <text id="mic" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-4" fill="#FFFFFF">
-            <tspan x="98.3068182" y="150">mic</tspan>
+            <tspan x="98.3068182" y="161">mic</tspan>
         </text>
-        <circle id="Oval" stroke="#FFFFFF" stroke-width="12" cx="55.5" cy="57.5" r="30.5"></circle>
-        <rect id="Rectangle" fill="#121213" x="46" y="67" width="20" height="38"></rect>
-        <text id="↓" font-family="Inter-Bold, Inter" font-size="112" font-weight="bold" letter-spacing="-0.5594365" fill="#990000">
-            <tspan x="2.3251728" y="139">↓</tspan>
-        </text>
-        <text id="Quick,-turn-your-mic" font-family="Inter-Medium, Inter" font-size="23" font-weight="400" letter-spacing="-0.483784" fill="#FFFFFF">
-            <tspan x="34" y="278">Quick, turn your mic off!</tspan>
-        </text>
+        <path d="M51.254834,33 C71.137085,33 87.254834,49.117749 87.254834,69 C87.254834,84.6744028 77.2374276,98.0091151 63.255431,102.951321 L63.2552877,89.7889648 C70.428654,85.6391872 75.254834,77.883201 75.254834,69 C75.254834,55.745166 64.509668,45 51.254834,45 C38,45 27.254834,55.745166 27.254834,69 C27.254834,77.8836113 32.0814599,85.6399038 39.2553744,89.7895399 L39.255239,102.951675 C25.272719,98.0097521 15.254834,84.6747773 15.254834,69 C15.254834,49.117749 31.372583,33 51.254834,33 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M59.254834,64 L59.254,122.627 L85.1959595,96.6862915 L96.509668,108 L51.254834,153.254834 L6,108 L17.3137085,96.6862915 L43.254,122.627 L43.254834,64 L59.254834,64 Z" id="Combined-Shape" fill="#990000"></path>
     </g>
 </svg>

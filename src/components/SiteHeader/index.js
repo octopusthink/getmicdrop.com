@@ -11,6 +11,8 @@ const SiteHeader = () => {
     <header
       css={css`
         background: ${theme.colors.neutral.black};
+        background-image: url(/images/bruno-cervera-dtqlaz4HyHw-unsplash.jpg);
+        background-size: cover;
         width: 100%;
         min-height: 80vh;
         display: flex;
@@ -24,15 +26,15 @@ const SiteHeader = () => {
         __unstyled
         to="/"
         css={css`
-          margin-bottom: -1.6rem;
           width: 100%;
-          max-width: 40rem;
+          max-width: ${theme.site.maxSiteWidth};
         `}
       >
         <img
           src={Logo}
           alt="Mic Drop"
           css={css`
+            max-width: 48rem;
             width: 100%;
             height: auto;
           `}
