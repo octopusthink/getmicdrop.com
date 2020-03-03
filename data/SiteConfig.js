@@ -25,6 +25,8 @@ const config = {
   // Copyright string for the footer of the website and RSS feed.
   copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
   defaultImage: '/images/og-image.jpg', // Fallback image used when sharing to social sites.
+  imageHeight: '630',
+  imageWidth: '1200',
 
   blogTitle: 'Our Blog',
   blogDescription: 'The blog of Ghost Ship, famed for its speed.',
