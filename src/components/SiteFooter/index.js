@@ -30,7 +30,13 @@ const SiteFooter = () => {
         </Link>
         {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
         {` · `}
-        <Link to="/privacy">Privacy policy</Link>
+        <Link to="/privacy">Privacy</Link>
+        {` · `}
+        <Link to="/credits">Credits</Link>
+        {` · `}
+        <Link as="a" href="https://github.com/octopusthink/getmicdrop.com">
+          GitHub
+        </Link>
       </Paragraph>
     </footer>
   );
