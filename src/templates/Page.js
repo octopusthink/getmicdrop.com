@@ -13,13 +13,13 @@ export const Page = (props) => {
 
   const { page } = data;
   const { body } = page;
-  const { metaDescription, summary, title } = page.fields;
+  const { canonical, metaDescription, slug, summary, title } = page.fields;
 
   const description = metaDescription || summary;
 
   return (
     <App>
-      <SEO title={title} description={description} />
+      <SEO canonical={canonical} title={title} description={description} pathname={slug} />
       <PageWrapper>
         <PageHeader>{title}</PageHeader>
         <PageBody>
@@ -34,6 +34,7 @@ export const pageQuery = graphql`
   query($id: String!) {
     page: mdx(id: { eq: $id }) {
       fields {
+        canonical
         # metaDescription
         slug
         # summary
