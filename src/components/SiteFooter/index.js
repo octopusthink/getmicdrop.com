@@ -31,8 +31,10 @@ const SiteFooter = () => {
         {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
         {` · `}
         <Link to="/privacy">Privacy</Link>
+        {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
         {` · `}
         <Link to="/credits">Credits</Link>
+        {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
         {` · `}
         <Link as="a" href="https://github.com/octopusthink/getmicdrop.com">
           GitHub
