@@ -30,7 +30,10 @@ const SiteFooter = () => {
         </Link>
         {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
         {` · `}
-        <Link to="/privacy">Privacy policy</Link>
+        <Link to="/privacy">Privacy</Link>
+        {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
+        {` · `}
+        <Link to="/credits">Credits</Link>
       </Paragraph>
     </footer>
   );

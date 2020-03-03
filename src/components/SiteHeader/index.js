@@ -11,8 +11,9 @@ const SiteHeader = () => {
     <header
       css={css`
         background: ${theme.colors.neutral.black};
-        background-image: url(/images/bruno-cervera-dtqlaz4HyHw-unsplash.jpg);
+        background-image: url(/images/header-background.jpg);
         background-size: cover;
+        background-position: center center;
         width: 100%;
         min-height: 80vh;
         display: flex;
@@ -27,7 +28,8 @@ const SiteHeader = () => {
         to="/"
         css={css`
           width: 100%;
-          max-width: ${theme.site.maxSiteWidth};
+          max-width: 80rem;
+          padding: 2.4rem;
         `}
       >
         <img

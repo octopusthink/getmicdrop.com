@@ -22,6 +22,13 @@ const TextBlock = (props) => {
               grid-column: 3;
             }
           `}
+
+        ${!end &&
+          css`
+            @media screen and (min-width: 640px) {
+              grid-column: 1;
+            }
+          `}
       `}
     >
       <img
