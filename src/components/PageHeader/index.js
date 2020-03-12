@@ -1,54 +1,65 @@
 import { css } from '@emotion/core';
-import { PageTitle, useTheme } from '@octopusthink/nautilus';
+import { PageTitle, VisuallyHidden } from '@octopusthink/nautilus';
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import Arrow from 'src/images/arrow.svg';
+
 const PageHeader = (props) => {
   const { children, homepage } = props;
-  const theme = useTheme();
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
-            titleHomepage
           }
         }
       }
     `,
   );
-  let siteTitle = site.siteMetadata.title;
-  if (homepage) {
-    siteTitle = site.siteMetadata.titleHomepage;
-  }
 
   return (
     <header
       css={css`
-        align-items: flex-end;
-        border-bottom: 4px solid ${theme.colors.neutral.black};
-        margin-bottom: 4.8rem;
-        padding-bottom: 2.4rem;
+        align-items: center;
         display: flex;
-        display: none;
+        justify-content: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
       `}
     >
-      <PageTitle
-        css={css`
-          margin-bottom: 0;
-          letter-spacing: -0.04em;
-        `}
-      >
-        <span>{siteTitle}</span>
-        <span
+      {homepage && (
+        <VisuallyHidden>
+          <PageTitle>{site.siteMetadata.title}</PageTitle>
+        </VisuallyHidden>
+      )}
+
+      {!homepage && (
+        <PageTitle
           css={css`
-            display: block;
+            margin-bottom: 0;
+            letter-spacing: -0.04em;
+            font-size: 4.8rem;
+            text-align: center;
+            position: relative;
           `}
         >
+          <img
+            css={css`
+              width: 5.6rem;
+              height: 5.6rem;
+              position: absolute;
+              transform: rotate(-45deg);
+              left: -6.4rem;
+              top: -0.2rem;
+            `}
+            src={Arrow}
+            alt=""
+          />
           {children}
-        </span>
-      </PageTitle>
+        </PageTitle>
+      )}
     </header>
   );
 };
