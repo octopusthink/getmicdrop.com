@@ -18,7 +18,7 @@ export const Page = (props) => {
   const description = metaDescription || summary;
 
   return (
-    <App>
+    <App homepage>
       <SEO title={title} description={description} homepage />
       <PageWrapper>
         <PageHeader homepage>{title}</PageHeader>

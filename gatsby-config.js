@@ -11,7 +11,6 @@ module.exports = {
     defaultImage: config.defaultImage,
     imageHeight: config.imageHeight,
     imageWidth: config.imageWidth,
-    titleHomepage: config.siteTitleHomepage,
     description: config.siteDescription,
     author: config.twitter,
     copyright: config.copyright,

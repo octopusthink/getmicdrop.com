@@ -8,7 +8,7 @@ import SiteHeader from 'components/SiteHeader';
 import SiteFooter from 'components/SiteFooter';
 
 export const App = (props) => {
-  const { children } = props;
+  const { children, homepage } = props;
   const theme = useTheme();
 
   return (
@@ -27,7 +27,7 @@ export const App = (props) => {
           margin: 0 auto;
         `}
       >
-        <SiteHeader />
+        <SiteHeader homepage={homepage} />
         <main
           id="content"
           css={css`

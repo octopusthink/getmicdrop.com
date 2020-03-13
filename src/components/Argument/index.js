@@ -34,20 +34,34 @@ const Argument = (props) => {
         css={css`
           display: flex;
           align-items: center;
+          position: relative;
 
           &::before {
-            display: inline-block;
-            content: '';
-            width: 4rem;
-            height: 4rem;
             background: ${theme.colors.neutral.black};
             border-radius: 50%;
+            content: '';
+            display: inline-block;
+            flex-grow: 0;
+            flex-shrink: 0;
+            height: 4rem;
             margin-right: 0.8rem;
+            width: 4rem;
 
             ${top &&
               css`
                 background: ${theme.colors.neutral.white};
               `}
+          }
+
+          &::after {
+            display: inline-block;
+            content: '';
+            width: 1.6rem;
+            height: 1.6rem;
+            background: ${theme.colors.accent.primary};
+            border-radius: 50%;
+            position: absolute;
+            left: 1.2rem;
           }
         `}
       >
