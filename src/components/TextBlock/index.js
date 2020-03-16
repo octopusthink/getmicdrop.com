@@ -4,21 +4,11 @@ import { css } from '@emotion/core';
 import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
-  const { children, end, mobileSpacing } = props;
+  const { children, end } = props;
 
   return (
     <div
       css={css`
-        ${mobileSpacing &&
-          css`
-            @media screen and (max-width: 639px) {
-              margin-top: 8rem;
-            }
-
-            @media screen and (min-width: 640px) and (max-width: 1023px) {
-              margin-top: 4rem;
-            }
-          `}
         margin-bottom: 8rem;
         position: relative;
 
@@ -37,6 +27,10 @@ const TextBlock = (props) => {
           css`
             @media screen and (min-width: 640px) {
               grid-column: 1;
+            }
+
+            @media screen and (max-width: 639px) {
+              margin-top: 4rem;
             }
           `}
       `}
@@ -59,12 +53,22 @@ const TextBlock = (props) => {
               transform: rotate(45deg);
               left: -0.4rem;
               top: -6.8rem;
+              float: left;
+              position: static;
+              margin-bottom: 4rem;
+
+              @media screen and (max-width: 340px) {
+                margin-bottom: 4.5rem;
+              }
+
+              @media screen and (min-width: 640px) and (max-width: 694px) {
+                margin-bottom: 5rem;
+              }
             `}
         `}
         src={Arrow}
         alt=""
       />
-
       {children}
     </div>
   );
