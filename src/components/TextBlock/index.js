@@ -4,11 +4,21 @@ import { css } from '@emotion/core';
 import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
-  const { children, end } = props;
+  const { children, end, mobileSpacing } = props;
 
   return (
     <div
       css={css`
+        ${mobileSpacing &&
+          css`
+            @media screen and (max-width: 639px) {
+              margin-top: 8rem;
+            }
+
+            @media screen and (min-width: 640px) and (max-width: 1023px) {
+              margin-top: 4rem;
+            }
+          `}
         margin-bottom: 8rem;
         position: relative;
 
