@@ -25,12 +25,12 @@ const TextBlock = (props) => {
 
         ${!end &&
           css`
-            @media screen and (min-width: 640px) {
-              grid-column: 1;
+            @media screen and (max-width: 639px) {
+              margin-top: 8rem;
             }
 
-            @media screen and (max-width: 639px) {
-              margin-top: 4rem;
+            @media screen and (min-width: 640px) {
+              grid-column: 1;
             }
           `}
       `}
@@ -53,17 +53,6 @@ const TextBlock = (props) => {
               transform: rotate(45deg);
               left: -0.4rem;
               top: -6.8rem;
-              float: left;
-              position: static;
-              margin-bottom: 4rem;
-
-              @media screen and (max-width: 340px) {
-                margin-bottom: 4.5rem;
-              }
-
-              @media screen and (min-width: 640px) and (max-width: 694px) {
-                margin-bottom: 5rem;
-              }
             `}
         `}
         src={Arrow}
