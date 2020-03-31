@@ -10,6 +10,7 @@ const Argument = (props) => {
     <div
       css={css`
         position: relative;
+        text-align: left;
         z-index: 2;
 
         ${!end &&
