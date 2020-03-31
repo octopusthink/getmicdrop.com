@@ -80,6 +80,15 @@ const Argument = (props) => {
         css={css`
           background: ${theme.colors.neutral.black};
           padding: 2.4rem;
+
+          a {
+            border-color: ${theme.colors.neutral.grey200};
+            color: ${theme.colors.neutral.grey400};
+
+            &:hover {
+              color: ${theme.colors.neutral.white};
+            }
+          }
         `}
       >
         <Paragraph noMargin inverse>

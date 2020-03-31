@@ -21,8 +21,8 @@ const HelpFooter = () => {
         we&rsquo;ll get back to you as soon as we can.
       </Argument>
 
-      <Button minimal navigation to="/help">
-        Back to help
+      <Button minimal to="/help" noMargin>
+        ← Back to help
       </Button>
     </footer>
   );
