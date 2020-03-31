@@ -33,7 +33,7 @@ const SiteHeader = (props) => {
     >
       <SkipLink />
       <Link
-        __unstyled
+        unstyled
         to="/"
         css={css`
           width: 100%;

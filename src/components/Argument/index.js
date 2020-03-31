@@ -82,12 +82,7 @@ const Argument = (props) => {
           padding: 2.4rem;
         `}
       >
-        <Paragraph
-          inverse
-          css={css`
-            margin-bottom: 0;
-          `}
-        >
+        <Paragraph noMargin inverse>
           {children}
         </Paragraph>
       </div>
