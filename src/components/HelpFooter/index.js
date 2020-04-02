@@ -21,7 +21,18 @@ const HelpFooter = () => {
         we&rsquo;ll get back to you as soon as we can.
       </Argument>
 
-      <Button minimal to="/help" noMargin>
+      <Button
+        css={css`
+          margin: 0.8rem 0 0;
+          &::after {
+            display: none;
+          }
+        `}
+        navigation
+        minimal
+        to="/help"
+        noMargin
+      >
         ← Back to help
       </Button>
     </footer>
