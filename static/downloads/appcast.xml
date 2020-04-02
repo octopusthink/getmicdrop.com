@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<channel>
+
+<title>Mic Drop</title>
+<item>
+<title>0.12.0</title>
+<pubDate>Thu, 02 Apr 2020 12:19:12 +0100</pubDate>
+<description><![CDATA[
+        <h1 id="beta-updates">Beta Updates</h1>
+        <p>This is the first update and will be unused.</p>
+    ]]>
+</description>
+<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCnYfpc2Ya408jeDBUdOvh91Z8QnwIUSfGpM7fYLxYza3jHGTGJl9/4n8M="/>
+</item>
+<item>
+<title>0.12.1</title>
+<pubDate>Thu, 02 Apr 2020 12:28:48 +0100</pubDate>
+<description><![CDATA[
+        <h1 id="beta-updates">Beta Updates</h1>
+        <p>This is largely a tweaked UI update and a beta update test.</p>
+    ]]>
+</description>
+<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MCwCFAV9V3gJfN26HrNtH+bicMLxD6qIAhQDT8s1KgWbbWTjdcXqJQj2KgR5uw=="/>
+<sparkle:deltas>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop0.12.1-0.12.0.delta" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" sparkle:deltaFrom="0.12.0" length="27248" type="application/octet-stream" sparkle:dsaSignature="MCwCFHsI4qm4CiSHw11wO7ixLct/X9d9AhQ1jbtnhW1hXGjErWSSxH/+sBuJ4g=="/></sparkle:deltas>
+</item>
+
+
+</channel></rss>
