@@ -1,0 +1,42 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+    <title>Mic Drop Changelog</title>
+    <link>https://getmicdrop.com/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+        <item>
+            <title>Version 0.11.1</title>
+            <description>
+                <![CDATA[
+                    <h1 id="beta-updates">Beta Updates</h1>
+                    <p>This is largely a tweaked UI update and a beta update test.</p>
+                ]]>
+            </description>
+            <pubDate>Thu, 02 Apr 2020 02:25:00:00 +0000</pubDate>
+            <enclosure
+                url="https://sparkle-project.org/downloads/Mic%20Drop%200.11.1.zip"
+                sparkle:version="2.0"
+                length="5009478"
+                type="application/octet-stream"
+                sparkle:dsaSignature="MC4CFQCziMOVRQ9Dn9dsS5pmgXygU89ezwIVAKLWoFriHjFOiKB+BG3Wgg8LenOI"
+            />
+        </item>
+        <item>
+            <title>Version 0.11.0</title>
+            <description>
+                <![CDATA[
+                    <h1 id="beta-updates">Beta Updates</h1>
+                    <p>This is the first version with auto-update support.</p>
+                ]]>
+            </description>
+            <pubDate>Thu, 02 Apr 2020 01:20:00:00 +0000</pubDate>
+            <enclosure
+                url="https://sparkle-project.org/downloads/Mic%20Drop%200.11.0.zip"
+                sparkle:version="2.0"
+                length="5009625"
+                type="application/octet-stream"
+                sparkle:dsaSignature="MCwCFE1+x1wRQzay68aQJndzzaI0yY3FAhRqBCwUSD6z7L40Ysgjhs1jm2to3Q=="
+            />
+        </item>
+    </channel>
+</rss>
