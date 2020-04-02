@@ -6,6 +6,6 @@ This repo hosts the source files for its website, powered by Gatsby.
 
 ## License
 
-Copyright (c) 2020 Octopus Think Ltd. (https://octopusthink.com/)
+Copyright (c) 2020 [Octopus Think Ltd.](https://octopusthink.com/)
 
-This project's source code is licensed under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). Feel free to share, remix, and adapt, but please give us a wee credit line somewhere. ❤️ 
+This project's source code is licensed under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). Feel free to share, remix, and adapt, but please give us a wee credit line somewhere. ❤️

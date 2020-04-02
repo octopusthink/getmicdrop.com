@@ -10,6 +10,7 @@ const Argument = (props) => {
     <div
       css={css`
         position: relative;
+        text-align: left;
         z-index: 2;
 
         ${!end &&
@@ -79,14 +80,18 @@ const Argument = (props) => {
         css={css`
           background: ${theme.colors.neutral.black};
           padding: 2.4rem;
+
+          a {
+            border-color: ${theme.colors.neutral.grey200};
+            color: ${theme.colors.neutral.grey400};
+
+            &:hover {
+              color: ${theme.colors.neutral.white};
+            }
+          }
         `}
       >
-        <Paragraph
-          inverse
-          css={css`
-            margin-bottom: 0;
-          `}
-        >
+        <Paragraph noMargin inverse>
           {children}
         </Paragraph>
       </div>
