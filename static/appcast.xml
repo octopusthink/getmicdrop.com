@@ -17,7 +17,7 @@
                 url="https://getmicdrop.com/downloads/Mic%20Drop%200.11.1.zip"
                 sparkle:version="2.0"
                 length="5009478"
-                type="application/octet-stream"
+                type="application/zip"
                 sparkle:dsaSignature="MC4CFQCziMOVRQ9Dn9dsS5pmgXygU89ezwIVAKLWoFriHjFOiKB+BG3Wgg8LenOI"
             />
         </item>
@@ -34,7 +34,7 @@
                 url="https://getmicdrop.com/downloads/Mic%20Drop%200.11.0.zip"
                 sparkle:version="2.0"
                 length="5009625"
-                type="application/octet-stream"
+                type="application/zip"
                 sparkle:dsaSignature="MCwCFE1+x1wRQzay68aQJndzzaI0yY3FAhRqBCwUSD6z7L40Ysgjhs1jm2to3Q=="
             />
         </item>
