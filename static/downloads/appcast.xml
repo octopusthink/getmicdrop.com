@@ -11,7 +11,7 @@
     ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCnYfpc2Ya408jeDBUdOvh91Z8QnwIUSfGpM7fYLxYza3jHGTGJl9/4n8M="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MCwCFDOo9+gyZEKqgxLQrHIPG+qjKc+lAhR/+T9N7AqtABXy/XV/V+ZpTFXIQg=="/>
 </item>
 <item>
 <title>0.12.1</title>
@@ -22,10 +22,36 @@
     ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MCwCFAV9V3gJfN26HrNtH+bicMLxD6qIAhQDT8s1KgWbbWTjdcXqJQj2KgR5uw=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MC0CFENoy1mu64FYH+NuJUH4NHIHuxEZAhUAjNkWgvWgUtmZUBJP48FIu82Qqh4="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop0.12.1-0.12.0.delta" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" sparkle:deltaFrom="0.12.0" length="27248" type="application/octet-stream" sparkle:dsaSignature="MCwCFHsI4qm4CiSHw11wO7ixLct/X9d9AhQ1jbtnhW1hXGjErWSSxH/+sBuJ4g=="/></sparkle:deltas>
 </item>
+<item>
+<title>0.12.3</title>
+<pubDate>Fri, 03 Apr 2020 01:59:59 +0100</pubDate>
+<description><![CDATA[
+    <p>We've added some links to our help pages to explain how keyboard shortcuts, macOS permissions, and the push-to-talk feature work.</p>
+]]>
+</description>
+<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.3.zip" sparkle:version="324" sparkle:shortVersionString="0.12.3" length="5110282" type="application/octet-stream" sparkle:dsaSignature="MCwCFHVgGM0AgVQvVTlFKfxfNTM25kBWAhQSK0Qki+KY1uBaK50jQn68fSep4g=="/>
+<sparkle:deltas>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop324-305.delta" sparkle:version="324" sparkle:shortVersionString="0.12.3" sparkle:deltaFrom="305" length="120735" type="application/octet-stream" sparkle:dsaSignature="MC0CFCmuMyqPJ71Jz/5zqWyraFTkbloXAhUA1/vNBoY6qo3H9ge8+qet8hBUUZI="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop324-0.12.1.delta" sparkle:version="324" sparkle:shortVersionString="0.12.3" sparkle:deltaFrom="0.12.1" length="113010" type="application/octet-stream" sparkle:dsaSignature="MCwCFATeJo2VypgvyJYjCwhmdGnrFfFKAhQ+K8t4SoM/s9rXsHXdpv28gaE31g=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop324-0.12.0.delta" sparkle:version="324" sparkle:shortVersionString="0.12.3" sparkle:deltaFrom="0.12.0" length="115468" type="application/octet-stream" sparkle:dsaSignature="MC0CFG7jGOgLPVTQ5Cf/F2kqf+KgeCKAAhUAq3uHL7a/4kBW+HUGQ4trY1TDxaY="/></sparkle:deltas>
+</item>
+
+<item>
+<title>0.12.2</title>
+<pubDate>Fri, 03 Apr 2020 00:45:04 +0100</pubDate>
+<description><![CDATA[
+    <p>Updated the default shortcut key to Command + Shift + M.</p>
+]]>
+</description>
+<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.2.zip" sparkle:version="305" sparkle:shortVersionString="0.12.2" length="5106634" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCMgzD5UjDqMj/WUSkw/2SrO9eTkAIVAIg/UIjfsdSRNEjld3v5vMmoYXCs"/>
+</item>
+
 
 
 </channel></rss>
