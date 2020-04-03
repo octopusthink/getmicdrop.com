@@ -17,7 +17,7 @@ const HelpFooter = () => {
       `}
     >
       <Argument title="This doesn't answer my question!">
-        Send a message to <Link to="mailto:help@getmicdrop.com">help@getmicdrop.com</Link> and
+        Send a message to <Link href="mailto:help@getmicdrop.com">help@getmicdrop.com</Link> and
         we&rsquo;ll get back to you as soon as we can.
       </Argument>
 
