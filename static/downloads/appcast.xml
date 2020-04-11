@@ -59,6 +59,8 @@
 
     <p><strong>Fixed</strong> a really rare bug with the keyboard shortcut recorder that could cause the app to crash.</p>
 
+    <p><strong>Updated</strong> the menu bar icon and our app icon.</p>
+
     <p><strong>Added</strong> a “Check for updates” action in the menu bar, for users who want to manually update Mic Drop (or accidentally dismissed an update notification and don't want to wait a day for the update check to run again).</p>
 ]]>
 </description>
