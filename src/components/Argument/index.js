@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 
 const Argument = (props) => {
   const theme = useTheme();
-  const { children, end, title, top } = props;
+  const { children, end, title, top, noWrapper } = props;
 
   return (
     <div
@@ -89,11 +89,19 @@ const Argument = (props) => {
               color: ${theme.colors.neutral.white};
             }
           }
+
+          label {
+            color: ${theme.colors.neutral.grey400};
+          }
         `}
       >
-        <Paragraph noMargin inverse>
-          {children}
-        </Paragraph>
+        {noWrapper && children}
+
+        {!noWrapper && (
+          <Paragraph inverse noMargin>
+            {children}
+          </Paragraph>
+        )}
       </div>
     </div>
   );
