@@ -33,6 +33,7 @@ const Argument = (props) => {
       <Heading
         inverse
         css={css`
+          color: ${theme.colors.neutral.white};
           display: flex;
           align-items: center;
           position: relative;
@@ -70,7 +71,7 @@ const Argument = (props) => {
           css={css`
             background: ${theme.colors.accent.primary};
             display: inline-block;
-            padding: 0.8rem;
+            padding: 0.8rem 1.6rem;
           `}
         >
           {title}
