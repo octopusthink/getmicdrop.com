@@ -1,0 +1,27 @@
+---
+title: Credits
+---
+
+import Panel from 'components/Panel';
+
+<Panel>
+
+## How is Mic Drop built?
+
+Mic Drop is a macOS application written _entirely_ in Swift and SwiftUI. It uses **Core Audio** to manage mute/volume state. Mic Drop requires Input Monitoring permissions to listen for global keyboard shortcuts—particularly double-tap, modifier-only shortcuts. ⌨️
+
+Mic Drop _doesn't_ use audio recording/microphone access APIs, so it can **never hear you or listen to you**. The way Mic Drop is implemented, it only has access to your audio device IDs, their mute status, and their volume level. It never has access to the audio stream being received by your microphone, even if it's on. 👌🏻
+
+**Mic Drop requires macOS 10.15 Catalina**, because we wanted to try SwiftUI. It's kinda cool and feels like "React for Swift", but with many levels of air quotes. SwiftUI has promise, but it's very early-stages right now. 🤷🏻‍♂️
+
+## Open source libraries
+
+For open-source libraries in Mic Drop, see the [credits page](/credits).
+
+We use a customised version of both [KeyHolder](https://github.com/octopusthink/KeyHolder) and [Magnet](https://github.com/octopusthink/Magnet), both of which are available on GitHub.
+
+## How is this website built?
+
+We built this website with Gatsby and our own [Ghost Ship](https://github.com/octopusthink/ghost-ship/). The [source code for this site is available on GitHub](https://github.com/octopusthink/getmicdrop.com/).
+
+</Panel>
