@@ -14,11 +14,11 @@ const colors = {
 
   red900: '#4D000E',
   red800: '#66000F',
-  red700: '#800410',
-  red600: '#990811',
-  red500: '#CC0A0A',
-  red400: '#ED2926',
-  red300: '#F54D47',
+  red700: '#800404',
+  red600: '#990808',
+  red500: '#B50E0E',
+  red400: '#CC1B1B',
+  red300: '#E63535',
   red200: '#FF7C6E',
   red100: '#FF9E8F',
   red0: '#FFBEB0',
@@ -99,7 +99,7 @@ export const theme = {
   // All themeable colour variables go here.
   colors: {
     accent: {
-      primary: colors.red600,
+      primary: colors.red500,
       primaryDark: colors.red800,
       primaryLight: colors.red400,
       secondary: colors.yellow600,
@@ -140,9 +140,9 @@ export const theme = {
 
     state: {
       interactive: colors.red500,
-      interactiveText: colors.red600,
+      interactiveText: colors.black,
       hover: colors.blue500,
-      hoverText: colors.blue600,
+      hoverText: colors.black,
       focusOutline: colors.blue200,
       focusText: colors.blue500,
       disabled: colors.grey700,
@@ -167,8 +167,8 @@ export const theme = {
 
     buttons: {
       neutral: colors.white,
-      default: colors.red600,
-      defaultDark: colors.red800,
+      default: colors.red500,
+      defaultDark: colors.red600,
       defaultLight: colors.blue200,
     },
   },
