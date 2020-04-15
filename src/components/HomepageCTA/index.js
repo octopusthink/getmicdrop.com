@@ -1,11 +1,16 @@
-import { Heading, Paragraph, useTheme } from '@octopusthink/nautilus';
+import { Heading, Link, Paragraph, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React from 'react';
 
 import CTAButtons from 'components/CTAButtons';
+import { trackEvent } from '../../utils/eventTracking';
 
 const HomepageCTA = () => {
   const theme = useTheme();
+
+  const trackMASLink = () => {
+    trackEvent('MacAppStore-Click', 'Header');
+  };
 
   return (
     <div
@@ -33,10 +38,25 @@ const HomepageCTA = () => {
         menu bar control
       </Heading>
 
-      <CTAButtons />
+      <CTAButtons source="Header" />
 
       <Paragraph inverse small>
-        {/* Also available on the Mac App Store. <br /> */}
+        Also{' '}
+        <Link
+          as="a"
+          css={css`
+            &,
+            &:hover,
+            &:focus {
+              color: ${theme.colors.text.inverseLight};
+            }
+          `}
+          href="https://apps.apple.com/app/mic-drop/id1489816366"
+          onClick={trackMASLink}
+        >
+          available on the Mac App Store
+        </Link>
+        . <br />
         Requires macOS 10.15 Catalina.
       </Paragraph>
     </div>
