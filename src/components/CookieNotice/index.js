@@ -41,11 +41,21 @@ const CookieNotice = () => {
 
   useEffect(() => {
     setupAnalytics({ consentGiven });
-  }, [consentGiven]);
 
-  // If the cookie is set, a user has made a decision one way or another, so
-  // don't render the cookie notice.
-  if (analyticsConsent) {
+    if (!analyticsConsent) {
+      setCookie('analyticsConsent', 'unset', cookieOptions);
+    }
+  }, [analyticsConsent, consentGiven, cookieOptions, setCookie]);
+
+  // If there's no cookie, let's not display a notice. This happens whilst
+  // loading.
+  if (!analyticsConsent) {
+    return null;
+  }
+
+  if (analyticsConsent && analyticsConsent !== 'unset') {
+    // If the cookie is set, a user has made a decision one way or another, so
+    // don't render the cookie notice.
     return null;
   }
 
