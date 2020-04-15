@@ -1,7 +1,8 @@
 {
   "name": "@octopusthink/getmicdrop.com",
-  "description": "The Octopus Think blog + site starter for Gatsby",
-  "version": "0.2.0",
+  "description": "Mic Drop website",
+  "version": "1.0.0",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

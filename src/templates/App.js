@@ -1,6 +1,6 @@
 import { css, Global } from '@emotion/core';
 import { useTheme } from '@octopusthink/nautilus';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { CookiesProvider } from 'react-cookie';
 import 'typeface-inter';
 
@@ -8,17 +8,10 @@ import CookieNotice from 'components/CookieNotice';
 import GhostShipMDX from 'components/GhostShipMDX';
 import SiteHeader from 'components/SiteHeader';
 import SiteFooter from 'components/SiteFooter';
-// import { giveConsent, setupAnalytics } from '../utils/eventTracking';
-import { setupAnalytics } from '../utils/eventTracking';
 
 export const App = (props) => {
   const { children, homepage } = props;
   const theme = useTheme();
-
-  useEffect(() => {
-    setupAnalytics();
-    // giveConsent();
-  }, []);
 
   return (
     <CookiesProvider>

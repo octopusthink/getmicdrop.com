@@ -1,18 +1,52 @@
 import { css } from '@emotion/core';
 import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
 import Emoji from 'a11y-react-emoji';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useCookies } from 'react-cookie';
+
+import { setupAnalytics } from '../../utils/eventTracking';
 
 const CookieNotice = () => {
+  const [cookies, setCookie] = useCookies(['analyticsConsent']);
   const theme = useTheme();
+
+  const cookieOptions = {
+    maxAge: new Date().setFullYear(new Date().getFullYear() + 1),
+    secure: process.env.NODE_ENV !== 'development',
+    path: '/',
+  };
+
+  const { analyticsConsent } = cookies;
+  const consentGiven = analyticsConsent && analyticsConsent === 'true';
 
   const allowCookies = (event) => {
     event.preventDefault();
+
+    const { console, _paq } = global;
+    if (!_paq) {
+      console.warn('Matomo JS global not available.');
+      return;
+    }
+
+    setCookie('analyticsConsent', 'true', cookieOptions);
+    _paq.push(['setConsentGiven']);
   };
 
   const refuseCookies = (event) => {
     event.preventDefault();
+
+    setCookie('analyticsConsent', 'false', cookieOptions);
   };
+
+  useEffect(() => {
+    setupAnalytics({ consentGiven });
+  }, [consentGiven]);
+
+  // If the cookie is set, a user has made a decision one way or another, so
+  // don't render the cookie notice.
+  if (analyticsConsent) {
+    return null;
+  }
 
   return (
     <div
