@@ -1,18 +1,22 @@
 import React from 'react';
 
 import menubarToggling from 'images/menubar-toggling.gif';
+import menubarZoom from 'images/on-off-menubar.gif';
 
 const AnimatedGIF = (props) => {
-  const { image } = props;
-  switch (image) {
+  const { alt, src } = props;
+  switch (src) {
+    case 'images/on-off-menubar.gif':
+      return <img loading="lazy" alt={alt} src={menubarZoom} />;
+
     case 'images/menubar-toggling.gif':
     default:
-      return <img alt="A Mac showing a microphone icon in the menubar." src={menubarToggling} />;
+      return <img loading="lazy" alt={alt} src={menubarToggling} />;
   }
 };
 
 AnimatedGIF.defaultProps = {
-  image: 'images/menubar-toggling.gif',
+  src: 'images/menubar-toggling.gif',
 };
 
 export default AnimatedGIF;

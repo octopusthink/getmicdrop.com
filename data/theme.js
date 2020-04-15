@@ -242,7 +242,7 @@ export const theme = {
       heading: 600,
       pageTitle: 700,
       subtitle: 300,
-      interfaceUI: 500,
+      interfaceUI: 600,
       interfaceUIBold: 700,
     },
 
