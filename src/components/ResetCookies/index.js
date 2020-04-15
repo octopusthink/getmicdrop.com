@@ -35,7 +35,7 @@ const ResetCookies = () => {
     setCookie('analyticsConsent', 'false', cookieOptions);
   };
 
-  if (!analyticsConsent) {
+  if (!analyticsConsent || analyticsConsent === 'unset') {
     return null;
   }
 
