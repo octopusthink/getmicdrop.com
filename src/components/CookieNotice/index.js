@@ -23,12 +23,13 @@ const CookieNotice = () => {
     event.preventDefault();
 
     const { console, _paq } = global;
+
+    setCookie('analyticsConsent', 'true', cookieOptions);
+
     if (!_paq) {
       console.warn('Matomo JS global not available.');
       return;
     }
-
-    setCookie('analyticsConsent', 'true', cookieOptions);
     _paq.push(['setConsentGiven']);
   };
 
@@ -82,8 +83,9 @@ const CookieNotice = () => {
       `}
     >
       <Paragraph inverse small>
-        <Emoji label="Hi there!" symbol="👋" /> Are you okay with us using cookies? We promise to
-        protect your privacy and we&apos;ll never sell your information to advertisers.
+        <Emoji label="Hi there!" symbol="👋" /> Are you okay with us using cookies? We promise to{' '}
+        <Link to="/privacy">protect your privacy</Link> and we&apos;ll never sell your information
+        to advertisers.
       </Paragraph>
 
       <Paragraph
