@@ -14,7 +14,8 @@ const CTAButtons = () => {
 
     global.Paddle.Setup({ vendor: 104629 });
     global.Paddle.Checkout.open({
-      message: "50% of sales go to Scottish Women's Aid & Social Bite",
+      message:
+        "50% of sales go to Scottish Women's Aid to help keep vulnerable people safe during the current pandemic.",
       product: 576284,
     });
   };
