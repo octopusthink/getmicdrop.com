@@ -25,7 +25,6 @@ export const App = (props) => {
             }
           `}
         />
-        <CookieNotice />
         <div
           css={css`
             margin: 0 auto;
