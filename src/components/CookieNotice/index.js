@@ -103,7 +103,6 @@ const CookieNotice = () => {
           protect your privacy
         </Link>{' '}
         and we&apos;ll never sell your information to advertisers.
-
       </Paragraph>
 
       <Paragraph
