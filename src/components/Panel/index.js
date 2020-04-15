@@ -49,8 +49,8 @@ const Panel = (props) => {
           css={css`
             object-fit: cover;
             width: 100%;
-            height: 70vh;
-            filter: grayscale(100%) contrast(80%) brightness(95%);
+            height: 100vh;
+            //filter: grayscale(100%) contrast(80%) brightness(95%);
           `}
           src={background}
           alt=""
@@ -106,6 +106,7 @@ const Panel = (props) => {
                   display: grid;
                   grid-template-columns: ${gridMobile};
                   align-items: center;
+                  height: 100%;
                 `}
             }
 
@@ -116,6 +117,7 @@ const Panel = (props) => {
                   display: grid;
                   grid-template-columns: ${gridTablet};
                   align-items: center;
+                  height: 100%;
                 `}
             }
 
@@ -126,6 +128,7 @@ const Panel = (props) => {
                   display: grid;
                   grid-template-columns: ${gridDesktop};
                   align-items: center;
+                  height: 100%;
                 `}
             }
 
@@ -135,6 +138,7 @@ const Panel = (props) => {
                   display: grid;
                   grid-template-columns: ${gridWide};
                   align-items: center;
+                  height: 100%;
                 `}
             }
           `}
