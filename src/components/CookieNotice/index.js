@@ -72,10 +72,13 @@ const CookieNotice = () => {
         }
 
         a {
+          box-shadow: none;
           color: ${theme.colors.neutral.white};
-          margin-right: 4px;
+          font-size: 0.8em;
+          font-weight: 600;
 
           &:hover {
+            box-shadow: none;
             color: ${theme.colors.neutral.white};
           }
         }
@@ -92,13 +95,31 @@ const CookieNotice = () => {
         small
         css={css`
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
         `}
       >
-        <Link as="a" href="#no-cookies" onClick={refuseCookies}>
+        <Link
+          as="a"
+          href="#no-cookies"
+          onClick={refuseCookies}
+          css={css`
+            padding: 0.8rem 0;
+            margin-right: 1.6rem;
+          `}
+        >
           No thanks.
         </Link>
-        <Link as="a" href="#cookies-are-tasty" onClick={allowCookies}>
+        <Link
+          as="a"
+          href="#cookies-are-tasty"
+          onClick={allowCookies}
+          css={css`
+            box-shadow: none;
+            background: ${theme.colors.buttons.default};
+            border-radius: 4px;
+            padding: 0.8rem 1.6rem;
+          `}
+        >
           Yes, that&apos;s fine.
         </Link>
       </Paragraph>
