@@ -41,6 +41,7 @@ const HomepageCTA = () => {
       <CTAButtons source="Header" />
 
       <Paragraph inverse small>
+        Requires macOS 10.15 Catalina. <br />
         Also{' '}
         <Link
           as="a"
@@ -56,8 +57,7 @@ const HomepageCTA = () => {
         >
           available on the Mac App Store
         </Link>
-        . <br />
-        Requires macOS 10.15 Catalina.
+        .
       </Paragraph>
     </div>
   );

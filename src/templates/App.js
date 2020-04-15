@@ -25,6 +25,7 @@ export const App = (props) => {
             }
           `}
         />
+        <CookieNotice />
         <div
           css={css`
             margin: 0 auto;
@@ -41,7 +42,6 @@ export const App = (props) => {
           </main>
           <SiteFooter />
         </div>
-        <CookieNotice />
       </GhostShipMDX>
     </CookiesProvider>
   );
