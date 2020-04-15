@@ -25,12 +25,12 @@ export const App = (props) => {
             }
           `}
         />
-        <CookieNotice />
         <div
           css={css`
             margin: 0 auto;
           `}
         >
+          <CookieNotice />
           <SiteHeader homepage={homepage} />
           <main
             id="content"
