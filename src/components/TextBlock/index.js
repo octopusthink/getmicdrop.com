@@ -10,6 +10,7 @@ const TextBlock = (props) => {
     <div
       css={css`
         position: relative;
+        margin-bottom: -5.6rem;
 
         ${end &&
           css`
