@@ -8,6 +8,7 @@ const Panel = (props) => {
   const theme = useTheme();
   const {
     background,
+    backgroundStatic,
     children,
     className,
     dark,
@@ -52,12 +53,25 @@ const Panel = (props) => {
             height: 100vh;
           `}
           src={background}
+          width="100%"
+          alt=""
+        />
+      )}
+      {backgroundStatic && (
+        <img
+          css={css`
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+          `}
+          loading="lazy"
+          src={backgroundStatic}
           alt=""
         />
       )}
       <div
         css={css`
-          ${background &&
+          ${(background || backgroundStatic) &&
             css`
               position: absolute;
               top: 0;

@@ -7,11 +7,11 @@ const AnimatedGIF = (props) => {
   const { alt, src } = props;
   switch (src) {
     case 'images/on-off-menubar.gif':
-      return <img alt={alt} src={menubarZoom} />;
+      return <img loading="lazy" alt={alt} src={menubarZoom} />;
 
     case 'images/menubar-toggling.gif':
     default:
-      return <img alt={alt} src={menubarToggling} />;
+      return <img loading="lazy" alt={alt} src={menubarToggling} />;
   }
 };
 
