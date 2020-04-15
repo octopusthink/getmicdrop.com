@@ -83,10 +83,7 @@ const CookieNotice = () => {
         }
 
         a {
-          box-shadow: none;
           color: ${theme.colors.neutral.white};
-          font-size: 0.8em;
-          font-weight: 600;
 
           &:hover {
             box-shadow: none;
@@ -97,8 +94,15 @@ const CookieNotice = () => {
     >
       <Paragraph inverse small>
         <Emoji label="Hi there!" symbol="👋" /> Are you okay with us using cookies? We promise to{' '}
-        <Link to="/privacy">protect your privacy</Link> and we&apos;ll never sell your information
-        to advertisers.
+        <Link
+          to="/privacy"
+          css={css`
+            box-shadow: 0 2px ${theme.colors.neutral.grey200};
+          `}
+        >
+          protect your privacy
+        </Link>{' '}
+        and we&apos;ll never sell your information to advertisers.
       </Paragraph>
 
       <Paragraph
@@ -115,6 +119,9 @@ const CookieNotice = () => {
           href="#no-cookies"
           onClick={refuseCookies}
           css={css`
+            box-shadow: none;
+            font-size: 0.8em;
+            font-weight: 600;
             padding: 0.8rem 0;
             margin-right: 1.6rem;
           `}
@@ -129,7 +136,13 @@ const CookieNotice = () => {
             box-shadow: none;
             background: ${theme.colors.buttons.default};
             border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
             padding: 0.8rem 1.6rem;
+
+            &:hover {
+              background: ${theme.colors.buttons.defaultDark};
+            }
           `}
         >
           Yes, that&apos;s fine.

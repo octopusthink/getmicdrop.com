@@ -46,11 +46,16 @@ const HomepageCTA = () => {
         <Link
           as="a"
           css={css`
+            box-shadow: 0 2px ${theme.colors.neutral.grey200};
+
             &,
             &:hover,
             &:focus {
               color: ${theme.colors.text.inverseLight};
-              box-shadow: 0 2px ${theme.colors.neutral.grey200};
+            }
+
+            &:hover {
+              box-shadow: none;
             }
           `}
           href="https://apps.apple.com/app/mic-drop/id1489816366"
