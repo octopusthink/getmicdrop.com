@@ -27,6 +27,8 @@ const CTAButtons = () => {
       </Helmet>
       <div
         css={css`
+          display: flex;
+          justify-content: center;
           margin-bottom: 2.4rem;
         `}
       >
