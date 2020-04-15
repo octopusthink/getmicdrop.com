@@ -14,35 +14,31 @@ import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
 import TextBlock from 'components/TextBlock';
 
-<Panel gridTablet="1fr 1fr" gridWide="auto 44rem">
+<Panel gridTablet="1fr 1fr" gridWide="auto 48rem">
 
 <div css={css`margin-left: -450px;`}>
     <AnimatedGIF />
 </div>
 
-<TextBlock end>
+<TextBlock>
 
 ## The menubar app for controlling your microphone.
 
-Ever been in a meeting and needed to turn off your microphone, like, [_now_](https://twitter.com/EliFitch/status/1249711579429511172), but couldn’t find the mute button quickly enough?
+Ever been in a meeting and needed to turn off your microphone, like, _right now_, but couldn’t find the mute button quickly enough?
 
-Mic Drop is a menubar app for macOS that sits in your menu bar and allows you to quickly mute/unmute yourself, using a keyboard shortcut. It works with every meeting app out there—from Zoom to Slack, FaceTime to Houseparty.
-
-A menubar icon shows you at a glance if you're muted, so you're never left wondering: "can everyone hear me?" And it lets you (un)mute yourself even if you don't have your meeting app open.
-
-Mic Drop is designed for remote workers, user researchers, teachers, and anyone spending a lot of time in meetings, video calls, or voice calls.
+Mic Drop is a macOS menubar app that allows you to quickly mute and unmute yourself using a keyboard shortcut. It works with every meeting app out there—from Zoom to Slack, FaceTime to Houseparty.
 
 </TextBlock>
 
 </Panel>
 
-<Panel gridTablet="1fr 1fr" gridWide="44rem auto">
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto">
 
 <TextBlock>
 
 ## Universal
 
-Whether you're taking notes in another app, reviewing a prototype in Figma, or just getting distracted and watching kitten videos in another tab, sometimes you need to mute your microphone even when you don't have your video app in focus. Mic Drop's global keyboard shortcut allows you to quickly toggle your mic without having to switch between apps or browser tabs.
+Whether you're taking notes in another app, reviewing a prototype in Figma, or just getting distracted and watching kitten videos in another tab, sometimes you need to mute your microphone even when you don't have your chat app in focus. Mic Drop's global keyboard shortcut allows you to quickly toggle your mic without having to switch between apps or browser tabs.
 
 </TextBlock>
 
@@ -50,11 +46,11 @@ Whether you're taking notes in another app, reviewing a prototype in Figma, or j
 
 </Panel>
 
-<Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto">
 
 <Image alt="The Mic Drop preferences window." src="images/customisable.png" />
 
-<TextBlock end>
+<TextBlock>
 
 ## Customisable
 
@@ -62,19 +58,11 @@ Sure, most video apps have their own keyboard shortcuts, but they're all differe
 
 </TextBlock>
 
-<Argument title="No clickety-clacking.">
-Ever been in a meeting listening to the dulcet tones of someone’s keyboard tapping away… only to realise that it’s you? No more!
-</Argument>
-
 </Panel>
 
-<Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins />
+<Panel gridTablet="1fr 48rem 1fr">
 
-<Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
-
-<Argument title="No awkwardness" top end>
-Is this thing on? Can you hear me now? A clear indicator means you’ll never ask yourself “Is my mic on?” anymore. You’ll always know.
-</Argument>
+<Spacer />
 
 <TextBlock>
 
@@ -86,9 +74,24 @@ We can't promise to keep your overly-enthusiastic co-worker from cutting you off
 
 </TextBlock>
 
-<Image alt="Mic Drop window showing current mute status." src="images/images/onboarding-screenshot.png" />
+<Spacer />
+
+</Panel>
 
 <!--
+<Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins />
+
+<Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
+
+<Argument title="No awkwardness" top end>
+Is this thing on? Can you hear me now? A clear indicator means you’ll never ask yourself “Is my mic on?” anymore. You’ll always know.
+</Argument>
+
+<Argument title="No clickety-clacking.">
+Ever been in a meeting listening to the dulcet tones of someone’s keyboard tapping away… only to realise that it’s you? No more!
+</Argument>
+
+
 <Argument title="No Captain Crunching.">
 Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s content, without driving your co-workers bananas.
 </Argument>
@@ -106,5 +109,4 @@ There are probably already more than enough machines in your house spying on you
 </Argument>
 -->
 
-</Panel>
 

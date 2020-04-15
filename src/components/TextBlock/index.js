@@ -4,12 +4,11 @@ import { css } from '@emotion/core';
 import Arrow from 'src/images/arrow.svg';
 
 const TextBlock = (props) => {
-  const { children, end } = props;
+  const { children, end, start } = props;
 
   return (
     <div
       css={css`
-        margin-bottom: 8rem;
         position: relative;
 
         ${end &&
@@ -23,12 +22,8 @@ const TextBlock = (props) => {
             }
           `}
 
-        ${!end &&
+        ${start &&
           css`
-            @media screen and (max-width: 639px) {
-              margin-top: 8rem;
-            }
-
             @media screen and (min-width: 640px) {
               grid-column: 1;
             }

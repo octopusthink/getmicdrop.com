@@ -105,6 +105,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridMobile};
+                  align-items: center;
                 `}
             }
 
@@ -114,6 +115,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridTablet};
+                  align-items: center;
                 `}
             }
 
@@ -123,6 +125,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridDesktop};
+                  align-items: center;
                 `}
             }
 
@@ -131,6 +134,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridWide};
+                  align-items: center;
                 `}
             }
           `}
