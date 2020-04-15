@@ -6,19 +6,58 @@ component: Homepage
 import { css } from '@emotion/core';
 
 import Argument from 'components/Argument';
+import AnimatedGIF from 'components/AnimatedGIF';
+import CTAButtons from 'components/CTAButtons';
 import Panel from 'components/Panel';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
 import TextBlock from 'components/TextBlock';
 
-<Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
+<Panel gridTablet="1fr 1fr" gridWide="auto 44rem">
+
+<div css={css`margin-left: -450px;`}>
+    <AnimatedGIF />
+</div>
+
 <TextBlock end>
 
 ## The menubar app for controlling your microphone.
 
-Mic Drop is a Mac menubar app to help you quickly mute (and then unmute!) your microphone. Designed for remote workers, user researchers, teachers, and anyone spending a lot of time on video.
+Ever been in a video call and needed to turn off your microphone, like, _now_, but couldn’t find the mute button quickly enough?
+
+Us too! That's why we built Mic Drop. It's a tiny little macOS app that sits in your menu bar and allows you to quickly control your microphone, using a global keyboard shortcut or a menu bar control.
 
 </TextBlock>
+
+</Panel>
+
+<Panel gridTablet="1fr 1fr" gridWide="44rem auto">
+
+<TextBlock>
+
+## Universal
+
+Whether you're taking notes in another app, reviewing a prototype in Figma, or just getting distracted and watching kitten videos in another tab, sometimes you need to mute your microphone even when you don't have your video app in focus. Mic Drop's global keyboard shortcut allows you to quickly toggle your mic without having to switch between apps or browser tabs.
+
+</TextBlock>
+
+![Mic Drop welcome window.](images/onboarding-welcome.png)
+
+</Panel>
+
+
+<Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
+
+![The Mic Drop preferences window.](images/customisable.png)
+
+<TextBlock end>
+
+## Customisable
+
+Sure, most video apps have their own keyboard shortcuts, but they're all different. Instead of trying to remember different shortcuts for each app, Mic Drop allows you to create a custom control that makes sense to you. You can even use a double-tap if you're so inclined!
+
+</TextBlock>
+
 
 <Argument title="No clickety-clacking.">
 Ever been in a meeting listening to the dulcet tones of someone’s keyboard tapping away… only to realise that it’s you? No more!
@@ -26,9 +65,7 @@ Ever been in a meeting listening to the dulcet tones of someone’s keyboard tap
 
 </Panel>
 
-<Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins>
-
-</Panel>
+<Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins />
 
 <Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
 
@@ -38,26 +75,17 @@ Is this thing on? Can you hear me now? A clear indicator means you’ll never as
 
 <TextBlock>
 
-## Mic Drop is currently in beta. Want to try it?
-
-We're looking for beta testers to make sure everything works well before launch. If you'd like to get an invitation to join our beta programme, share your information below and we'll get back to you shortly.
-
-<SignUpForm />
-
-</TextBlock>
-
-<Spacer />
-
-<TextBlock end>
-
 ## Now, get ready for your meetings to suck less.
 
 We can't promise to keep your overly-enthusiastic co-worker from cutting you off, but we _can_ make it a little bit easier to control your sound.
-
-All beta testers will receive a lifetime copy of the app, as a token of our appreciation.
+onboarding-screenshot
+<CTAButtons />
 
 </TextBlock>
 
+![Mic Drop window showing current mute status.](images/onboarding-screenshot.png)
+
+<!--
 <Argument title="No Captain Crunching.">
 Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s content, without driving your co-workers bananas.
 </Argument>
@@ -73,6 +101,7 @@ Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s conten
 <Argument title="No spying." top end>
 There are probably already more than enough machines in your house spying on you. We don’t ever listen in. (Check our privacy policy!)
 </Argument>
+-->
 
 </Panel>
 

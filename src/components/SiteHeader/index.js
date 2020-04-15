@@ -2,8 +2,8 @@ import { Link, SkipLink, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React from 'react';
 
-import Logo from 'src/images/logo.svg';
-import LogoHorizontal from 'src/images/logo-horizontal.svg';
+import Logo from 'src/images/logotype-dark.svg';
+import HomepageCTA from '../HomepageCTA';
 
 const SiteHeader = (props) => {
   const { homepage } = props;
@@ -39,23 +39,27 @@ const SiteHeader = (props) => {
           width: 100%;
           max-width: 48rem;
           padding: 2.4rem;
+          text-align: center;
 
           ${homepage &&
             css`
               max-width: 80rem;
+              padding-top: 12.8rem;
             `}
         `}
       >
         <img
-          src={homepage ? Logo : LogoHorizontal}
+          src={Logo}
           alt="Mic Drop"
           css={css`
+            margin: 0 auto;
             max-width: 48rem;
             width: 100%;
             height: auto;
           `}
         />
       </Link>
+      {homepage && <HomepageCTA />}
     </header>
   );
 };
