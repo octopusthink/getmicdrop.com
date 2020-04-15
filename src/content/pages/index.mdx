@@ -6,6 +6,7 @@ component: Homepage
 import { css } from '@emotion/core';
 
 import Argument from 'components/Argument';
+import AnimatedGIF from 'components/AnimatedGIF';
 import Panel from 'components/Panel';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
@@ -13,8 +14,9 @@ import TextBlock from 'components/TextBlock';
 
 <Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
 
-![A Mac showing a microphone icon in the menubar.](images/menubar-toggling.gif)
-![A Mac showing a microphone icon in the menubar.](images/menubar-muting.png)
+<div css={css`margin-left: -450px;`}>
+    <AnimatedGIF />
+</div>
 
 <TextBlock end>
 
