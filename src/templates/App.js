@@ -31,6 +31,7 @@ export const App = (props) => {
             margin: 0 auto;
           `}
         >
+          <CookieNotice />
           <SiteHeader homepage={homepage} />
           <main
             id="content"
