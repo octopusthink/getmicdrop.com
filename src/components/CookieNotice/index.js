@@ -1,9 +1,18 @@
-import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
-import React from 'react';
 import { css } from '@emotion/core';
+import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
+import Emoji from 'a11y-react-emoji';
+import React from 'react';
 
 const CookieNotice = () => {
   const theme = useTheme();
+
+  const allowCookies = (event) => {
+    event.preventDefault();
+  };
+
+  const refuseCookies = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <div
@@ -29,7 +38,6 @@ const CookieNotice = () => {
         }
 
         a {
-          box-shadow: 0 1px ${theme.colors.neutral.grey200};
           color: ${theme.colors.neutral.white};
           margin-right: 4px;
 
@@ -40,8 +48,8 @@ const CookieNotice = () => {
       `}
     >
       <Paragraph inverse small>
-        Hi there! 👋 Are you cool with letting our analytics program know you've visited? We promise
-        to protect your privacy and we'll never sell your information to advertisers.
+        <Emoji label="Hi there!" symbol="👋" /> Are you okay with us using cookies? We promise to
+        protect your privacy and we&apos;ll never sell your information to advertisers.
       </Paragraph>
 
       <Paragraph
@@ -53,8 +61,12 @@ const CookieNotice = () => {
           justify-content: space-between;
         `}
       >
-        <Link>Yes, that's fine.</Link>
-        <Link>No thank you.</Link>
+        <Link as="a" href="#no-cookies" onClick={refuseCookies}>
+          No thanks.
+        </Link>
+        <Link as="a" href="#cookies-are-tasty" onClick={allowCookies}>
+          Yes, that&apos;s fine.
+        </Link>
       </Paragraph>
     </div>
   );

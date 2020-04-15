@@ -3,6 +3,7 @@ import { useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import 'typeface-inter';
 
+import CookieNotice from 'components/CookieNotice';
 import GhostShipMDX from 'components/GhostShipMDX';
 import SiteHeader from 'components/SiteHeader';
 import SiteFooter from 'components/SiteFooter';
@@ -38,6 +39,7 @@ export const App = (props) => {
         </main>
         <SiteFooter />
       </div>
+      <CookieNotice />
     </GhostShipMDX>
   );
 };
