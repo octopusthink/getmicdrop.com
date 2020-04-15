@@ -84,9 +84,9 @@ const CookieNotice = () => {
 
         a {
           color: ${theme.colors.neutral.white};
-          margin-right: 4px;
 
           &:hover {
+            box-shadow: none;
             color: ${theme.colors.neutral.white};
           }
         }
@@ -94,8 +94,15 @@ const CookieNotice = () => {
     >
       <Paragraph inverse small>
         <Emoji label="Hi there!" symbol="👋" /> Are you okay with us using cookies? We promise to{' '}
-        <Link to="/privacy">protect your privacy</Link> and we&apos;ll never sell your information
-        to advertisers.
+        <Link
+          to="/privacy"
+          css={css`
+            box-shadow: 0 2px ${theme.colors.neutral.grey200};
+          `}
+        >
+          protect your privacy
+        </Link>{' '}
+        and we&apos;ll never sell your information to advertisers.
       </Paragraph>
 
       <Paragraph
@@ -104,13 +111,40 @@ const CookieNotice = () => {
         small
         css={css`
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
         `}
       >
-        <Link as="a" href="#no-cookies" onClick={refuseCookies}>
+        <Link
+          as="a"
+          href="#no-cookies"
+          onClick={refuseCookies}
+          css={css`
+            box-shadow: none;
+            font-size: 0.8em;
+            font-weight: 600;
+            padding: 0.8rem 0;
+            margin-right: 1.6rem;
+          `}
+        >
           No thanks.
         </Link>
-        <Link as="a" href="#cookies-are-tasty" onClick={allowCookies}>
+        <Link
+          as="a"
+          href="#cookies-are-tasty"
+          onClick={allowCookies}
+          css={css`
+            box-shadow: none;
+            background: ${theme.colors.buttons.default};
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+            padding: 0.8rem 1.6rem;
+
+            &:hover {
+              background: ${theme.colors.buttons.defaultDark};
+            }
+          `}
+        >
           Yes, that&apos;s fine.
         </Link>
       </Paragraph>
