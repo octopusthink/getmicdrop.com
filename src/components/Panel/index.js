@@ -50,7 +50,6 @@ const Panel = (props) => {
             object-fit: cover;
             width: 100%;
             height: 100vh;
-            //filter: grayscale(100%) contrast(80%) brightness(95%);
           `}
           src={background}
           alt=""
@@ -98,7 +97,7 @@ const Panel = (props) => {
                 margin: auto;
                 max-width: ${theme.site.maxContentWidth};
               `}
-            
+
             @media screen and (max-width: 639px) {
               grid-gap: ${theme.site.mobilePadding};
               ${gridMobile &&
