@@ -60,6 +60,7 @@
     "pluralize": "^8.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-cookie": "^4.0.3",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-test-renderer": "^16.8.6",

@@ -36,10 +36,9 @@ const config = {
   matomoOptions: {
     siteId: '6',
     matomoUrl: 'https://analytics.octopusth.ink',
-    siteUrl: 'https://octopusthink.com',
-    requireConsent: false,
-    // Removes the need for cookie notices and is less creepy! :-)
-    disableCookies: true,
+    siteUrl: 'https://getmicdrop.com',
+    requireConsent: true,
+    dev: process.env.NODE_ENV !== 'production',
   },
   // Replace this with a Nautilus Theme object.
   // See: https://nautilus.octopusthink.com

@@ -3,9 +3,15 @@ import { css } from '@emotion/core';
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 
-const CTAButtons = () => {
+import { trackEvent } from '../../utils/eventTracking';
+
+const CTAButtons = (props) => {
+  const { source } = props;
+
   const openPaddle = (event) => {
     event.preventDefault();
+
+    trackEvent('Purchase-Started', source ? `Buy-Button-${source}` : 'Buy-Button');
 
     if (!global.Paddle) {
       global.console.warn('Paddle global not available.');
@@ -14,10 +20,18 @@ const CTAButtons = () => {
 
     global.Paddle.Setup({ vendor: 104629 });
     global.Paddle.Checkout.open({
-      message:
-        "50% of sales go to Scottish Women's Aid to help keep vulnerable people safe during the current pandemic.",
+      closeCallback: () => {
+        trackEvent('Purchase-Cancelled', source ? `Buy-Button-${source}` : 'Buy-Button');
+      },
+      successCallback: () => {
+        trackEvent('Purchase-Complete', source ? `Buy-Button-${source}` : 'Buy-Button');
+      },
       product: 576284,
     });
+  };
+
+  const trackDownload = () => {
+    trackEvent('Download', source ? `Trial-Button-${source}` : 'Trial-Button');
   };
 
   return (
@@ -30,7 +44,7 @@ const CTAButtons = () => {
           margin-bottom: 2.4rem;
         `}
       >
-        <Button as="a" href="/downloads/Mic%20Drop%201.0.0.zip" navigation>
+        <Button as="a" href="/downloads/Mic%20Drop%201.0.0.zip" navigation onClick={trackDownload}>
           Free Download
         </Button>
         <Button onClick={openPaddle} primary>
