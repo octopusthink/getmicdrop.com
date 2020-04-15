@@ -8,6 +8,7 @@ import { css } from '@emotion/core';
 import Argument from 'components/Argument';
 import AnimatedGIF from 'components/AnimatedGIF';
 import CTAButtons from 'components/CTAButtons';
+import Image from 'components/Image';
 import Panel from 'components/Panel';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
@@ -41,13 +42,13 @@ Whether you're taking notes in another app, reviewing a prototype in Figma, or j
 
 </TextBlock>
 
-![Mic Drop welcome window.](images/onboarding-welcome.png)
+<Image alt="Mic Drop welcome window." src="images/onboarding-welcome.png" />
 
 </Panel>
 
 <Panel gridTablet="1fr 1fr" gridWide="44rem auto 44rem">
 
-![The Mic Drop preferences window.](images/customisable.png)
+<Image alt="The Mic Drop preferences window." src="images/customisable.png" />
 
 <TextBlock end>
 
@@ -76,11 +77,30 @@ Is this thing on? Can you hear me now? A clear indicator means you’ll never as
 ## Now, get ready for your meetings to suck less.
 
 We can't promise to keep your overly-enthusiastic co-worker from cutting you off, but we _can_ make it a little bit easier to control your sound.
-onboarding-screenshot
+
 <CTAButtons />
 
 </TextBlock>
 
-![Mic Drop window showing current mute status.](images/onboarding-screenshot.png)
+<Image alt="Mic Drop window showing current mute status." src="images/images/onboarding-screenshot.png" />
+
+<!--
+<Argument title="No Captain Crunching.">
+Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s content, without driving your co-workers bananas.
+</Argument>
 
 </Panel>
+
+<Panel fullwidth dark background="src/images/etienne-girardet-chp1ITgplkA-unsplash.jpg" negativeMargins>
+
+</Panel>
+
+<Panel gridTablet="1fr 1fr" gridWide="48rem auto 48rem">
+
+<Argument title="No spying." top end>
+There are probably already more than enough machines in your house spying on you. We don’t ever listen in. (Check our privacy policy!)
+</Argument>
+-->
+
+</Panel>
+
