@@ -13,7 +13,7 @@ import React from 'react';
 import Image from 'components/Image';
 import config from 'data/SiteConfig';
 
-const components = {
+export const components = {
   /* eslint-disable react/jsx-props-no-spreading */
   h1: (props) => <PageTitle {...props} />,
   h2: (props) => <Heading {...props} level={2} />,
