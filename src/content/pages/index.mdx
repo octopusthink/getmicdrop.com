@@ -12,6 +12,7 @@ import Image from 'components/Image';
 import Panel from 'components/Panel';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
+import TestimonialCarousel from 'components/TestimonialCarousel';
 import TextBlock from 'components/TextBlock';
 
 <Panel gridTablet="1fr 1fr" gridWide="auto 48rem">
@@ -112,8 +113,10 @@ Because Mic Drop mutes your audio at the system level, it works with any app you
 
 
 
+<TestimonialCarousel />
 
 
+<div css={css`padding-top: 0.8rem;`}>
 <Panel gridTablet="1fr 48rem 1fr">
 
 <Spacer />
@@ -131,6 +134,12 @@ We can't promise to stop your overly-enthusiastic co-worker from cutting you off
 <Spacer />
 
 </Panel>
+</div>
+
+
+
+
+
 
 <!--
 <Panel fullwidth dark background="src/images/david-klein--94oJK3PDQw-unsplash.jpg" negativeMargins />
