@@ -45,6 +45,7 @@
     "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-plugin-sharp": "^2.2.12",
     "gatsby-plugin-sitemap": "^2.2.16",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-remark-copy-linked-files": "^2.2.1",
     "gatsby-remark-images": "^3.1.28",
     "gatsby-remark-reading-time": "^1.0.1",
@@ -73,7 +74,8 @@
     "retext-smartypants": "^3.0.3",
     "shortid": "^2.2.15",
     "smooth-scroll": "^16.1.0",
-    "typeface-inter": "0.0.77"
+    "typeface-inter": "0.0.77",
+    "use-query-params": "^1.0.0"
   },
   "devDependencies": {
     "@octopusthink/eslint-config": "^0.5.0",

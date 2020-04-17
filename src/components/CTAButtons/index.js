@@ -2,11 +2,14 @@ import { Button } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
+import { useQueryParam, StringParam } from 'use-query-params';
 
 import { trackEvent } from '../../utils/eventTracking';
 
 const CTAButtons = (props) => {
   const { source } = props;
+
+  const [coupon, setCoupon] = useQueryParam('coupon', StringParam);
 
   const openPaddle = (event) => {
     event.preventDefault();
@@ -24,8 +27,10 @@ const CTAButtons = (props) => {
         trackEvent('Purchase-Cancelled', source ? `Buy-Button-${source}` : 'Buy-Button');
       },
       successCallback: () => {
+        setCoupon('');
         trackEvent('Purchase-Complete', source ? `Buy-Button-${source}` : 'Buy-Button');
       },
+      coupon,
       product: 576284,
     });
   };
