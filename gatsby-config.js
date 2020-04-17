@@ -21,6 +21,7 @@ module.exports = {
     siteUrl: config.siteUrl,
   },
   plugins: [
+    'gatsby-plugin-use-query-params',
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
