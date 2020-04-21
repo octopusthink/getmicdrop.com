@@ -1,4 +1,4 @@
-import { Icon, Link, interfaceUI, useTheme } from '@octopusthink/nautilus';
+import { Icon, Link, VisuallyHidden, interfaceUI, heading, useTheme } from '@octopusthink/nautilus';
 import React, { useState } from 'react';
 import { css } from '@emotion/core';
 
@@ -9,27 +9,41 @@ const ListLink = (props) => {
   const theme = useTheme();
 
   return (
-    <li>
+    <li
+      css={css`
+        ${!iconName &&
+          css`
+            ${heading.small(theme)};
+            color: ${theme.colors.text.inverse};
+            display: flex;
+            align-items: center;
+
+            &:not(:last-of-type):after {
+              display: inline-block;
+              content: '·';
+              position: relative;
+              padding-left: 0.8rem;
+              padding-right: 0.8rem;
+            }
+          `}
+      `}
+    >
       <Link
-        __unstyled
+        unstyled
         as={a ? 'a' : undefined}
         href={a ? link : undefined}
         to={a ? undefined : link}
         css={css`
-          ${interfaceUI.small(theme)};
-          box-shadow: 0 2px ${theme.colors.neutral.grey200};
-          text-decoration: none;
           color: ${theme.colors.text.inverse};
-          font-weight: 500;
-          border-bottom: 0;
           display: block;
-          padding: 0.4rem 0;
+          padding: 0.4rem 0.4rem;
           margin-bottom: 0.8rem;
+          text-decoration: none;
           z-index: 2;
           position: relative;
 
           &:hover {
-            color: ${theme.colors.state.hoverText};
+            color: ${theme.colors.accent.primaryLight};
             box-shadow: none;
 
             .icon {
@@ -94,6 +108,7 @@ const ListLink = (props) => {
                 width: 2.4rem;
                 height: 2.4rem;
                 position: relative;
+                opacity: 1;
 
                 ::before {
                   transform: scale(0.1);
@@ -112,7 +127,8 @@ const ListLink = (props) => {
               `}
             />
           )}
-          {children}
+          <VisuallyHidden>{children}</VisuallyHidden>
+          {!iconName && children}
         </span>
       </Link>
     </li>

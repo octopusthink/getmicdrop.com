@@ -12,13 +12,15 @@ const SiteMap = (props) => {
           list-style-type: none;
           margin: 0;
           padding: 0;
+          display: flex;
+          justify-content: center;
         `}
       >
         <ListLink link="/">Home</ListLink>
-        <ListLink link="/help/">Help</ListLink>
-        <ListLink link="/under-the-hood/">How it's made</ListLink>
+        <ListLink link="/under-the-hood/">How it’s made</ListLink>
         <ListLink link="/privacy/">Privacy</ListLink>
         <ListLink link="/credits/">Credits</ListLink>
+        <ListLink link="/help/">Help</ListLink>
       </ul>
     </nav>
   );

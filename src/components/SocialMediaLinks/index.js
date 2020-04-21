@@ -13,6 +13,8 @@ const SocialMediaLinks = (props) => {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
       `}
     >
       <ListLink a link="https://twitter.com/octopusthinks" iconName="twitter">
