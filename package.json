@@ -3,7 +3,7 @@
   "description": "Mic Drop website",
   "version": "1.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "CC-BY-4.0",
   "scripts": {
     "build": "npm run clean:appcast && gatsby build",
     "build:pp": "gatsby build --prefix-paths",
