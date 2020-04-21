@@ -19,20 +19,12 @@ const SocialMediaLinks = (props) => {
         Twitter
       </ListLink>
 
-      <ListLink a link="//instagram.com/octopusthinks" iconName="instagram">
+      <ListLink a link="https://instagram.com/octopusthinks" iconName="instagram">
         Instagram
       </ListLink>
 
-      <ListLink a link="mailto:hello@octopusthink.com" iconName="inbox">
-        Email
-      </ListLink>
-
-      <ListLink a link="//github.com/octopusthink" iconName="github">
+      <ListLink a link="https://github.com/octopusthink" iconName="github">
         GitHub
-      </ListLink>
-
-      <ListLink a link="/blog/rss.xml" iconName="rss">
-        RSS Feed
       </ListLink>
     </ul>
   );

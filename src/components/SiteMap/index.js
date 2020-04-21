@@ -15,11 +15,10 @@ const SiteMap = (props) => {
         `}
       >
         <ListLink link="/">Home</ListLink>
-        <ListLink link="/about/">Who we are</ListLink>
-        <ListLink link="/services/">What we do</ListLink>
-        <ListLink link="/work/">Some of our work</ListLink>
-        <ListLink link="/blog/">Stories we&apos;ve written</ListLink>
-        <ListLink link="/contact/">Contact us</ListLink>
+        <ListLink link="/help/">Help</ListLink>
+        <ListLink link="/under-the-hood/">How it's made</ListLink>
+        <ListLink link="/privacy/">Privacy</ListLink>
+        <ListLink link="/credits/">Credits</ListLink>
       </ul>
     </nav>
   );

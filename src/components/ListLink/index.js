@@ -17,6 +17,7 @@ const ListLink = (props) => {
         to={a ? undefined : link}
         css={css`
           ${interfaceUI.small(theme)};
+          box-shadow: 0 2px ${theme.colors.neutral.grey200};
           text-decoration: none;
           color: ${theme.colors.text.inverse};
           font-weight: 500;
@@ -29,10 +30,7 @@ const ListLink = (props) => {
 
           &:hover {
             color: ${theme.colors.state.hoverText};
-
-            span::after {
-              border-color: ${theme.colors.state.hover};
-            }
+            box-shadow: none;
 
             .icon {
               &::before {
@@ -85,20 +83,6 @@ const ListLink = (props) => {
         <span
           css={css`
             position: relative;
-
-            &::after {
-              content: '';
-              border-bottom: 2px solid ${theme.colors.text.inverseDark};
-              position: absolute;
-              bottom: -4px;
-              left: 0;
-              right: 0;
-
-              ${iconName &&
-                css`
-                  display: none;
-                `}
-            }
           `}
         >
           {iconName && (

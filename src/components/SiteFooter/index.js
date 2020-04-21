@@ -158,15 +158,16 @@ const SiteFooter = () => {
             🐙
           </span>{' '}
           by{' '}
-          <Link as="a" href="https://octopusthink.com">
+          <Link
+            as="a"
+            href="https://octopusthink.com"
+            css={css`
+              box-shadow: 0 2px ${theme.colors.neutral.grey200};
+              color: ${theme.colors.neutral.white};
+            `}
+          >
             Octopus Think
           </Link>
-          {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
-          {` · `}
-          <Link to="/privacy">Privacy</Link>
-          {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
-          {` · `}
-          <Link to="/credits">Credits</Link>
         </Paragraph>
       </div>
     </footer>
