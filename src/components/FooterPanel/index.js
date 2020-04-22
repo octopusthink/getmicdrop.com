@@ -3,9 +3,9 @@ import { Heading } from '@octopusthink/nautilus';
 import React from 'react';
 
 import CTAButtons from 'components/CTAButtons';
-import Image from 'components/Image';
 import Panel from 'components/Panel';
 import Spacer from 'components/Spacer';
+import ArrowDown from 'src/images/arrow-down.svg';
 
 const FooterPanel = () => {
   return (
@@ -18,8 +18,8 @@ const FooterPanel = () => {
           text-align: center;
         `}
       >
-        <Image
-          src="images/arrow-down.svg"
+        <img
+          src={ArrowDown}
           alt=""
           css={css`
             margin-bottom: 6.4rem;
