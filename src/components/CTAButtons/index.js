@@ -27,8 +27,9 @@ const CTAButtons = (props) => {
         trackEvent('Purchase-Cancelled', source ? `Buy-Button-${source}` : 'Buy-Button');
       },
       successCallback: () => {
-        setCoupon(undefined);
         trackEvent('Purchase-Complete', source ? `Buy-Button-${source}` : 'Buy-Button');
+        setCoupon(undefined);
+        global.localStorage.clear();
       },
       coupon: coupon || global.localStorage.coupon || undefined,
       product: 576284,
