@@ -32,48 +32,17 @@ const SiteFooter = () => {
           @media screen and (min-width: 1024px) {
             padding: ${theme.site.desktopPadding};
             margin: 0 auto;
-            //max-width: ${theme.site.maxContentWidth};
-            margin: 0 auto;
             grid-row-gap: ${theme.site.desktopPadding};
           }
         `}
       >
         <SiteMap />
 
-        <Paragraph inverse noMargin small dark>
-          Made with{' '}
-          <span role="img" aria-label="love">
-            ❤️
-          </span>{' '}
-          and{' '}
-          <span role="img" aria-label="cephalopods">
-            🐙
-          </span>{' '}
-          by{' '}
-          <Link
-            as="a"
-            href="https://octopusthink.com"
-            css={css`
-                //box-shadow: 0 2px ${theme.colors.neutral.grey200};
-                color: ${theme.colors.neutral.white};
-              `}
-          >
-            Octopus Think
-          </Link>
-        </Paragraph>
-
         <div
           css={css`
-            max-width: ${theme.site.maxSiteWidth};
+            display: none;
+            max-width: 600px;
             margin: 0 auto;
-            @media screen and (min-width: 640px) and (max-width: 1023px) {
-              //grid-column: 1 / span 2;
-            }
-
-            @media screen and (min-width: 1024px) {
-              //grid-column: 2 / -1;
-              //order: 5;
-            }
 
             label {
               border: 0;
@@ -99,6 +68,7 @@ const SiteFooter = () => {
               ${metadata.small(theme)};
               color: ${theme.colors.text.inverseDark};
               margin-bottom: 0.8rem;
+              text-align: left;
 
               &:hover {
                 cursor: default;
@@ -115,13 +85,34 @@ const SiteFooter = () => {
           <NewsletterSignupForm emailRef={emailRef} />
         </div>
 
-        <SocialMediaLinks
-          css={css`
-            @media screen and (min-width: 1024px) {
-              //margin-top: 8rem;
-            }
-          `}
-        />
+        <SocialMediaLinks />
+
+        <Paragraph inverse noMargin small dark>
+          Made with{' '}
+          <span role="img" aria-label="love">
+            ❤️
+          </span>{' '}
+          and{' '}
+          <span role="img" aria-label="cephalopods">
+            🐙
+          </span>{' '}
+          by{' '}
+          <Link
+            as="a"
+            href="https://octopusthink.com"
+            css={css`
+              box-shadow: 0 2px ${theme.colors.neutral.grey800};
+              color: ${theme.colors.neutral.white};
+
+              &:hover {
+                box-shadow: none;
+                color: ${theme.colors.neutral.white};
+              }
+            `}
+          >
+            Octopus Think
+          </Link>
+        </Paragraph>
       </div>
     </footer>
   );

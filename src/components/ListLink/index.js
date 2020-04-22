@@ -36,7 +36,7 @@ const ListLink = (props) => {
         css={css`
           color: ${theme.colors.text.inverse};
           display: block;
-          padding: 0.4rem 0.4rem;
+          padding: 0.4rem 0.8rem;
           margin-bottom: 0.8rem;
           text-decoration: none;
           z-index: 2;
@@ -48,7 +48,7 @@ const ListLink = (props) => {
 
             .icon {
               &::before {
-                opacity: 0.5;
+                opacity: 1;
                 transform: scale(1);
               }
 
@@ -102,7 +102,7 @@ const ListLink = (props) => {
           {iconName && (
             <Icon
               className="icon"
-              strokeColor={theme.colors.neutral.grey600}
+              strokeColor={theme.colors.text.inverse}
               name={iconName}
               css={css`
                 width: 2.4rem;
@@ -111,7 +111,7 @@ const ListLink = (props) => {
                 opacity: 1;
 
                 ::before {
-                  transform: scale(0.1);
+                  transform: scale(0.5);
                   opacity: 0;
                   content: '';
                   position: absolute;
@@ -119,10 +119,15 @@ const ListLink = (props) => {
                   right: -8px;
                   bottom: -8px;
                   left: -8px;
-                  background: rgba(0, 0, 0, 0.5);
+                  background: ${theme.colors.accent.primaryLight};
                   border-radius: 100%;
                   z-index: 1;
                   transition: all 200ms ease-out;
+                }
+
+                svg {
+                  z-index: 2;
+                  position: relative;
                 }
               `}
             />
