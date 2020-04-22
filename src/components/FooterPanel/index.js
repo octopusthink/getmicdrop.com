@@ -22,9 +22,10 @@ const FooterPanel = () => {
           src="images/down.png"
           alt=""
           css={css`
+            margin-bottom: 6.4rem;
             margin-left: auto;
             margin-right: auto;
-            max-width: 81.5px;
+            max-width: 80px;
           `}
         />
 
