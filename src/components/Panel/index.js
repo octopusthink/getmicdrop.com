@@ -80,13 +80,15 @@ const Panel = (props) => {
               bottom: 0;
             `}
           margin: 0 auto;
-          padding-top: 8rem;
-          padding-bottom: 8rem;
+          padding-top: 4rem;
+          padding-bottom: 4rem;
           padding-left: ${theme.site.mobilePadding};
           padding-right: ${theme.site.mobilePadding};
           width: 100%;
 
-          @media screen and (min-width: 640px) {
+          @media screen and (min-width: 780px) {
+            padding-top: ${theme.site.desktopPadding};
+            padding-bottom: ${theme.site.desktopPadding};
             padding-left: ${theme.site.tabletPadding};
             padding-right: ${theme.site.tabletPadding};
           }
@@ -112,7 +114,7 @@ const Panel = (props) => {
                 max-width: ${theme.site.maxContentWidth};
               `}
 
-            @media screen and (max-width: 639px) {
+            @media screen and (max-width: 779px) {
               grid-gap: ${theme.site.mobilePadding};
               ${gridMobile &&
                 css`
@@ -123,7 +125,7 @@ const Panel = (props) => {
                 `}
             }
 
-            @media screen and (min-width: 640px) {
+            @media screen and (min-width: 780px) {
               grid-gap: ${theme.site.tabletPadding};
               ${gridTablet &&
                 css`

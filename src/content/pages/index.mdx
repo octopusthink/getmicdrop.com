@@ -8,6 +8,7 @@ import { css } from '@emotion/core';
 import Argument from 'components/Argument';
 import AnimatedGIF from 'components/AnimatedGIF';
 import CTAButtons from 'components/CTAButtons';
+import FooterPanel from 'components/FooterPanel';
 import Image from 'components/Image';
 import Panel from 'components/Panel';
 import SignUpForm from 'components/SignUpForm';
@@ -21,13 +22,15 @@ import TextBlock from 'components/TextBlock';
     <Image alt="A Mac showing a microphone icon in the menubar." src="images/kittenzoom-5.png" />
 </div>
 
-<TextBlock>
+<TextBlock end>
 
-## The menubar app for controlling your microphone.
+## The menu bar app for controlling your microphone.
 
 Ever been in a meeting and needed to turn off your microphone, like, _right now_, but couldn’t find the mute button quickly enough?
 
 Mic Drop is a macOS menubar app that allows you to quickly mute and unmute yourself using a keyboard shortcut. It works with every meeting app out there—from Zoom to Slack, FaceTime to Houseparty.
+
+50% of every sale will be donated to charities affected by the coronavirus pandemic.
 
 </TextBlock>
 
@@ -60,12 +63,11 @@ Whether you're taking notes in another app, reviewing a prototype in Figma, or j
 
 <Image alt="The Mic Drop preferences window." src="images/customisable.png" />
 
-<TextBlock>
+<TextBlock end>
 
 ## Customisable
 
-Sure, most video apps have their own keyboard shortcuts, but they're all different. Instead of trying to remember different shortcuts for each app, Mic Drop allows you to create a custom control that makes sense to you. You can even use a double-tap if you're so inclined!
-
+Sure, most video apps have their own keyboard shortcuts, but they're all different. Instead of trying to remember different shortcuts for each app, Mic Drop allows you to create a custom control that makes sense to you.
 </TextBlock>
 
 </Panel>
@@ -101,7 +103,7 @@ Because Mic Drop mutes your audio at the system level, it works with any app you
     <AnimatedGIF src="images/on-off-menubar.gif" alt="Menubar icon toggling on and off." />
 </div>
 
-<TextBlock>
+<TextBlock end>
 
 ## Confidence-inspiring
 
@@ -111,32 +113,26 @@ Because Mic Drop mutes your audio at the system level, it works with any app you
 
 </Panel>
 
+<Panel>
+
+<TextBlock>
+
+## Your purchase supports charity
+
+Lockdown measures mean many of us are spending more time at home. This has very real consequences for those who experience domestic abuse. 
+
+That's why we're donating 50% of every sale (that's revenues, not profits!) to [Scottish Women's Aid](https://womensaid.scot/covid-19/).
+
+</TextBlock>
+
+</Panel>
 
 
 <TestimonialCarousel />
 
 
-<div css={css`padding-top: 0.8rem;`}>
-<Panel gridTablet="1fr 48rem 1fr">
 
-<Spacer />
-
-<TextBlock>
-
-## Get ready for your meetings to suck less.
-
-We can't promise to stop your overly-enthusiastic co-worker from cutting you off, but we _can_ make it a little bit easier to control your _own_ microphone.
-
-<CTAButtons source="Footer" />
-
-</TextBlock>
-
-<Spacer />
-
-</Panel>
-</div>
-
-
+<FooterPanel />
 
 
 
@@ -171,5 +167,3 @@ Forgot your breakfast? No worries! Crunch your Happy Os to your heart’s conten
 There are probably already more than enough machines in your house spying on you. We don’t ever listen in. (Check our privacy policy!)
 </Argument>
 -->
-
-
