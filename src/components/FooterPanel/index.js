@@ -19,13 +19,13 @@ const FooterPanel = () => {
         `}
       >
         <Image
-          src="images/down.png"
+          src="images/arrow-down.svg"
           alt=""
           css={css`
             margin-bottom: 6.4rem;
             margin-left: auto;
             margin-right: auto;
-            max-width: 80px;
+            max-width: 16rem;
           `}
         />
 
