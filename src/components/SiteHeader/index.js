@@ -31,7 +31,11 @@ const SiteHeader = (props) => {
           `}
       `}
     >
-      <SkipLink />
+      <SkipLink
+        css={css`
+          box-shadow: none;
+        `}
+      />
       <Link
         unstyled
         to="/"
