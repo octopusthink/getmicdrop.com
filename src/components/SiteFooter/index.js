@@ -1,13 +1,11 @@
 import { css } from '@emotion/core';
-import { Link, Paragraph, metadata, useTheme } from '@octopusthink/nautilus';
-import React, { useRef } from 'react';
+import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
+import React from 'react';
 
-import NewsletterSignupForm from 'components/NewsletterSignupForm';
 import SiteMap from 'components/SiteMap';
 import SocialMediaLinks from 'components/SocialMediaLinks';
 
 const SiteFooter = () => {
-  const emailRef = useRef();
   const theme = useTheme();
 
   return (
@@ -37,53 +35,6 @@ const SiteFooter = () => {
         `}
       >
         <SiteMap />
-
-        <div
-          css={css`
-            display: none;
-            max-width: 600px;
-            margin: 0 auto;
-
-            label {
-              border: 0;
-              clip-path: rect(0 0 0 0);
-              height: 1px;
-              margin: -1px;
-              overflow: hidden;
-              padding: 0;
-              position: absolute;
-              white-space: nowrap;
-              width: 1px;
-            }
-
-            @media screen and (min-width: 640px) {
-              button {
-                margin-top: -0.4rem;
-              }
-            }
-          `}
-        >
-          <Paragraph
-            css={css`
-              ${metadata.small(theme)};
-              color: ${theme.colors.text.inverseDark};
-              margin-bottom: 0.8rem;
-              text-align: left;
-
-              &:hover {
-                cursor: default;
-              }
-            `}
-            onClick={() => {
-              if (emailRef && emailRef.current) {
-                emailRef.current.focus();
-              }
-            }}
-          >
-            Sign up for quarterly updates
-          </Paragraph>
-          <NewsletterSignupForm emailRef={emailRef} />
-        </div>
 
         <SocialMediaLinks />
 
