@@ -10,7 +10,10 @@ const TextBlock = (props) => {
     <div
       css={css`
         position: relative;
-        margin-bottom: -5.6rem;
+
+        @media screen and (max-width: 779px) {
+          margin-top: 6.4rem;
+        }
       `}
     >
       <img
