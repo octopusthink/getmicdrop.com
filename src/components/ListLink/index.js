@@ -1,4 +1,4 @@
-import { Icon, Link, VisuallyHidden, heading, useTheme } from '@octopusthink/nautilus';
+import { Icon, Link, VisuallyHidden, heading, interfaceUI, useTheme } from '@octopusthink/nautilus';
 import React, { useState } from 'react';
 import { css } from '@emotion/core';
 
@@ -13,17 +13,19 @@ const ListLink = (props) => {
       css={css`
         ${!iconName &&
           css`
-            ${heading.small(theme)};
+            ${interfaceUI.large(theme)};
             color: ${theme.colors.text.inverse};
             display: flex;
-            align-items: center;
+            align-items: baseline;
 
-            &:not(:last-of-type):after {
-              display: inline-block;
-              content: '·';
-              position: relative;
-              padding-left: 0.8rem;
-              padding-right: 0.8rem;
+            @media screen and (min-width: 641px) {
+              &:not(:last-of-type):after {
+                display: inline-block;
+                content: '·';
+                position: relative;
+                padding-left: 0.4rem;
+                padding-right: 0.4rem;
+              }
             }
           `}
       `}

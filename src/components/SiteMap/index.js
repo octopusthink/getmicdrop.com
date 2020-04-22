@@ -14,6 +14,10 @@ const SiteMap = (props) => {
           padding: 0;
           display: flex;
           justify-content: center;
+
+          @media screen and (max-width: 640px) {
+            flex-direction: column;
+          }
         `}
       >
         <ListLink link="/">Home</ListLink>
