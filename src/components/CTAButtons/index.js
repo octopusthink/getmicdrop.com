@@ -27,10 +27,10 @@ const CTAButtons = (props) => {
         trackEvent('Purchase-Cancelled', source ? `Buy-Button-${source}` : 'Buy-Button');
       },
       successCallback: () => {
-        setCoupon('');
+        setCoupon(undefined);
         trackEvent('Purchase-Complete', source ? `Buy-Button-${source}` : 'Buy-Button');
       },
-      coupon,
+      coupon: coupon || global.localStorage.coupon || undefined,
       product: 576284,
     });
   };
