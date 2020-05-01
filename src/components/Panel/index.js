@@ -115,7 +115,10 @@ const Panel = (props) => {
               `}
 
             @media screen and (max-width: 779px) {
+              display: grid;
               grid-gap: ${theme.site.mobilePadding};
+              height: 100%;
+
               ${gridMobile &&
                 css`
                   display: grid;
