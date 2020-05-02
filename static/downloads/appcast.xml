@@ -154,15 +154,13 @@
 <pubDate>Sat, 02 May 2020 21:20:58 +0100</pubDate>
 <description><![CDATA[
     <h2>Version 1.0.2</h2>
-    <p>We fixed some keyboard shortcut bugs.</p>
-
-    <h3>Bug Fixes</h3>
+    <p>This release is mostly a few wee bugfixes:</p>
 
     <ul>
-        <li><strong>Fixed a bug with function keys as a shortcut.</strong> Tried using F5 or F11 as your keyboard shortcut—without a modifier like Command (⌘)? Noticed it wasn't working? We fixed that!</li>
-        <li><strong>We fixed a bug for users who don't use a keyboard shortcut.</strong> Previously: the app would sometimes not save this preference. We fixed that, so now you can clear out your keyboard shortcut and have it persist between app launches.</li>
-        <li><strong>Fixed layering for the license window.</strong> If you tried to launch/purchase Mic Drop but the license window disappeared underneath all of your other windows: sorry! We fixed that. (From 1.0.1)</li>
-        <li><strong>Fixed an issue with the Fulla 3 Headphone Amp.</strong> If have a Schiit Audio Fulla 3 plugged into your Mac, muting with Mic Drop would lag. Looks like there are select audio devices that are problematic to mute. For now, the Schiit Fulla 3 will not be muted by Mic Drop. We're looking into better fixes for future releases. (From 1.0.1)</li>
+        <li>You can now use a function keys (F5, F11) as your shortcut.</li>
+        <li>You can now unassign the keyboard shortcut altogether, if you don't want to use one.</li>
+        <li>If you have a Schiit Audio Fulla 3 headphone amp, it should now work better with Mic Drop.</li>
+        <li>The license window behaves better now.</li>
     </ul>
 
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. <a href="https://getmicdrop.com/">getmicdrop.com</a> is the website to share if you know anyone else spending a lot of time in meetings. 🙂</p>
