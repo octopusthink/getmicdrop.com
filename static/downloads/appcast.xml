@@ -125,7 +125,19 @@
 <title>1.0.1</title>
 <pubDate>Sat, 02 May 2020 01:23:44 +0100</pubDate>
 <description><![CDATA[
-TBD
+    <h2>Version 1.0.1</h2>
+    <p>We squashed a few annoying bugs.</p>
+
+    <h3>Bug Fixes</h3>
+
+    <ul>
+        <li><strong>Fixed layering for the license window.</strong> If you tried to launch/purchase Mic Drop but the license window disappeared underneath all of your other windows: sorry! We fixed that.</li>
+        <li><strong>Fixed an issue with the Fulla 3 Headphone Amp.</strong> If have a Schiit Audio Fulla 3 plugged into your Mac, muting with Mic Drop would lag. Looks like there are select audio devices that are problematic to mute. For now, the Schiit Fulla 3 will not be muted by Mic Drop. We're looking into better fixes for future releases.</li>
+    </ul>
+
+    <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. <a href="https://getmicdrop.com/">getmicdrop.com</a> is the website to share if you know anyone else spending a lot of time in meetings. 🙂</p>
+
+    <p>❤️ and 🐙, from Sarah and Matt from <a href="https://octopusthink.com/">Octopus Think</a></p>
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
