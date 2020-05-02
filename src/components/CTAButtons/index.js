@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { useQueryParam, StringParam } from 'use-query-params';
 
+import { downloadURL } from '../../utils/downloadURL';
 import { trackEvent } from '../../utils/eventTracking';
 
 const CTAButtons = (props) => {
@@ -52,7 +53,7 @@ const CTAButtons = (props) => {
           margin-bottom: 2.4rem;
         `}
       >
-        <Button as="a" href="/downloads/Mic%20Drop%201.0.0.zip" navigation onClick={trackDownload}>
+        <Button as="a" href={downloadURL} navigation onClick={trackDownload}>
           Free Download
         </Button>
         <Button onClick={openPaddle} primary>
