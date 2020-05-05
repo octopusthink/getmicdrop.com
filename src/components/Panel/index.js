@@ -7,12 +7,14 @@ import Image from 'components/Image';
 const Panel = (props) => {
   const theme = useTheme();
   const {
+    argument,
     background,
     backgroundStatic,
     children,
     className,
     dark,
     fullwidth,
+    greyscale,
     gridMobile,
     gridTablet,
     gridDesktop,
@@ -36,7 +38,19 @@ const Panel = (props) => {
         display: flex;
         flex-direction: column;
         position: relative;
-        overflow-x: hidden;
+        
+        ${!argument &&
+          css`
+            overflow-x: hidden;
+          `}
+
+        ${argument &&
+          css`
+            overflow-x: visible;
+            margin-top: 16rem;
+            margin-bottom: 16rem;
+            position: relative;
+          `}
 
         ${negativeMargins &&
           css`
@@ -51,6 +65,10 @@ const Panel = (props) => {
             object-fit: cover;
             width: 100%;
             height: 100vh;
+            ${greyscale &&
+              css`
+                filter: grayscale(100%) contrast(80%) brightness(95%);
+              `}
           `}
           src={background}
           width="100%"
@@ -92,11 +110,20 @@ const Panel = (props) => {
             padding-left: ${theme.site.tabletPadding};
             padding-right: ${theme.site.tabletPadding};
           }
+
           @media screen and (min-width: 1024px) {
-            max-width: ${theme.site.maxSiteWidth};
+            ${!argument &&
+              css`
+                max-width: ${theme.site.maxSiteWidth};
+              `}
             padding-left: ${theme.site.desktopPadding};
             padding-right: ${theme.site.desktopPadding};
           }
+
+          ${argument &&
+            css`
+              max-width: 112rem;
+            `}
         `}
       >
         <div
