@@ -2,6 +2,8 @@ import { Link, metadata, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 import { css } from '@emotion/core';
 
+import Image from 'components/Image';
+
 const TestimonialLink = ({ company, name, url }) => {
   const theme = useTheme();
 
@@ -29,7 +31,7 @@ const TestimonialLink = ({ company, name, url }) => {
 };
 
 const Testimonial = (props) => {
-  const { name, children, company, title, url } = props;
+  const { name, children, company, photo, title, url } = props;
   const theme = useTheme();
 
   let attribution;
@@ -67,6 +69,8 @@ const Testimonial = (props) => {
 
         @media screen and (min-width: 640px) {
           margin-left: 2.4rem;
+          margin-top: 4.8rem;
+          margin-bottom: 4.8rem;
         }
 
         &::before {
@@ -89,14 +93,36 @@ const Testimonial = (props) => {
           ${metadata.small(theme)};
           color: ${theme.colors.text.inverseDark};
           font-style: normal;
+          display: flex;
+          align-items: center;
         `}
       >
+        {photo && (
+          <Image
+            src={photo}
+            alt=""
+            css={css`
+              filter: grayscale(100%);
+              margin-right: 0.8rem;
+              width: 4.8rem;
+            `}
+          />
+        )}
         {nameLink}
         {attribution && (
-          <React.Fragment>
-            {' · '}
-            {attribution}{' '}
-          </React.Fragment>
+          <span
+            css={css`
+              margin-left: 0.4rem;
+
+              &::before {
+                display: inline-block;
+                content: '·';
+                margin-right: 0.4rem;
+              }
+            `}
+          >
+            {attribution}
+          </span>
         )}
       </cite>
     </blockquote>

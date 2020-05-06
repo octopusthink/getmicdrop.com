@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 
 const Argument = (props) => {
   const theme = useTheme();
-  const { children, end, title, top } = props;
+  const { bottom, children, end, start, title, top } = props;
 
   return (
     <div
@@ -13,19 +13,59 @@ const Argument = (props) => {
         text-align: left;
         z-index: 2;
 
-        ${!end &&
+        ${(top || bottom) &&
           css`
-            grid-column: 1;
+            max-width: calc(48rem + 2 * 2.4rem);
+            position: absolute;
+            left: ${theme.site.mobilePadding};
+            right: ${theme.site.mobilePadding};
+          `}
+
+        ${top &&
+          css`
+            top: -12rem;
+          `}
+
+        ${bottom &&
+          css`
+            bottom: -8rem;
+          `}
+
+        ${start &&
+          css`
+            @media screen and (min-width: 512px) {
+              right: auto;
+            }
+
+            @media screen and (min-width: 780px) {
+              left: ${theme.site.tabletPadding};
+            }
+
+            @media screen and (min-width: 1024px) {
+              left: ${theme.site.desktopPadding};
+            }
+
+            @media screen and (min-width: 1120px) {
+              left: 0;
+            }
           `}
 
         ${end &&
           css`
-            @media screen and (min-width: 640px) {
-              grid-column: 2;
+            @media screen and (min-width: 512px) {
+              left: auto;
             }
 
-            @media screen and (min-width: 1400px) {
-              grid-column: 3;
+            @media screen and (min-width: 780px) {
+              right: ${theme.site.tabletPadding};
+            }
+
+            @media screen and (min-width: 1024px) {
+              right: ${theme.site.desktopPadding};
+            }
+
+            @media screen and (min-width: 1120px) {
+              right: 0;
             }
           `}
       `}
@@ -38,8 +78,12 @@ const Argument = (props) => {
           align-items: center;
           position: relative;
 
+          @media screen and (max-width: 460px) {
+            font-size: 2.4rem;
+          }
+
           &::before {
-            background: ${theme.colors.neutral.black};
+            background: ${theme.colors.neutral.white};
             border-radius: 50%;
             content: '';
             display: inline-block;
@@ -51,7 +95,7 @@ const Argument = (props) => {
 
             ${top &&
               css`
-                background: ${theme.colors.neutral.white};
+                background: ${theme.colors.neutral.black};
               `}
           }
 
