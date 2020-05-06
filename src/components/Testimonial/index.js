@@ -69,6 +69,8 @@ const Testimonial = (props) => {
 
         @media screen and (min-width: 640px) {
           margin-left: 2.4rem;
+          margin-top: 4.8rem;
+          margin-bottom: 4.8rem;
         }
 
         &::before {
