@@ -78,6 +78,10 @@ const Argument = (props) => {
           align-items: center;
           position: relative;
 
+          @media screen and (max-width: 460px) {
+            font-size: 2.4rem;
+          }
+
           &::before {
             background: ${theme.colors.neutral.white};
             border-radius: 50%;
