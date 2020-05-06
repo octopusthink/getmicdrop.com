@@ -65,6 +65,10 @@ const Panel = (props) => {
             object-fit: cover;
             width: 100%;
             height: 100vh;
+            ${argument &&
+              css`
+                height: 60vh;
+              `}
             ${greyscale &&
               css`
                 filter: grayscale(100%) contrast(80%) brightness(95%);
