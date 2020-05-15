@@ -29,8 +29,8 @@ const MacAppStoreBadge = () => {
           }
 
           &:focus {
-            box-shadow: 0 0 0 0.2rem ${theme.colors.state.focusOutline};
-            outline: 0;
+            outline: 0.2rem solid ${theme.colors.state.focusOutline};
+            outline-offset: 0.4rem;
             transform: scale(1.05);
           }
         `}

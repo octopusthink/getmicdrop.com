@@ -141,10 +141,10 @@ export const theme = {
     state: {
       interactive: colors.red500,
       interactiveText: colors.black,
-      hover: colors.blue500,
+      hover: colors.yellow400,
       hoverText: colors.black,
-      focusOutline: colors.blue200,
-      focusText: colors.blue500,
+      focusOutline: colors.yellow400,
+      focusText: colors.black,
       disabled: colors.grey700,
       disabledDark: colors.grey800,
       disabledLight: colors.grey200,
@@ -169,7 +169,7 @@ export const theme = {
       neutral: colors.white,
       default: colors.red500,
       defaultDark: colors.red600,
-      defaultLight: colors.blue200,
+      defaultLight: colors.yellow400,
     },
   },
 

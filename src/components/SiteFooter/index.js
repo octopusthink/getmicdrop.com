@@ -55,6 +55,10 @@ const SiteFooter = () => {
               box-shadow: 0 2px ${theme.colors.neutral.grey800};
               color: ${theme.colors.neutral.white};
 
+              &:focus {
+                color: inherit;
+              }
+
               &:hover {
                 box-shadow: none;
                 color: ${theme.colors.neutral.white};

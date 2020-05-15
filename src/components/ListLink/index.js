@@ -63,12 +63,22 @@ const ListLink = (props) => {
           }
 
           &:focus {
-            outline: 0.2rem solid ${theme.colors.accent.primaryLight};
-            outline-offset: 0.4rem;
+            outline: 0.2rem solid ${theme.colors.state.focusOutline};
 
             span::after {
               border-color: transparent;
             }
+
+            ${iconName &&
+              css`
+                outline: none;
+
+                .icon::before {
+                    opacity: 1;
+                    transform: scale(1.1);
+                    background: transparent;
+                    border: 0.2rem solid ${theme.colors.state.focusOutline};
+              `}
           }
 
           ${isCurrent &&
