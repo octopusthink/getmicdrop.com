@@ -85,6 +85,10 @@ const CookieNotice = () => {
         a {
           color: ${theme.colors.neutral.white};
 
+          &:focus {
+            color: inherit;
+          }
+
           &:hover {
             box-shadow: none;
             color: ${theme.colors.neutral.white};
@@ -98,6 +102,10 @@ const CookieNotice = () => {
           to="/privacy"
           css={css`
             box-shadow: 0 2px ${theme.colors.neutral.grey200};
+
+            &:focus {
+              color: inherit;
+            }
           `}
         >
           protect your privacy
@@ -124,6 +132,10 @@ const CookieNotice = () => {
             font-weight: 600;
             padding: 0.8rem 0;
             margin-right: 1.6rem;
+
+            &:focus {
+              color: inherit;
+            }
           `}
         >
           No thanks.
@@ -139,6 +151,10 @@ const CookieNotice = () => {
             font-size: 0.8em;
             font-weight: 600;
             padding: 0.8rem 1.6rem;
+
+            &:focus {
+              color: inherit;
+            }
 
             &:hover {
               background: ${theme.colors.buttons.defaultDark};
