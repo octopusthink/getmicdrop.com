@@ -19,6 +19,10 @@ const TestimonialLink = ({ company, name, url }) => {
         color: ${theme.colors.text.inverse};
         box-shadow: 0 2px ${theme.colors.neutral.grey200};
 
+        &:focus {
+          color: inherit;
+        }
+
         &:hover {
           box-shadow: none;
           color: ${theme.colors.neutral.white};

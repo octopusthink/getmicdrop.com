@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import { Heading } from '@octopusthink/nautilus';
+import { Heading, Paragraph } from '@octopusthink/nautilus';
 import React from 'react';
 
 import CTAButtons from 'components/CTAButtons';
@@ -14,7 +14,7 @@ const FooterPanel = () => {
 
       <div
         css={css`
-          padding: 12rem 6.4rem 6.4rem;
+          padding: 12rem 0 6.4rem;
           text-align: center;
         `}
       >
@@ -28,9 +28,17 @@ const FooterPanel = () => {
             max-width: 16rem;
           `}
         />
-
         <Heading level={2}>Get ready for calmer conversations.</Heading>
         <CTAButtons source="Footer" />
+        <Paragraph
+          small
+          light
+          css={css`
+            font-size: 1.4rem;
+          `}
+        >
+          30-day free trial & a no-questions-asked refund policy.
+        </Paragraph>
       </div>
 
       <Spacer />
