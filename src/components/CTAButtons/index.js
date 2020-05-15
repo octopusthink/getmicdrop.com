@@ -49,9 +49,19 @@ const CTAButtons = (props) => {
       <div
         css={css`
           margin-bottom: 2.4rem;
+          display: flex;
+
+          @media screen and (max-width: 374px) {
+            flex-direction: column;
+            align-items: center;
+          }
+
+          @media screen and (min-width: 375px) {
+            justify-content: center;
+          }
         `}
       >
-        <Button as="a" href={downloadURL} navigation onClick={trackDownload}>
+        <Button as="a" href={downloadURL} leadingIcon="download" onClick={trackDownload}>
           Free Download
         </Button>
         <Button onClick={openPaddle} primary>

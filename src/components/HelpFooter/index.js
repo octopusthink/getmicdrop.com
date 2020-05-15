@@ -24,19 +24,8 @@ const HelpFooter = () => {
         and we&rsquo;ll get back to you as soon as we can.
       </Argument>
 
-      <Button
-        css={css`
-          margin: 0.8rem 0 0;
-          &::after {
-            display: none;
-          }
-        `}
-        navigation
-        minimal
-        to="/help"
-        noMargin
-      >
-        ← Back to help
+      <Button navigation minimal navigationDirection="backward" to="/help" noMargin>
+        Back to help
       </Button>
     </footer>
   );
