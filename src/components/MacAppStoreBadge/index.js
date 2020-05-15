@@ -22,10 +22,15 @@ const MacAppStoreBadge = () => {
         as="a"
         unstyled
         css={css`
+          line-height: 0;
           transition: all 100ms ease-in-out;
 
           &:hover {
             transform: scale(1.05);
+
+            img {
+              //box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.25);
+            }
           }
 
           &:focus {
