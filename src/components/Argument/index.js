@@ -83,7 +83,7 @@ const Argument = (props) => {
           }
 
           &::before {
-            background: ${theme.colors.neutral.white};
+            background: ${theme.colors.neutral.black};
             border-radius: 50%;
             content: '';
             display: inline-block;
@@ -93,9 +93,9 @@ const Argument = (props) => {
             margin-right: 0.8rem;
             width: 4rem;
 
-            ${top &&
+            ${bottom &&
               css`
-                background: ${theme.colors.neutral.black};
+                background: ${theme.colors.neutral.white};
               `}
           }
 
