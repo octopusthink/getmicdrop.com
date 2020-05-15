@@ -61,12 +61,20 @@ const CTAButtons = (props) => {
           }
         `}
       >
-        <Button as="a" href={downloadURL} leadingIcon="download" onClick={trackDownload}>
+        <Button
+          as="a"
+          primary={source === 'Footer'}
+          href={downloadURL}
+          leadingIcon="download"
+          onClick={trackDownload}
+        >
           Free Download
         </Button>
-        <Button onClick={openPaddle} primary>
-          Buy Now
-        </Button>
+        {source !== 'Footer' && (
+          <Button onClick={openPaddle} primary>
+            Buy Now
+          </Button>
+        )}
       </div>
     </Fragment>
   );
