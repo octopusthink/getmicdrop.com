@@ -1,4 +1,4 @@
-import { Button } from '@octopusthink/nautilus';
+import { Button, Icon } from '@octopusthink/nautilus';
 import { css } from '@emotion/core';
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
@@ -65,8 +65,9 @@ const CTAButtons = (props) => {
           as="a"
           primary={source === 'Footer'}
           href={downloadURL}
-          leadingIcon="download"
+          navigation
           onClick={trackDownload}
+          trailingIcon={null}
         >
           Free Download
         </Button>
