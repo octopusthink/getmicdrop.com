@@ -11,7 +11,7 @@
     ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDJm538jSzNfWY8sOtktOGhFNTLdQIVAMkoxdwzXSuHeuI8qGOxlsjnm1+3"/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDUHmBOaC9LBlPKXnfxgO5JBvA3hgIVAIOOsOlH6ATENf7ix/B1Rd8nnlij"/>
 </item>
 <item>
 <title>0.12.1</title>
@@ -22,7 +22,7 @@
     ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDU8TP32KOjK3nqkLozNpqzfCRlVAIVAJLNoLtAE8QM00L1Qkj7tGRbSSaP"/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MCwCFFQWbXxDRiORcYf5HJ+tB/20UDkXAhRJ6eLptpH/leiYOT3n6smN7i7+mA=="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop0.12.1-0.12.0.delta" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" sparkle:deltaFrom="0.12.0" length="27248" type="application/octet-stream" sparkle:dsaSignature="MCwCFHsI4qm4CiSHw11wO7ixLct/X9d9AhQ1jbtnhW1hXGjErWSSxH/+sBuJ4g=="/></sparkle:deltas>
 </item>
@@ -34,7 +34,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.3.zip" sparkle:version="324" sparkle:shortVersionString="0.12.3" length="5110282" type="application/octet-stream" sparkle:dsaSignature="MC0CFGj71KY7hPGpK0wYvfj+/3LuFtT2AhUAlbypcdJX+fP1lwmreoYywPy2TDw="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.3.zip" sparkle:version="324" sparkle:shortVersionString="0.12.3" length="5110282" type="application/octet-stream" sparkle:dsaSignature="MCwCFFrtTdMJsCsfUuCyZKjzjo4zhttGAhRm114NBdwjSREtiGvwY1B3gRO5YA=="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop324-305.delta" sparkle:version="324" sparkle:shortVersionString="0.12.3" sparkle:deltaFrom="305" length="120735" type="application/octet-stream" sparkle:dsaSignature="MC0CFCmuMyqPJ71Jz/5zqWyraFTkbloXAhUA1/vNBoY6qo3H9ge8+qet8hBUUZI="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop324-0.12.1.delta" sparkle:version="324" sparkle:shortVersionString="0.12.3" sparkle:deltaFrom="0.12.1" length="113010" type="application/octet-stream" sparkle:dsaSignature="MCwCFATeJo2VypgvyJYjCwhmdGnrFfFKAhQ+K8t4SoM/s9rXsHXdpv28gaE31g=="/>
@@ -49,7 +49,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.2.zip" sparkle:version="305" sparkle:shortVersionString="0.12.2" length="5106634" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCn/blWitQ54j8ZF/gjzdKQEfuZAwIVALK+HXhKXLWLx5vRrfHPNyqkuuWx"/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.2.zip" sparkle:version="305" sparkle:shortVersionString="0.12.2" length="5106634" type="application/octet-stream" sparkle:dsaSignature="MCwCFFGzZwyUqXXtCf2mHhp2UNvPM43WAhReNx4Xzv7Bypue5/vyp4OF6BeZkg=="/>
 </item>
 <item>
 <title>0.13.0</title>
@@ -65,7 +65,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.0.zip" sparkle:version="540" sparkle:shortVersionString="0.13.0" length="5016494" type="application/octet-stream" sparkle:dsaSignature="MCwCFEObuciNmuCbbOzb1y8y7zFg0EZUAhQtUK83X4GVEMevav51SEXRjGkFtQ=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.0.zip" sparkle:version="540" sparkle:shortVersionString="0.13.0" length="5016494" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC+bR49wugsCWLtMZiBgtIhicPFDAIUBdKSf1lcMlHBlJjZruq4jQ7BXr4="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop540-324.delta" sparkle:version="540" sparkle:shortVersionString="0.13.0" sparkle:deltaFrom="324" length="554410" type="application/octet-stream" sparkle:dsaSignature="MC0CFEjEMVnU1uWaWdNnbY1EOwipsfkxAhUAq0f3eq5dtTVdgHdurKWZjvmifg4="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop540-305.delta" sparkle:version="540" sparkle:shortVersionString="0.13.0" sparkle:deltaFrom="305" length="560455" type="application/octet-stream" sparkle:dsaSignature="MC0CFHMPvPIaG2/ihpXXsbU0T0JoFmQTAhUAyhFDtKMyaC29FGOeq3aVSKq3MGk="/>
@@ -90,7 +90,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.1.zip" sparkle:version="541" sparkle:shortVersionString="0.13.1" length="5019188" type="application/octet-stream" sparkle:dsaSignature="MCwCFBhUbJrRDYjJjWlttd2wdOFEz+AhAhRxf9xqBhkq2jkySXqzaISVtnd5HQ=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.1.zip" sparkle:version="541" sparkle:shortVersionString="0.13.1" length="5019188" type="application/octet-stream" sparkle:dsaSignature="MC0CFDnw+QYi8vYQccRhzjK7upqsr2OuAhUAhmRJEdR+FHmdczjGNByeES3x5Is="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop541-540.delta" sparkle:version="541" sparkle:shortVersionString="0.13.1" sparkle:deltaFrom="540" length="101769" type="application/octet-stream" sparkle:dsaSignature="MCwCFHaWdoOR0c1UAKcc0sk05eVJQofwAhQoDt4FKC0QTkUBQWbdmRb9YThuNA=="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop541-324.delta" sparkle:version="541" sparkle:shortVersionString="0.13.1" sparkle:deltaFrom="324" length="559185" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC2IfDDV1dpLol2cqld33DvefECtwIUBLDvPSFEH/E0rHZiZM9IpSnMK3Y="/>
@@ -113,7 +113,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.0.zip" sparkle:version="550" sparkle:shortVersionString="1.0.0" length="4023911" type="application/octet-stream" sparkle:dsaSignature="MC0CFG+xfUHyRexYcLm0aRDfBKiEyVY8AhUAxEdeqxS9Jok6+r5RZLFr2DiJ1/Y="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.0.zip" sparkle:version="550" sparkle:shortVersionString="1.0.0" length="4023911" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDcnX+Ux8lbdqdUqMhxT1yBXvqlVwIVAK1jHED9nNKKJgxKVP7uvGLKGf0q"/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop550-541.delta" sparkle:version="550" sparkle:shortVersionString="1.0.0" sparkle:deltaFrom="541" length="593807" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDWrk3LFXU9mTFdtUUNh/QIhr/eogIVALlpNi2rTIpzF4ehQble8c6Y0MUs"/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop550-540.delta" sparkle:version="550" sparkle:shortVersionString="1.0.0" sparkle:deltaFrom="540" length="621575" type="application/octet-stream" sparkle:dsaSignature="MC0CFDR0I4Jp6CORoxbJKn5ZtWOGQARuAhUAkThawA80rC2QJzuNBIJs5zvUDkw="/>
@@ -141,7 +141,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.1.zip" sparkle:version="552" sparkle:shortVersionString="1.0.1" length="3989553" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDK07HtS0ggkGegEJ8BpRJ9cravVgIVANpBHBInBt4yToz0eSqvtOnS4CZA"/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.1.zip" sparkle:version="552" sparkle:shortVersionString="1.0.1" length="3989553" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDIpeoDtOqSvhZaXGJgZK3ajjJ/swIUET8Y/yqm+X75QM7dVSmOJn4dd1Q="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop552-550.delta" sparkle:version="552" sparkle:shortVersionString="1.0.1" sparkle:deltaFrom="550" length="348755" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDU54OJe47WEiVoUZMiBL/quQIJ5gIUaDkBJsMugTSEdjl/2+eZS6+WO40="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop552-541.delta" sparkle:version="552" sparkle:shortVersionString="1.0.1" sparkle:deltaFrom="541" length="812390" type="application/octet-stream" sparkle:dsaSignature="MC0CFHml+XjL54tDAA/1nLzl7duSvG7VAhUAnQ0+a/C4XkPoGUNSI69RfqDDCC4="/>
@@ -169,7 +169,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.2.zip" sparkle:version="553" sparkle:shortVersionString="1.0.2" length="3990080" type="application/octet-stream" sparkle:dsaSignature="MCwCFDRu34bT82BUzlmO3vfTfhCNacZKAhQiFPYNlRMHu20YHYc0uWfN/vI/0w=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.2.zip" sparkle:version="553" sparkle:shortVersionString="1.0.2" length="3990080" type="application/octet-stream" sparkle:dsaSignature="MCwCFGSGHLAZ439s8J6WZKvvPkrWlZiDAhQR5OLzteVNwsRglo9k3qfZ4wsRXQ=="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop553-552.delta" sparkle:version="553" sparkle:shortVersionString="1.0.2" sparkle:deltaFrom="552" length="103344" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCt+fFUzEdyvJziIBxIK05K6ubI3QIUO+nioO8bM7lozrxWeJcac9Z67PI="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop553-550.delta" sparkle:version="553" sparkle:shortVersionString="1.0.2" sparkle:deltaFrom="550" length="351803" type="application/octet-stream" sparkle:dsaSignature="MCwCFBWibK4RWfcMV0Q8OnBa8Whz5WjYAhRbcpRZ8VK+bKqHgEiHX8yjlb03CA=="/>
@@ -196,7 +196,7 @@
 ]]>
 </description>
 <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.3.zip" sparkle:version="557" sparkle:shortVersionString="1.0.3" length="3947434" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCcY0BzuSWD8BjtBHfVOYB69pXJ6AIUIY/QoYfuF8rpyFSZNIj8ME7k20g="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.3.zip" sparkle:version="557" sparkle:shortVersionString="1.0.3" length="3947434" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC3gSXSCI7j7KQmDNqrWrn8V7/cuAIUe/5G8c8wq3ZW8qaI80bFQorNwpc="/>
 <sparkle:deltas>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop557-553.delta" sparkle:version="557" sparkle:shortVersionString="1.0.3" sparkle:deltaFrom="553" length="371392" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCtDQjEMqwi3Q6H3UAkkqjFSuOoNwIVAIUcyr9dBVXieGbcM3VD7VCXDU0m"/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop557-552.delta" sparkle:version="557" sparkle:shortVersionString="1.0.3" sparkle:deltaFrom="552" length="369919" type="application/octet-stream" sparkle:dsaSignature="MC0CFEUGrUdJD9ryLzUDD6V1FKLR3VDKAhUAjICm5gVaajpMaxPmgHhHTjiPSBM="/>
@@ -204,6 +204,34 @@
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop557-541.delta" sparkle:version="557" sparkle:shortVersionString="1.0.3" sparkle:deltaFrom="541" length="958931" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDJxf5meMBNkFflUQyI2pVVK/eQwQIUGG6eW76Kq8LTyJ4DKAge903ALhk="/>
 <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop557-540.delta" sparkle:version="557" sparkle:shortVersionString="1.0.3" sparkle:deltaFrom="540" length="980462" type="application/octet-stream" sparkle:dsaSignature="MCwCFBWSmn2YfoHdC8r7rVUKRiiZVNHgAhQkhkIqvqjocFudqmJj3h9YFIuXsQ=="/></sparkle:deltas>
 </item>
+<item>
+<title>1.1.0</title>
+<pubDate>Sun, 31 May 2020 00:13:32 +0100</pubDate>
+<description><![CDATA[
+    <h2>Version 1.1.0</h2>
+    <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. In case the menu bar icon wasn't big enough for you, <em>Enrique</em>.</p>
+
+    <ul>
+        <li><strong>New:</strong> Added a floating window as a more prominent status indicator. You can drag this window anywhere on your screen. It's also clickable, so you can use it to toggle your microphone.</li>
+        <li><strong>Fix:</strong> Some audio devices can't be muted by macOS, so we can't mute them in Mic Drop. We now detect incompatible devices &amp; send you a notification.</li>
+        <li><strong>Fix:</strong> Some users reported high CPU usage when using Loopback, BlackHole, or another loopback audio device. We've fixed that in this release, so you can enjoy the serenity of a quiet fan.</li>
+    </ul>
+
+    <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
+
+    <p>❤️ and 🐙, from Sarah and Matt from <a href="https://octopusthink.com/">Octopus Think</a></p>
+]]>
+</description>
+<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.0.zip" sparkle:version="600" sparkle:shortVersionString="1.1.0" length="4029245" type="application/octet-stream" sparkle:dsaSignature="MCwCFEUS2KPJevjz46iA8NTy9X6u5CWZAhQiWs1jKdMV6/4csfJmSeNfSX3bsw=="/>
+<sparkle:deltas>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop600-557.delta" sparkle:version="600" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="557" length="299934" type="application/octet-stream" sparkle:dsaSignature="MCwCFD4HEWbjWLVm8Bd+JYf2PPQMX+bpAhRnYr/Fe+p0dQ+TRNQNY2jnU1yhZQ=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop600-553.delta" sparkle:version="600" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="553" length="484741" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCucbcq/fnIZrHK/UtA3g6F9yPYDQIUOB1ZNip/mpcxHqwvzKGhXmfQ5KE="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop600-552.delta" sparkle:version="600" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="552" length="480001" type="application/octet-stream" sparkle:dsaSignature="MCwCFBbFc7xrmmxJIpIbbxdCGcA3Ww2wAhRO3zAFc+il8SsAs99skGxooSsUbw=="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop600-550.delta" sparkle:version="600" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="550" length="661597" type="application/octet-stream" sparkle:dsaSignature="MC0CFHM2EWTjD3UcLkSUMBeluQQRz7XeAhUA0Zq8A54Jf3TBA0204Tl4ZcTbjro="/>
+<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop600-541.delta" sparkle:version="600" sparkle:shortVersionString="1.1.0" sparkle:deltaFrom="541" length="1059214" type="application/octet-stream" sparkle:dsaSignature="MCwCFHsmsg+op8+ALRZ2U8n2BlyFNuYuAhROFyFeB8ujuOus6Dqk5sPuZTjeOw=="/></sparkle:deltas>
+</item>
+
 
 
 
