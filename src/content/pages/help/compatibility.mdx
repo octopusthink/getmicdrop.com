@@ -1,50 +1,63 @@
 ---
 title: Compatibility
+component: HelpPage
 ---
 
 import { Icon } from '@octopusthink/nautilus';
 
+import DownloadLink from 'components/DownloadLink';
 import Panel from 'components/Panel';
+import { downloadURL } from 'utils/downloadURL';
 
 <Panel>
 
-Mic Drop works by muting your audio at the system level, meaning that it _should_ work with any software or hardware device you might want to use it with. 
+Mic Drop works by muting your audio at the system level, meaning that it _should_ work with any app and device combo out there. This is generally true, save for some pretty niche USB audio interfaces.
 
 ## Software
 
-Most video conferencing apps work seamlessly with Mic Drop. Here's what we've tested:
+Any video conferencing app should work seamlessly with Mic Drop. We have tested the following apps, and they all work great:
 
-- ✅ FaceTime
-- ✅ Slack
-- ✅ Skype
-- ✅ Google Meet (formerly Hangouts)
-- ✅ Zoom (Note: Zoom's interface doesn't respect the system mute, so muting works as expected, but Zoom will tell you you're not muted. This isn't something we can control on our end—Zoom should respect the system-level mute status. Feel free to ignore it, or send Zoom a nice note to let them know you'd appreciate a fix!)
-- ✅ Vidyo
-- ✅ Microsoft Teams 
-- ✅ BlueJeans
-- <Icon name="check" /> GoToMeeting (@sarah to test!)
-- Discord (@sarah to test!)
-- whatever the Facebook thing is? (@sarah to test!)
+- Zoom[^1]
+- Slack
+- Skype
+- Google Meet (formerly Hangouts)
+- Vidyo
+- FaceTime
+- Microsoft Teams
+- BlueJeans
+- GoToMeeting
+- Discord
+- Houseparty
 
-If your favourite video-calling app is missing from this list, not to worry! It'll probably work just fine. You can download a trial (link?) to test it out, and let us know if you've any issues with it!
+If your favourite video-calling app is missing from this list, don't worry! It should work fine, but you can <DownloadLink source="compatibility-page">download a free, 30-day trial</DownloadLink> to test it out, and let us know if you've any issues with it!
+
+Mic Drop also works great with GarageBand, Voice Memos, Audacity, and other apps that record audio.
 
 ## Hardware
 
-Hardware can be a little bit trickier, since sometimes these devices can be complex in terms of how they interact with system audio. However, the same rule here applies—so long as your hardware device respects the system-level audio settings, you should be alright.
+Most audio devices—including every Bluetooth and wired headset out there—works fine with Mic Drop. Things like webcams, AirPods, and Beats are all good. Many popular USB interfaces—like the Blue Yeti or Corsair VOID headset—have also been tested and work fine.
 
-Certain audio devices don't allow MacOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, it will just pretend the device isn't there. All other devices will be muted as normal.
-
-Mic Drop will warn you if it detects that you have a non-compatible device, but you can also check in System Preferences > Sound.
-
-If your device shows "The selected device has no input controls", that means macOS is unable to mute the device, which means that Mic Drop can't mute it, either.
-
-![Open System Preferences > Sound > Select audio device](images/sound-preferences-incompatible.png)
+It's only pretty niche devices that don't always work well with Mic Drop, but it's a limitation of the device and macOS, and there's sadly nothing we can do to fix it.
 
 Compatible hardware devices include:
--
+- iMac and MacBook internal microphones
+- AirPods/AirPods Pro/Beats Headphones
+- Logitech C920/BRIO 4K Webcam
+- Blue Yeti/Blue Yeti Pro/Blue Snowball
+- Bose QC35/700 Headphones
+- LG UltraFine 5K Webcam
+- Any wired mic connected to your Mac's headphone jack
+- Any bluetooth headset/headphones with mic-in
 
-Incompatible hardware devices include:
-- I'm Fulla Schiit
+Certain audio devices don't allow macOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, Mic Drop will just pretend the device isn't there. All other devices will be muted/unmuted as normal.
 
+Mic Drop will warn you if it detects a non-compatible device, so if you have an uncommon audio interface (like an XLR-in USB input device), you can <DownloadLink source="compatibility-page">download a trial</DownloadLink> and try it out.
+
+Known incompatible hardware devices:
+- ASTRO Gaming A50 Wireless Headset
+- Schiit Audio Fulla 3
+- TASCAM US-2x2 Audio Device
 
 </Panel>
+
+[^1]: Zoom's doesn't monitor the system's mute status, so Zoom's interface won't tell you you're muted. Rest assured: muting works as expected! This isn't something we can control—it's up to Zoom to respect the system-level mute status. Feel free to ignore it, or send Zoom a feature request to let them know you'd appreciate a fix!
