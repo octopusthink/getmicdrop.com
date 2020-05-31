@@ -209,7 +209,7 @@
 <pubDate>Sun, 31 May 2020 00:13:32 +0100</pubDate>
 <description><![CDATA[
     <h2>Version 1.1.0</h2>
-    <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. In case the menu bar icon wasn't big enough for you, <em>Enrique</em>.</p>
+    <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. In case the menu bar icon wasn't big enough for you, <em>Enrique</em>. 😉</p>
 
     <ul>
         <li><strong>New:</strong> Added a floating window as a more prominent status indicator. You can drag this window anywhere on your screen. It's also clickable, so you can use it to toggle your microphone.</li>
