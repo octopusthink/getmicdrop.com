@@ -15,7 +15,7 @@ Mic Drop works by muting your audio at the system level, meaning that it _should
 
 ## Software
 
-Any video conferencing app should work seamlessly with Mic Drop. We have tested the following apps, and they all work great:
+Any video conferencing app should work seamlessly with Mic Drop. We haven't tested them all (yet!), but the ones we've tested work perfectly:
 
 - Zoom[^1]
 - Slack
@@ -29,15 +29,15 @@ Any video conferencing app should work seamlessly with Mic Drop. We have tested 
 - Discord
 - Houseparty
 
-If your favourite video-calling app is missing from this list, don't worry! It should work fine, but you can <DownloadLink source="compatibility-page">download a free, 30-day trial</DownloadLink> to test it out, and let us know if you've any issues with it!
+If your favourite video-calling app is missing from this list, don't worry! It should work seamlessly, but you can <DownloadLink source="compatibility-page">download a free trial</DownloadLink> to test it out. Let us know if you find any issues, and we'll do our best to iron them out.
 
-Mic Drop also works great with GarageBand, Voice Memos, Audacity, and other apps that record audio.
+Mic Drop also works well with GarageBand, Voice Memos, Audacity, and other apps that record audio.
 
 ## Hardware
 
-Most audio devices—including every Bluetooth and wired headset out there—works fine with Mic Drop. Things like webcams, AirPods, and Beats are all good. Many popular USB interfaces—like the Blue Yeti or Corsair VOID headset—have also been tested and work fine.
+Most audio devices—including every Bluetooth and wired headset out there—work with Mic Drop. Webcams, AirPods, and Beats are all good. We've also tested many popular USB interfaces—like the Blue Yeti or Corsair VOID headset—and they work well.
 
-It's only pretty niche devices that don't always work well with Mic Drop, but it's a limitation of the device and macOS, and there's sadly nothing we can do to fix it.
+It's only pretty niche devices that don't always play nicely with Mic Drop, but it's a limitation of the device and of macOS. Unfortunately, there isn't anything we can do to fix it.
 
 Compatible hardware devices include:
 - iMac and MacBook internal microphones
@@ -49,15 +49,18 @@ Compatible hardware devices include:
 - Any wired mic connected to your Mac's headphone jack
 - Any bluetooth headset/headphones with mic-in
 
-Certain audio devices don't allow macOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, Mic Drop will just pretend the device isn't there. All other devices will be muted/unmuted as normal.
+Certain audio devices don't allow macOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, Mic Drop will just pretend the device isn't there. All other devices will be muted and unmuted as normal.
 
-Mic Drop will warn you if it detects a non-compatible device, so if you have an uncommon audio interface (like an XLR-in USB input device), you can <DownloadLink source="compatibility-page">download a trial</DownloadLink> and try it out.
+Mic Drop will warn you if it detects an incompatible device. If you use an exotic audio interface (like an XLR-in USB input device), you can <DownloadLink source="compatibility-page">download a trial</DownloadLink> first to see how it works. 
 
 Known incompatible hardware devices:
 - ASTRO Gaming A50 Wireless Headset
 - Schiit Audio Fulla 3
 - TASCAM US-2x2 Audio Device
 
+
+[^1]: Zoom's doesn't monitor the system's mute status, so Zoom's interface won't tell you you're muted. Rest assured that muting works as expected! This isn't something we can control—it's up to Zoom to respect the system-level mute status. Feel free to ignore it, or send Zoom a feature request to let them know you'd appreciate a fix!
+
 </Panel>
 
-[^1]: Zoom's doesn't monitor the system's mute status, so Zoom's interface won't tell you you're muted. Rest assured: muting works as expected! This isn't something we can control—it's up to Zoom to respect the system-level mute status. Feel free to ignore it, or send Zoom a feature request to let them know you'd appreciate a fix!
+
