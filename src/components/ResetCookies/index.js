@@ -48,12 +48,12 @@ const ResetCookies = () => {
         </Strong>{' '}
         You can change your cookie preferences at any time.{' '}
         {consentGiven && (
-          <Link as="a" href="#no-cookies" onClick={refuseCookies}>
+          <Link href="#no-cookies" onClick={refuseCookies}>
             Disable cookies.
           </Link>
         )}
         {!consentGiven && (
-          <Link as="a" href="#cookies-are-tasty" onClick={allowCookies}>
+          <Link href="#cookies-are-tasty" onClick={allowCookies}>
             Enable cookies.
           </Link>
         )}

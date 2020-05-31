@@ -10,7 +10,7 @@ const trackDownload = (source) => () => {
 
 const DownloadLink = ({ children, source }) => {
   return (
-    <Link as="a" href={downloadURL} onClick={trackDownload(source)}>
+    <Link href={downloadURL} onClick={trackDownload(source)}>
       {children}
     </Link>
   );
