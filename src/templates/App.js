@@ -37,6 +37,13 @@ export const App = (props) => {
               margin: 0;
               letter-spacing: -0.02em;
             }
+
+            p + h2,
+            p + h3,
+            ul + h2,
+            ul + h3 {
+              padding-top: 3.2rem;
+            }
           `}
         />
         <div
