@@ -125,7 +125,6 @@
 <title>1.0.1</title>
 <pubDate>Sat, 02 May 2020 01:23:44 +0100</pubDate>
 <description><![CDATA[
-    <h2>Version 1.0.1</h2>
     <p>We squashed a few annoying bugs.</p>
 
     <h3>Bug Fixes</h3>
@@ -153,7 +152,6 @@
 <title>1.0.2</title>
 <pubDate>Sat, 02 May 2020 21:20:58 +0100</pubDate>
 <description><![CDATA[
-    <h2>Version 1.0.2</h2>
     <p>This release is mostly a few wee bugfixes:</p>
 
     <ul>
@@ -181,7 +179,6 @@
 <title>1.0.3</title>
 <pubDate>Wed, 13 May 2020 01:25:30 +0100</pubDate>
 <description><![CDATA[
-    <h2>Version 1.0.3</h2>
     <p>Just one fix in this release, but it's a good one!</p>
 
     <ul>
@@ -208,7 +205,6 @@
 <title>1.1.0</title>
 <pubDate>Sun, 31 May 2020 03:46:05 +0100</pubDate>
 <description><![CDATA[
-    <h2>Version 1.1</h2>
     <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
