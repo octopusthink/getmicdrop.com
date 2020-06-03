@@ -41,7 +41,9 @@ export const App = (props) => {
             p + h2,
             p + h3,
             ul + h2,
-            ul + h3 {
+            ul + h3,
+            ol + h2,
+            ol + h3 {
               padding-top: 3.2rem;
             }
           `}
