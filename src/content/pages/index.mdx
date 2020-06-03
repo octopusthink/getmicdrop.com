@@ -12,6 +12,7 @@ import FooterPanel from 'components/FooterPanel';
 import Image from 'components/Image';
 import Panel from 'components/Panel';
 import MacAppStoreBadge from 'components/MacAppStoreBadge';
+import StatusWindow from 'components/StatusWindow';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
 import TestimonialCarousel from 'components/TestimonialCarousel';
@@ -66,13 +67,7 @@ Whether you're taking notes in another app, reviewing a prototype in Figma, or j
 </TextBlock>
 
 <Image alt="Mic Drop welcome window." src="images/universal.png" />
-
 </Panel>
-
-
-
-
-
 
 <Panel gridTablet="1fr 1fr" gridWide="auto 48rem">
 
@@ -87,20 +82,17 @@ Sure, most video apps have their own keyboard shortcuts, but they're all differe
 
 </Panel>
 
-
 <Panel gridTablet="1fr 1fr" gridWide="48rem auto">
 
 <TextBlock>
 
 ## Confidence-inspiring
 
-"Can you hear me now?" Mic Drop clearly displays your microphone status in your menu bar, so you always know if your mic is on.
+"Can you hear me now?" Mic Drop clearly displays your microphone status in your menu bar, so you always know if your mic is on. There's even a clickable, floating status window for users who want a more prominent status indicator.
 
 </TextBlock>
 
-<div css={css`display: flex; justify-content: center;`}>
-    <AnimatedGIF src="images/on-off-menubar.gif" alt="Menubar icon toggling on and off." />
-</div>
+<StatusWindow />
 
 </Panel>
 
@@ -151,7 +143,7 @@ There are probably already more than enough machines in your house spying on you
 
 ## Your purchase supports charity
 
-Lockdown measures mean many of us are spending more time at home. This has very real consequences for those who experience domestic abuse. 
+Lockdown measures mean many of us are spending more time at home. This has very real consequences for those who experience domestic abuse.
 
 That's why we're donating 50% of every sale (that's revenues, not profits!) to [Scottish Women's Aid](https://womensaid.scot/covid-19/).
 

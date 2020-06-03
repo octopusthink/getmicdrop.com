@@ -2,10 +2,13 @@ import React from 'react';
 
 import menubarToggling from 'images/menubar-toggling.gif';
 import menubarZoom from 'images/on-off-menubar.gif';
+import statusWindowOn from 'images/status-window-on.gif';
 
 const AnimatedGIF = (props) => {
   const { alt, src } = props;
   switch (src) {
+    case 'images/status-window-on.gif':
+      return <img loading="lazy" alt={alt} src={statusWindowOn} />;
     case 'images/on-off-menubar.gif':
       return <img loading="lazy" alt={alt} src={menubarZoom} />;
 
