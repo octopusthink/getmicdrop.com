@@ -5,8 +5,13 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
+        "source": "/help/unsupported-devices",
+        "destination": "/help/compatibility",
+        "type": 301
+      },
+      {
         "source": "/downloads/latest.zip",
-        "destination": "https://getmicdrop.com/downloads/Mic%20Drop%201.1.4.zip",
+        "destination": "/downloads/Mic%20Drop%201.1.4.zip",
         "type": 302
       }
     ],
