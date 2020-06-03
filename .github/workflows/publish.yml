@@ -30,12 +30,3 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@2.0.0
-        env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          COMMIT_EMAIL: robots@octopusthink.com
-          COMMIT_NAME: Octopus Think Robot
-          CNAME: getmicdrop.com
-          FOLDER: public
