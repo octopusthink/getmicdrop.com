@@ -24,12 +24,9 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@2.0.0
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@v1.3.1
+        with:
+          args: deploy --only hosting
         env:
-          ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          COMMIT_EMAIL: robots@octopusthink.com
-          COMMIT_NAME: Octopus Think Robot
-          CNAME: getmicdrop.com
-          FOLDER: public
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
