@@ -38,7 +38,7 @@ const Panel = (props) => {
         display: flex;
         flex-direction: column;
         position: relative;
-        
+
         ${!argument &&
           css`
             overflow-x: hidden;

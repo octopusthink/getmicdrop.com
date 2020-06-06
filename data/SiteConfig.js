@@ -22,7 +22,7 @@ const config = {
   twitter: '@octopusthinks',
   // Copyright string for the footer of the website and RSS feed.
   copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
-  defaultImage: '/images/og-image.png', // Fallback image used when sharing to social sites.
+  defaultImage: '/images/og-image.jpg', // Fallback image used when sharing to social sites.
   imageHeight: '630',
   imageWidth: '1200',
 
