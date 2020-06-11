@@ -48,7 +48,7 @@ const MacAppStoreBadge = () => {
       >
         <img
           src={MacAppStoreBadgeSVG}
-          alt=""
+          alt="Download on the Mac App Store"
           css={css`
             height: 4.8rem;
           `}
