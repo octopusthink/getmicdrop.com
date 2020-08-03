@@ -5,13 +5,18 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
+        "source": "/download-on-the-app-store",
+        "destination": "https://apps.apple.com/app/mic-drop/id1489816366",
+        "type": 302
+      },
+      {
         "source": "/help/unsupported-devices",
         "destination": "/help/compatibility",
         "type": 301
       },
       {
         "source": "/downloads/latest.zip",
-        "destination": "/downloads/Mic%20Drop%201.1.4.zip",
+        "destination": "/downloads/Mic%20Drop%201.1.6.zip",
         "type": 302
       }
     ],
