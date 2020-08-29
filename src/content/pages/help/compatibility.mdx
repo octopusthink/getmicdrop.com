@@ -11,9 +11,7 @@ import { downloadURL } from 'utils/downloadURL';
 
 <Panel>
 
-Mic Drop works by muting your audio at the system level, meaning that it _should_ work with any app and device combo out there. This is generally true, save for some pretty niche USB audio interfaces.
-
-## Software
+Mic Drop works by muting your audio at the system level, meaning that it works with any app that uses your microphone. Some apps have their own quirks, so we've documented them here. 🙂
 
 Any video conferencing app should work seamlessly with Mic Drop. We haven't tested them all (yet!), but the ones we've tested work perfectly:
 
@@ -21,6 +19,7 @@ Any video conferencing app should work seamlessly with Mic Drop. We haven't test
 - Slack
 - Skype
 - Google Meet (formerly Hangouts)
+- Cisco Webex[^2]
 - Vidyo
 - FaceTime
 - Microsoft Teams
@@ -28,41 +27,10 @@ Any video conferencing app should work seamlessly with Mic Drop. We haven't test
 - GoToMeeting
 - Discord
 - Houseparty
-- Cisco Webex[^1]
 
 If your favourite video-calling app is missing from this list, don't worry! It should work seamlessly, but you can <DownloadLink source="compatibility-page">download a free trial</DownloadLink> to test it out. Let us know if you find any issues, and we'll do our best to iron them out.
 
 Mic Drop also works well with GarageBand, Voice Memos, Audacity, and other apps that record audio.
-
-## Hardware
-
-Most audio devices—including every Bluetooth and wired headset out there—work with Mic Drop. Webcams, AirPods, Bose headphones, and Beats Headphones are all good. We've also tested many popular USB interfaces—like the Blue Yeti or Corsair VOID headset—and they work well.
-
-It's only some niche devices that don't play nicely with Mic Drop. This is a limitation of macOS. Unfortunately, there isn't anything we can do to fix it.
-
-### Compatible hardware devices include:
-
-- iMac and MacBook internal microphones
-- AirPods/AirPods Pro/Beats Headphones
-- Logitech C920/BRIO 4K Webcam
-- Blue Yeti/Blue Yeti Pro/Blue Snowball
-- Bose QC35/700 Headphones
-- Any wired mic connected to your Mac's headphone jack
-- Any bluetooth headset/headphones with mic-in
-
-Certain audio devices don't allow macOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, Mic Drop will just pretend the device isn't there. All other devices will be muted and unmuted as normal.
-
-Mic Drop will warn you if it detects an incompatible device. If you use an exotic audio interface (like an XLR-in USB input device), you can <DownloadLink source="compatibility-page">download a trial</DownloadLink> first to see how it works.
-
-### Known incompatible hardware devices:
-
-- ASTRO Gaming A50 Wireless Headset
-- LG UltraFine 5K Webcam microphone
-- RØDE NT-USB microphone
-- Schiit Audio Fulla 3
-- TASCAM US-2x2 Audio Device
-
-The above isn't an _exhaustive_ list—there could be other USB microphones that we can't mute. We update this list as we encounter incompatible devices, so please [send us a message](mailto:help@getmicdrop.com) if you have a device not listed here that isn't working with Mic Drop.
 
 ## Aggregate audio devices (eg. Loopback)
 
@@ -70,8 +38,10 @@ Mic Drop works with [Loopback](https://rogueamoeba.com/loopback/) and should wor
 
 If you enable a new Loopback device while Mic Drop is running, Mic Drop will need to quickly restart itself to properly work with the Loopback audio device. This is very fast and you shouldn't notice anything, and it only happens when _enabling_ a new Loopback device.
 
-If you have an unsupported audio device, you can try using Loopback to create an aggregate device that Mic Drop can mute/unmute. Some users have let us know that this combo works really well for them, so it's worth trying if you have an unsupported device. ✨
+If you have an [unsupported audio device](/help/hardware-issues), you can try using Loopback to create an aggregate device that Mic Drop can mute/unmute. Some users have let us know that this combo works really well for them, so it's worth trying if you have an unsupported device. ✨
 
-[^1]: Zoom and Webex don't monitor the system's mute status, so their interfaces won't say that you're muted. Rest assured that muting works as expected! This isn't something we can control—it's up to them to respect the system-level mute status. Feel free to ignore it, or send them a feature request to let them know you'd appreciate a fix!
+[^1]: **Zoom** doesn't monitor the system's mute status, so its interfaces won't say that you're muted. Rest assured that muting works as expected! This isn't something we can control—it's up to them to respect the system-level mute status. Feel free to ignore it, or send them a feature request to let them know you'd appreciate a fix!
+
+[^2]: **Webex** monitors when your microphone is muted, but it doesn't detected when you _unmute_ your microphone with Mic Drop (or any other app), so if you're using the Webex Mac app, you will need to unmute yourself via Mic Drop and then via Webex. This is a bug with Webex, and we've contacted them to help fix it. A workaround is to use the web app, which doesn't have this bug.
 
 </Panel>
