@@ -11,7 +11,7 @@
       },
       {
         "source": "/help/unsupported-devices",
-        "destination": "/help/compatibility",
+        "destination": "/help/hardware-issues",
         "type": 301
       },
       {
