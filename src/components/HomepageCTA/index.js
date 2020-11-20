@@ -41,7 +41,7 @@ const HomepageCTA = () => {
       <CTAButtons source="Header" />
 
       <Paragraph inverse small>
-        Requires macOS 10.15 Catalina. <br />
+        Compatible with macOS 11 (Big Sur). <br />
         Also{' '}
         <Link
           as="a"
