@@ -16,6 +16,10 @@ const MacRumorsBadge = () => {
       css={css`
         display: flex;
         justify-content: center;
+
+        @media screen and (min-width: 780px) {
+          justify-self: flex-start;
+        }
       `}
     >
       <Link
@@ -38,13 +42,7 @@ const MacRumorsBadge = () => {
         href="https://www.macrumors.com/2020/06/02/five-mac-apps-june-2020/"
         onClick={trackMacRumorsLink}
       >
-        <img
-          src={MacRumorsBadgeSVG}
-          alt="Featured on MacRumors"
-          css={css`
-            //height: 4.8rem;
-          `}
-        />
+        <img src={MacRumorsBadgeSVG} alt="Featured on MacRumors" />
       </Link>
     </div>
   );
