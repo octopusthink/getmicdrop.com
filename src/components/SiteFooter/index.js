@@ -2,6 +2,7 @@ import { css } from '@emotion/core';
 import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
 
+import NewsletterSignupForm from 'components/NewsletterSignupForm';
 import SiteMap from 'components/SiteMap';
 import SocialMediaLinks from 'components/SocialMediaLinks';
 
@@ -14,7 +15,6 @@ const SiteFooter = () => {
         background: ${theme.colors.neutral.black};
         position: relative;
         overflow: hidden;
-        text-align: center;
       `}
     >
       <div
@@ -22,6 +22,8 @@ const SiteFooter = () => {
           padding: ${theme.site.mobilePadding};
           display: grid;
           grid-row-gap: ${theme.site.tabletPadding};
+          align-items: center;
+          justify-content: center;
 
           @media screen and (min-width: 640px) {
             padding: ${theme.site.tabletPadding};
@@ -36,9 +38,33 @@ const SiteFooter = () => {
       >
         <SiteMap />
 
+        <Paragraph
+          inverse
+          dark
+          noMargin
+          css={css`
+            width: 100%;
+            max-width: ${theme.site.maxContentWidth};
+          `}
+        >
+          We send out a newsletter sporadically—usually around once a quarter. Expect general
+          updates, new things we’re working on, and invitations to beta programmes when we’re ready
+          to test a new app.
+        </Paragraph>
+
+        <NewsletterSignupForm />
+
         <SocialMediaLinks />
 
-        <Paragraph inverse noMargin small dark>
+        <Paragraph
+          inverse
+          noMargin
+          small
+          dark
+          css={css`
+            text-align: center;
+          `}
+        >
           Made with{' '}
           <span role="img" aria-label="love">
             ❤️
