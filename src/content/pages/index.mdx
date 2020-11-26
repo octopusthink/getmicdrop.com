@@ -14,6 +14,7 @@ import Panel from 'components/Panel';
 import ProductHuntBadge from 'components/ProductHuntBadge';
 import MacAppStoreBadge from 'components/MacAppStoreBadge';
 import MacRumorsBadge from 'components/MacRumorsBadge';
+import RatingsBadges from 'components/RatingsBadges';
 import StatusWindow from 'components/StatusWindow';
 import SignUpForm from 'components/SignUpForm';
 import Spacer from 'components/Spacer';
@@ -41,23 +42,8 @@ Mic Drop is a macOS menu bar app that allows you to quickly mute and unmute your
 
 </TextBlock>
 
-</Panel>
+<RatingsBadges />
 
-<Panel gridTablet="1fr 1fr">
-  <div   css={css`
-  grid-column: 1 / -1;
-  `}>
-    <iframe
-      width="100%"
-      height="420"
-      src="https://www.youtube-nocookie.com/embed/8bYAgjUQHys"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
-  <ProductHuntBadge />
-  <MacRumorsBadge />
 </Panel>
 
 

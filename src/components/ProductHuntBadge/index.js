@@ -15,10 +15,6 @@ const ProductHuntBadge = () => {
       css={css`
         display: flex;
         justify-content: center;
-
-        @media screen and (min-width: 780px) {
-          justify-self: flex-end;
-        }
       `}
     >
       <Link
