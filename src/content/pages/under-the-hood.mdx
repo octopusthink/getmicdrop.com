@@ -8,11 +8,13 @@ import Panel from 'components/Panel';
 
 ## How is Mic Drop built?
 
-Mic Drop is a macOS application written _entirely_ in Swift and SwiftUI. It uses Core Audio to manage mute and volume states. Mic Drop requires Input Monitoring permissions to listen for global keyboard shortcuts. ⌨️
+Mic Drop is a macOS application written entirely in Swift and SwiftUI. It uses Core Audio to manage mute and volume states. Mic Drop requires Input Monitoring permissions to listen for global keyboard shortcuts. ⌨️
 
-We purposefully didn't make use of any audio recording or microphone access APIs. This way, we can be certain that Mic Drop will **never hear you or listen to you**. The way it's implemented, it only has access to your audio device IDs, their mute status, and their volume level. It never has access to the audio stream being received by your microphone, even if it's on. 👌🏻
+We purposefully didn't make use of any audio recording or microphone access APIs. This way, we can be certain that **Mic Drop will never hear you** or listen to you. (Privacy matters!) It only has access to your audio device IDs, their mute status, and their volume level. It never has access to the audio stream being received by your microphone, even if it's on. 👌🏻
 
-**Mic Drop requires macOS 10.15 Catalina**, because we wanted to try SwiftUI. It's kinda cool and feels like "React for Swift", but with many levels of air quotes. SwiftUI has promise, but it's very early-stages right now. 🤷🏻‍♂️
+Mic Drop requires macOS 10.15 Catalina, because we wanted to try SwiftUI. It's kinda cool and feels like "React for Swift". SwiftUI has promise, but it's very early-stages right now. 🤷🏻‍♂️
+
+If you want to learn more, Matt wrote about [the experience of building Mic Drop](https://octopusthink.com/blog/2020-08-12-how-to-mute-a-mic-in-six-months).
 
 ## Open source libraries
 
