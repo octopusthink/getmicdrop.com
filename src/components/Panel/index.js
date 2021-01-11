@@ -20,11 +20,20 @@ const Panel = (props) => {
     gridDesktop,
     gridWide,
     negativeMargins,
+    verticalAlignment,
   } = props;
 
   let hasGrid = false;
   if (gridMobile || gridTablet || gridDesktop || gridWide) {
     hasGrid = true;
+  }
+
+  let alignItems = 'center';
+  if (verticalAlignment === 'top') {
+    alignItems = 'flex-start';
+  }
+  if (verticalAlignment === 'bottom') {
+    alignItems = 'flex-end';
   }
 
   const panelBackground = dark ? theme.colors.neutral.black : 'transparent';
@@ -154,7 +163,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridMobile};
-                  align-items: center;
+                  align-items: ${alignItems};
                   height: 100%;
                 `}
             }
@@ -165,7 +174,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridTablet};
-                  align-items: center;
+                  align-items: ${alignItems};
                   height: 100%;
                 `}
             }
@@ -176,7 +185,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridDesktop};
-                  align-items: center;
+                  align-items: ${alignItems};
                   height: 100%;
                 `}
             }
@@ -186,7 +195,7 @@ const Panel = (props) => {
                 css`
                   display: grid;
                   grid-template-columns: ${gridWide};
-                  align-items: center;
+                  align-items: ${alignItems};
                   height: 100%;
                 `}
             }
