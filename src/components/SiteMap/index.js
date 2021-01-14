@@ -21,6 +21,7 @@ const SiteMap = (props) => {
         `}
       >
         <ListLink link="/">Home</ListLink>
+        <ListLink link="/roadmap/">Roadmap</ListLink>
         <ListLink link="/under-the-hood/">How it’s made</ListLink>
         <ListLink link="/privacy/">Privacy</ListLink>
         <ListLink link="/credits/">Credits</ListLink>

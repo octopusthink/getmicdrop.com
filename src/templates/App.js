@@ -46,6 +46,16 @@ export const App = (props) => {
             ol + h3 {
               padding-top: 3.2rem;
             }
+
+            .roadmap li:before {
+              display: none;
+            }
+
+            .roadmap .Nautilus-Icon--square,
+            .roadmap .Nautilus-Icon--check-square {
+              vertical-align: -6px;
+              margin-right: 0.4rem;
+            }
           `}
         />
         <div
