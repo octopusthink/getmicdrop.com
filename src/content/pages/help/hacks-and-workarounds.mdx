@@ -19,21 +19,21 @@ Happy hacking! 🛠
 
 Yes, but not directly from Mic Drop.
 
-Based on current user feedback, API limitations in macOS, and the potential of Apple nixing the Touch Bar altogether, we don't have any plans to support the Touch Bar ourselves.
+Based on current user feedback, API limitations in macOS, and the potential of Apple nixing the Touch Bar altogether, we don't have any plans to support the Touch Bar.
 
-That said, if you're a fan of the Touch Bar, there's a workaround that may do the trick: use [BetterTouchTool](https://folivora.ai) to configure a Touch Bar button that will activate your Mic Drop keyboard shortcut, and you should be good to go!
+That said, if you're a fan, there's a workaround that may do the trick. Use [BetterTouchTool](https://folivora.ai) to configure a Touch Bar button that will activate your Mic Drop keyboard shortcut, and you should be good to go!
 
-Bonus: if you want to query the mute state of Mic Drop to change the icon based on whether you're muted or not, you can try using this command to get the mute status: `defaults read com.octopusthink.Mic-Drop devicesMuted`.
+Bonus: if you want to query the mute state of Mic Drop to change the icon based on whether you're muted or not, you can use this command to get the mute status: `defaults read com.octopusthink.Mic-Drop devicesMuted`.
 
 ## Can I program my mouse/headset/cat to mute my mic?
 
 Any physical button that can be mapped to a keyboard press will work. We don’t natively support hardware buttons or any shortcut that isn’t keyboard-based.
 
-If you can map a button on your mouse, headset, etc. to your Mic Drop keyboard shortcut directly then you're all set: several users have used the Logi Options software with MX series mice to do this, allowing a button on their mouse to mute/unmute Mic Drop.
+If you can map a button on your mouse, headset, or any other device to your Mic Drop keyboard shortcut that should work seamlessly. Several users have reported success using  [Logitech Options](https://www.logitech.com/en-us/product/options) in order to use a button on their MX series mouse to mute and unmute Mic Drop.
 
-If you need to use software to map a button press/key to your Mic Drop keyboard shortcut—we recommend [BetterTouchTool](https://folivora.ai).
+If you need to use software to map a button press or key to your Mic Drop keyboard shortcut, we recommend [BetterTouchTool](https://folivora.ai).
 
-Cats, as a rule, will only press keys that you _don't_ want pressed. 😼
+Cats, as a rule, will only press keys that you _don't_ want pressed, so no promises there. 😼
 
 ## Can I make a giant physical mute button?
 
@@ -43,11 +43,11 @@ First of all, you'll want some kind of external hardware button. You can buy a p
 
 Basically, so long as your device can map to a keyboard shortcut, you should be able to build the setup of your dreams with Mic Drop. We recommend using [BetterTouchTool](https://folivora.ai) to trigger the keyboard shortcut.
 
-To turn a light on and off, you can query Mic Drop's mute state using a Terminal command: `defaults read com.octopusthink.Mic-Drop devicesMuted`: `1` means your mic is muted, `0` means your mic is not muted.
+To turn a light on and off, you can query Mic Drop's mute state using a Terminal command: `defaults read com.octopusthink.Mic-Drop devicesMuted`. `1` means your mic is muted, `0` means your mic is not muted.
 
-## My microphone/audio input device isn't supported. Is there a workaround?
+## My microphone or audio input device isn't supported. Is there a workaround?
 
-Indeed there is! Many users have had success [using Loopback to create a virtual audio device](/help/using-loopback) and muting that device with Mic Drop. Mic Drop is compatible with Loopback audio devices and in our experience this has worked quite well.
+Indeed there is! Many users have had success [using Loopback to create a virtual audio device](/help/using-loopback) and then muting that device with Mic Drop. Mic Drop is compatible with Loopback audio devices and in our experience this has worked quite well.
 
 We can't promise absolutely every incompatible device will work using this Loopback hack, but so far most XLR-USB type audio interfaces work perfectly with Mic Drop + Loopback. If you've upgraded to a really cool audio setup but still want to use Mic Drop, give Loopback a try!
 
