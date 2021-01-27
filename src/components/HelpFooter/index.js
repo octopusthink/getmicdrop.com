@@ -17,8 +17,9 @@ const HelpFooter = () => {
       `}
     >
       <Argument title="This doesn't answer my question!">
-        Send a message to <Link href="mailto:help@getmicdrop.com">help@getmicdrop.com</Link> and
-        we&rsquo;ll get back to you as soon as we can.
+        Send a message to{' '}
+        <Link href="mailto:micdrop@octopusthink.com">micdrop@octopusthink.com</Link> and we&rsquo;ll
+        get back to you as soon as we can.
       </Argument>
 
       <Button navigation minimal navigationDirection="backward" to="/help" noMargin>
