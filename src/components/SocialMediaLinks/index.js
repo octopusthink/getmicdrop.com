@@ -21,7 +21,7 @@ const SocialMediaLinks = (props) => {
         Twitter
       </ListLink>
 
-      <ListLink a link="https://instagram.com/octopusthinks" iconName="instagram">
+      <ListLink a link="https://instagram.com/octopusthink" iconName="instagram">
         Instagram
       </ListLink>
 
