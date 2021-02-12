@@ -17,7 +17,7 @@ const SocialMediaLinks = (props) => {
         justify-content: center;
       `}
     >
-      <ListLink a link="https://twitter.com/octopusthinks" iconName="twitter">
+      <ListLink a link="https://twitter.com/octopusthink" iconName="twitter">
         Twitter
       </ListLink>
 

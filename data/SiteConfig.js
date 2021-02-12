@@ -19,7 +19,7 @@ const config = {
     'Mic Drop makes meetings better. A tiny Mac app to help you quickly mute (and unmute!) your microphone using a customisable hotkey or menubar control.',
   // Path to the RSS file.
   siteRss: '/blog/rss.xml',
-  twitter: '@octopusthinks',
+  twitter: '@octopusthink',
   // Copyright string for the footer of the website and RSS feed.
   copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
   defaultImage: '/images/og-image.jpg', // Fallback image used when sharing to social sites.
