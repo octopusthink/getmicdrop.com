@@ -13,6 +13,8 @@ import { downloadURL } from 'utils/downloadURL';
 
 Mic Drop works by muting your audio at the system level, meaning that it works with any app that uses your microphone. Some apps have their own quirks, so we've documented them here. 🙂
 
+**Using the macOS Monterey beta?** There's a bug in macOS Monterey beta when using Bluetooth headphones. Any time a Bluetooth headset's mic is muted, the output is muted as well. We've reported this bug to Apple, but it happens outside of Mic Drop so is up to Apple to fix. 😞
+
 Any video conferencing app should work seamlessly with Mic Drop. We haven't tested them all (yet!), but the ones we've tested work perfectly:
 
 - Zoom[^1]
@@ -36,7 +38,7 @@ Mic Drop also works well with GarageBand, Voice Memos, Audacity, and other apps 
 
 Mic Drop works with [Loopback](https://rogueamoeba.com/loopback/) and other software-based audio devices.
 
-If you enable a new Loopback device while Mic Drop is running, Mic Drop will restart itself to ensure everything works properly. This process is quite quick and you likely won't notice anything happening at all. 
+If you enable a new Loopback device while Mic Drop is running, Mic Drop will restart itself to ensure everything works properly. This process is quite quick and you likely won't notice anything happening at all.
 
 If you have an [unsupported audio device](/help/hardware-issues), you can use Loopback to create an aggregate device that Mic Drop can control. Some users have told us this combo works really well, so it's worth trying if you have an unsupported device. ✨
 
