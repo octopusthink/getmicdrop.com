@@ -41,7 +41,6 @@ const HomepageCTA = () => {
       <CTAButtons source="Header" />
 
       <Paragraph inverse small>
-        Ready for macOS 11 and Apple Silicon. <br />
         Also{' '}
         <Link
           as="a"
@@ -62,6 +61,25 @@ const HomepageCTA = () => {
           onClick={trackMASLink}
         >
           available on the Mac App Store
+        </Link>
+        .<br /> See{' '}
+        <Link
+          css={css`
+            box-shadow: 0 2px ${theme.colors.neutral.grey200};
+
+            &,
+            &:hover,
+            &:focus {
+              color: ${theme.colors.text.inverseLight};
+            }
+
+            &:hover {
+              box-shadow: none;
+            }
+          `}
+          to="/help"
+        >
+          our notes about Monterey & Bluetooth headphones
         </Link>
         .
       </Paragraph>
