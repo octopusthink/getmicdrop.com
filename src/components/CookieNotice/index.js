@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Link, Paragraph, useTheme } from '@octopusthink/nautilus';
 import Emoji from 'a11y-react-emoji';
 import React, { useEffect } from 'react';

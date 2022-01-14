@@ -1,6 +1,6 @@
 import { Icon, Link, VisuallyHidden, interfaceUI, useTheme } from '@octopusthink/nautilus';
 import React, { useState } from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 const ListLink = (props) => {
   const { a, children, iconName, link, onClick } = props;

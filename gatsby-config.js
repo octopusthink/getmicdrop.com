@@ -23,9 +23,16 @@ module.exports = {
   plugins: [
     'gatsby-plugin-use-query-params',
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        logo: './src/images/favicon.png',
+        name: `Mic Drop Website`,
+        short_name: `Mic Drop`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+        icon: './src/images/favicon.png',
+        theme_color_in_head: false
       },
     },
     {
@@ -45,7 +52,7 @@ module.exports = {
       options: {
         // Exclude specific pages or groups of pages using glob params
         // See: https://github.com/isaacs/minimatch
-        exclude: [],
+        excludes: [],
       },
     },
     'gatsby-plugin-sharp',
@@ -54,7 +61,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        defaultLoaders: {
+        defaultLayouts: {
           default: require.resolve('./src/components/MDXLayout'),
         },
         extensions: ['.mdx', '.md'],
@@ -66,7 +73,6 @@ module.exports = {
             },
           },
           { resolve: 'gatsby-remark-copy-linked-files' },
-          { resolve: 'gatsby-remark-reading-time' },
           { resolve: 'gatsby-remark-smartypants' },
         ],
       },
