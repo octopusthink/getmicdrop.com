@@ -1,0 +1,36 @@
+---
+title: Refund policy
+component: HelpPage
+---
+
+import Panel from 'components/Panel';
+
+
+<Panel>
+
+## Why does my audio mute when I mute my microphone on a Bluetooth device?
+
+This is a bug introduced in Monterey. It happens with any app that mutes the mic, although it only impacts Bluetooth headphones.
+
+We detected the issue in August and [filed a bug report](https://twitter.com/octopusthink/status/1431689504126078977) with Apple, but to date they haven't responded or resolved the issue, so it's unclear when or if it will be fixed. 
+
+If you’d like to write in to Apple, that may help encourage them to fix the bug. You can [file a bug report](https://www.apple.com/feedback/macos.html) on their site.
+
+In the meantime, we're introducing a fix on our end to ensure that Mic Drop still works as intended, and you won't have to resort to using wired headphones like a caveman. Read on for more details!
+
+
+## How can I fix it?
+
+Well, we've just introduced a software-side fix for you. It's a little bit of a workaround, so please let us know if you encounter any issues with it.
+
+When Mic Drop detects you're using a Bluetooth device, it looks for the next mutable available non-Bluetooth mic and switches your microphone to that one. In many cases, this will be your Mac's built-in microphone.
+
+When testing, we found this solution effective for a large array of users, but if it doesn't work for you, you can disable this behaviour using the following command:
+
+`[command-here]`
+
+Some apps may use a different microphone to your system settings, which means they'll collect audio from a microphone that isn't muted. We can't control or predict this, so we'll display a notification every time we detect that an app has changed your microphone.
+
+Here's some information about how to change your microphone settings in popular apps:
+
+</Panel>
