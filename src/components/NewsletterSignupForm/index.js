@@ -1,6 +1,6 @@
 import { Button, TextField, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 const NewsletterSignupForm = (props) => {
   const { className, emailRef } = props;
@@ -34,7 +34,7 @@ const NewsletterSignupForm = (props) => {
         `}
       >
         <TextField
-          autocomplete="email"
+          autoComplete="email"
           type="email"
           name="email"
           label="Email"

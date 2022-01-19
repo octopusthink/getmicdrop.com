@@ -1,6 +1,6 @@
 import { Link, metadata, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import Image from 'components/Image';
 

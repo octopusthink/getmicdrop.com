@@ -1,5 +1,5 @@
 import { Heading, Link, Paragraph, useTheme } from '@octopusthink/nautilus';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React from 'react';
 
 import CTAButtons from 'components/CTAButtons';
@@ -7,10 +7,6 @@ import { trackEvent } from '../../utils/eventTracking';
 
 const HomepageCTA = () => {
   const theme = useTheme();
-
-  const trackMASLink = () => {
-    trackEvent('MacAppStore-Click', 'Header');
-  };
 
   return (
     <div
@@ -41,7 +37,6 @@ const HomepageCTA = () => {
       <CTAButtons source="Header" />
 
       <Paragraph inverse small>
-        Ready for macOS 11 and Apple Silicon. <br />
         Also{' '}
         <Link
           as="a"
@@ -59,9 +54,27 @@ const HomepageCTA = () => {
             }
           `}
           href="https://apps.apple.com/app/mic-drop/id1489816366"
-          onClick={trackMASLink}
         >
           available on the Mac App Store
+        </Link>
+        .<br /> See{' '}
+        <Link
+          css={css`
+            box-shadow: 0 2px ${theme.colors.neutral.grey200};
+
+            &,
+            &:hover,
+            &:focus {
+              color: ${theme.colors.text.inverseLight};
+            }
+
+            &:hover {
+              box-shadow: none;
+            }
+          `}
+          to="/help"
+        >
+          our notes about Monterey & Bluetooth headphones
         </Link>
         .
       </Paragraph>

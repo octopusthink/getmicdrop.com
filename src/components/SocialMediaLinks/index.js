@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import ListLink from 'components/ListLink';
 
@@ -17,11 +17,11 @@ const SocialMediaLinks = (props) => {
         justify-content: center;
       `}
     >
-      <ListLink a link="https://twitter.com/octopusthinks" iconName="twitter">
+      <ListLink a link="https://twitter.com/octopusthink" iconName="twitter">
         Twitter
       </ListLink>
 
-      <ListLink a link="https://instagram.com/octopusthinks" iconName="instagram">
+      <ListLink a link="https://instagram.com/octopusthink" iconName="instagram">
         Instagram
       </ListLink>
 

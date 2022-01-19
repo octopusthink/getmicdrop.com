@@ -1,11 +1,9 @@
-import { css, Global } from '@emotion/core';
+import { css, Global } from '@emotion/react';
 import { useTheme } from '@octopusthink/nautilus';
 import React, { useEffect } from 'react';
-import { CookiesProvider } from 'react-cookie';
 import 'typeface-inter';
 import { useQueryParam, StringParam } from 'use-query-params';
 
-import CookieNotice from 'components/CookieNotice';
 import GhostShipMDX from 'components/GhostShipMDX';
 import SiteHeader from 'components/SiteHeader';
 import SiteFooter from 'components/SiteFooter';
@@ -28,55 +26,52 @@ export const App = (props) => {
   }, [coupon, setCoupon]);
 
   return (
-    <CookiesProvider>
-      <GhostShipMDX>
-        <Global
-          styles={css`
-            body {
-              background: ${theme.colors.neutral.white};
-              margin: 0;
-              letter-spacing: -0.02em;
-            }
+    <GhostShipMDX>
+      <Global
+        styles={css`
+          body {
+            background: ${theme.colors.neutral.white};
+            margin: 0;
+            letter-spacing: -0.02em;
+          }
 
-            p + h2,
-            p + h3,
-            ul + h2,
-            ul + h3,
-            ol + h2,
-            ol + h3 {
-              padding-top: 3.2rem;
-            }
+          p + h2,
+          p + h3,
+          ul + h2,
+          ul + h3,
+          ol + h2,
+          ol + h3 {
+            padding-top: 3.2rem;
+          }
 
-            .roadmap li:before {
-              display: none;
-            }
+          .roadmap li:before {
+            display: none;
+          }
 
-            .roadmap .Nautilus-Icon--square,
-            .roadmap .Nautilus-Icon--check-square {
-              vertical-align: -6px;
-              margin-right: 0.4rem;
-            }
-          `}
-        />
-        <div
+          .roadmap .Nautilus-Icon--square,
+          .roadmap .Nautilus-Icon--check-square {
+            vertical-align: -6px;
+            margin-right: 0.4rem;
+          }
+        `}
+      />
+      <div
+        css={css`
+          margin: 0 auto;
+        `}
+      >
+        <SiteHeader homepage={homepage} />
+        <main
+          id="content"
           css={css`
-            margin: 0 auto;
+            margin: 0 auto 4.8rem;
           `}
         >
-          <CookieNotice />
-          <SiteHeader homepage={homepage} />
-          <main
-            id="content"
-            css={css`
-              margin: 0 auto 4.8rem;
-            `}
-          >
-            {children}
-          </main>
-          <SiteFooter />
-        </div>
-      </GhostShipMDX>
-    </CookiesProvider>
+          {children}
+        </main>
+        <SiteFooter />
+      </div>
+    </GhostShipMDX>
   );
 };
 

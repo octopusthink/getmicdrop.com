@@ -3,11 +3,11 @@ title: Compatibility
 component: HelpPage
 ---
 
-import { Icon } from '@octopusthink/nautilus';
+import { Icon } from '@octopusthink/nautilus'
 
-import DownloadLink from 'components/DownloadLink';
-import Panel from 'components/Panel';
-import { downloadURL } from 'utils/downloadURL';
+import DownloadLink from 'components/DownloadLink'
+import Panel from 'components/Panel'
+import { downloadURL } from 'utils/downloadURL'
 
 <Panel>
 
@@ -21,7 +21,7 @@ It's only some niche devices that don't play nicely with Mic Drop. This is a lim
 
 - iMac and MacBook internal microphones
 - AirPods/AirPods Pro/Beats Headphones
-- Logitech C920[^1]
+- Logitech C920/C922[^1]
 - Logitech BRIO 4K Webcam
 - Blue Yeti/Blue Yeti Pro/Blue Snowball
 - Bose QC35/700 Headphones
@@ -31,7 +31,7 @@ It's only some niche devices that don't play nicely with Mic Drop. This is a lim
 
 Certain audio devices don't allow macOS to control their mute state, which means that Mic Drop has no way to mute and unmute these devices. Instead, Mic Drop will just pretend the device isn't there. All other devices will be muted and unmuted as normal.
 
-Mic Drop will warn you if it detects an incompatible device. If you use an exotic audio interface (like an XLR-in USB input device), you can <DownloadLink source="compatibility-page">download a trial</DownloadLink> first to see how it works.
+Mic Drop will warn you if it detects an incompatible device. If you use an exotic audio interface (like an XLR-in USB input device), you can <DownloadLink>download a trial</DownloadLink> first to see how it works.
 
 ## A potential workaround
 
@@ -50,11 +50,11 @@ If you're comfortable messing around with your audio setup (and, if you're using
 - Schiit Audio Fulla 3
 - TASCAM US-2x2 Audio Device
 - Zoom H2N
+- Zoom H5
 
 The above isn't an _exhaustive_ list—there could be other USB microphones that we can't mute. We update this list as we encounter incompatible devices, so please [send us a message](mailto:micdrop@octopusthink.com) if you have a device not listed here that isn't working with Mic Drop.
 
-[^1]: The **Logitech HD C920 Pro webcam** has a driver issue unrelated to Mic Drop. If you mute your C920 webcam, then put your Mac to sleep or change microphones with the webcam still muted, it will stay muted until you unplug it and plug it back in. Unfortunately, we can't fix this issue as it's not caused by Mic Drop (it happens with any app that mutes the C920).
-
+[^1]: The **Logitech HD C920/C922 Pro webcams** have a driver issue unrelated to Mic Drop. If you mute your C920/C922 webcam, then put your Mac to sleep or change microphones with the webcam still muted, it will stay muted until you unplug it and plug it back in. Unfortunately, we can't fix this issue as it's not caused by Mic Drop (it happens with any app that mutes the C920/C922).
 [^2]: The **Logitech H800 headset** cannot be muted in USB mode, but it works fine in Bluetooth mode.
 
 </Panel>

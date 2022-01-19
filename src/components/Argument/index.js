@@ -1,6 +1,6 @@
 import { Heading, Paragraph, useTheme } from '@octopusthink/nautilus';
 import React from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 const Argument = (props) => {
   const theme = useTheme();

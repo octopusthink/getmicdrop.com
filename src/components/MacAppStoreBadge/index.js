@@ -1,15 +1,11 @@
 import { Link, useTheme } from '@octopusthink/nautilus';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React from 'react';
 
 import MacAppStoreBadgeSVG from 'src/images/mac-app-store-badge.svg';
-import { trackEvent } from '../../utils/eventTracking';
 
 const MacAppStoreBadge = () => {
   const theme = useTheme();
-  const trackMASLink = () => {
-    trackEvent('MacAppStore-Click', 'Header');
-  };
 
   return (
     <div
@@ -44,7 +40,6 @@ const MacAppStoreBadge = () => {
           }
         `}
         href="https://apps.apple.com/app/mic-drop/id1489816366"
-        onClick={trackMASLink}
       >
         <img
           src={MacAppStoreBadgeSVG}

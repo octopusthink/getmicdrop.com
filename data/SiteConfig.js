@@ -19,7 +19,7 @@ const config = {
     'Mic Drop makes meetings better. A tiny Mac app to help you quickly mute (and unmute!) your microphone using a customisable hotkey or menubar control.',
   // Path to the RSS file.
   siteRss: '/blog/rss.xml',
-  twitter: '@octopusthinks',
+  twitter: '@octopusthink',
   // Copyright string for the footer of the website and RSS feed.
   copyright: `Copyright ©${new Date().getFullYear()}, Octopus Think Ltd.`,
   defaultImage: '/images/og-image.jpg', // Fallback image used when sharing to social sites.
@@ -32,14 +32,6 @@ const config = {
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
   blogUrl: '/blog/',
   dateFormat: 'D MMMM YYYY',
-
-  matomoOptions: {
-    siteId: '6',
-    matomoUrl: 'https://analytics.octopusth.ink',
-    siteUrl: 'https://getmicdrop.com',
-    requireConsent: true,
-    dev: process.env.NODE_ENV !== 'production',
-  },
   // Replace this with a Nautilus Theme object.
   // See: https://nautilus.octopusthink.com
   nautilusTheme: null, // require('./theme'),

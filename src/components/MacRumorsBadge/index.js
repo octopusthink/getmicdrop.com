@@ -1,15 +1,11 @@
 import { Link, useTheme } from '@octopusthink/nautilus';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React from 'react';
 
 import MacRumorsBadgeSVG from 'src/images/macrumors-logo.svg';
-import { trackEvent } from '../../utils/eventTracking';
 
 const MacRumorsBadge = () => {
   const theme = useTheme();
-  const trackMacRumorsLink = () => {
-    trackEvent('MacRumors-Click', 'Header');
-  };
 
   return (
     <div
@@ -36,7 +32,6 @@ const MacRumorsBadge = () => {
           }
         `}
         href="https://www.macrumors.com/2020/06/02/five-mac-apps-june-2020/"
-        onClick={trackMacRumorsLink}
       >
         <img src={MacRumorsBadgeSVG} alt="Featured on MacRumors" />
       </Link>

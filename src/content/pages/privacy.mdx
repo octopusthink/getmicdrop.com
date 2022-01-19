@@ -6,8 +6,6 @@ canonical: 'https://getmicdrop.com/privacy'
 import { Link, Paragraph } from '@octopusthink/nautilus';
 
 import Panel from 'components/Panel';
-import ResetCookies from 'components/ResetCookies';
-import { trackEvent } from 'utils/eventTracking';
 
 <Panel>
 
@@ -23,30 +21,24 @@ Mic Drop doesn't record, save, or otherwise listen to what you're saying. It can
 
 ## Crash reports and usage statistics
 
-By default, we don't collect any data about your use of the app. But metrics help us better understand how people use the app, so if you agree to share usage & crash report data, here's what we'll collect:
+Analytics are completely optional and opt-in. We'll never sell your information to advertisers, third-parties, or that kid who was mean to you in first grade.
 
 - Anonymous usage statistics—stuff like how many times you press mute, whether you use the status window, and if you've changed the keyboard shortcut from the default.
 - The version number of Mic Drop you're using.
 - Crash logs and info about audio devices connected to your Mac.
 - The type of Mac you have and the version of macOS you're running.
 
-This data will never be shared or sold. It will only be used to make Mic Drop better. Usage data is uploaded to a server, but contains no personally identifiable information about you or your usage of Mic Drop.
+If you opt-in, this usage data is uploaded to a server, but contains no personally identifiable information about you or your usage of Mic Drop.
 
 ## Billing info
 
 <Paragraph>
-    We don't collect, store, or process your billing information and we don't have access to your credit card information. Payment is processed by <Link href="https://paddle.com/" external>Paddle</Link>. If you <Link href="https://apps.apple.com/app/mic-drop/id1489816366" onClick={() => {
-        trackEvent('MacAppStore-Click', 'Privacy-Policy');
-    }}>purchased Mic Drop via the Mac App Store</Link>, Apple processes your payment info.
+    We don't collect, store, or process your billing information and we don't have access to your credit card information. Payment is processed by <Link href="https://paddle.com/" external>Paddle</Link>. If you <Link href="https://apps.apple.com/app/mic-drop/id1489816366" external>purchased Mic Drop via the Mac App Store</Link>, Apple processes your payment info.
 </Paragraph>
 
 ## Cookies on this website
 
-If you consent, we use cookies on this website to track basic analytics and site usage—how long you stayed on the site, whether you downloaded a trial, and what pages you visited. All data is anonymised. We also use cookies in the checkout process.
-
-Analytics are completely optional and opt-in. We'll never sell your information to advertisers, third-parties, or that kid who was mean to you in first grade.
-
-<ResetCookies />
+We use cookies in the checkout process if you purchase Mic Drop from our website. We don't use cookies for analytics.
 
 ## Our stance on privacy
 
