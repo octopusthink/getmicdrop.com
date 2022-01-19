@@ -32,7 +32,7 @@ module.exports = {
         theme_color: `#ffffff`,
         display: `standalone`,
         icon: './src/images/favicon.png',
-        theme_color_in_head: false
+        theme_color_in_head: false,
       },
     },
     {
@@ -43,10 +43,6 @@ module.exports = {
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
-    {
-      resolve: 'gatsby-plugin-matomo',
-      options: config.matomoOptions,
-    },
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {

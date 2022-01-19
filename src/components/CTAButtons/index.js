@@ -15,7 +15,7 @@ const CTAButtons = (props) => {
   const openPaddle = (event) => {
     event.preventDefault();
 
-    trackEvent('Purchase-Started', source ? `Buy-Button-${source}` : 'Buy-Button');
+    trackEvent('Purchase Started', { source: source ? `Buy button (${source})` : 'Buy button' });
 
     if (!global.Paddle) {
       global.console.warn('Paddle global not available.');
@@ -25,10 +25,10 @@ const CTAButtons = (props) => {
     global.Paddle.Setup({ vendor: 104629 });
     global.Paddle.Checkout.open({
       closeCallback: () => {
-        trackEvent('Purchase-Cancelled', source ? `Buy-Button-${source}` : 'Buy-Button');
+        trackEvent('Purchase Cancelled', source ? `Buy button (${source})` : 'Buy button');
       },
       successCallback: () => {
-        trackEvent('Purchase-Complete', source ? `Buy-Button-${source}` : 'Buy-Button');
+        trackEvent('Purchase Complete', source ? `Buy button (${source})` : 'Buy button');
         setCoupon(undefined);
         global.localStorage.clear();
       },
@@ -38,7 +38,7 @@ const CTAButtons = (props) => {
   };
 
   const trackDownload = () => {
-    trackEvent('Download', source ? `Trial-Button-${source}` : 'Trial-Button');
+    trackEvent('Download');
   };
 
   return (

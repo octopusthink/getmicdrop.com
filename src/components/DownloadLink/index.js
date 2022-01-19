@@ -4,13 +4,13 @@ import React from 'react';
 import { downloadURL } from '../../utils/downloadURL';
 import { trackEvent } from '../../utils/eventTracking';
 
-const trackDownload = (source) => () => {
-  trackEvent('Download', source);
+const trackDownload = () => () => {
+  trackEvent('Download');
 };
 
-const DownloadLink = ({ children, source }) => {
+const DownloadLink = ({ children }) => {
   return (
-    <Link href={downloadURL} onClick={trackDownload(source)}>
+    <Link href={downloadURL} onClick={trackDownload}>
       {children}
     </Link>
   );
