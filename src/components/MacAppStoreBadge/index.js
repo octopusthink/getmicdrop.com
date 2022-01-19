@@ -1,5 +1,5 @@
 import { Link, useTheme } from '@octopusthink/nautilus';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React from 'react';
 
 import MacAppStoreBadgeSVG from 'src/images/mac-app-store-badge.svg';

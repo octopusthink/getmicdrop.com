@@ -1,4 +1,4 @@
-import { css, Global } from '@emotion/core';
+import { css, Global } from '@emotion/react';
 import { useTheme } from '@octopusthink/nautilus';
 import React, { useEffect } from 'react';
 import { CookiesProvider } from 'react-cookie';

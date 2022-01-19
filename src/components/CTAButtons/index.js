@@ -1,5 +1,5 @@
 import { Button } from '@octopusthink/nautilus';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { useQueryParam, StringParam } from 'use-query-params';
