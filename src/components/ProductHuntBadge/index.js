@@ -2,13 +2,8 @@ import { Link, useTheme } from '@octopusthink/nautilus';
 import { css } from '@emotion/react';
 import React from 'react';
 
-import { trackEvent } from '../../utils/eventTracking';
-
 const ProductHuntBadge = () => {
   const theme = useTheme();
-  const trackPHLink = () => {
-    trackEvent('ProductHunt-Click', 'Header');
-  };
 
   return (
     <div
@@ -35,7 +30,6 @@ const ProductHuntBadge = () => {
           }
         `}
         href="https://www.producthunt.com/posts/mic-drop?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mic-drop"
-        onClick={trackPHLink}
       >
         <img
           src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=204401&theme=dark"

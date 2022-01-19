@@ -8,10 +8,6 @@ import { trackEvent } from '../../utils/eventTracking';
 const HomepageCTA = () => {
   const theme = useTheme();
 
-  const trackMASLink = () => {
-    trackEvent('MacAppStore-Click', 'Header');
-  };
-
   return (
     <div
       css={css`
@@ -58,7 +54,6 @@ const HomepageCTA = () => {
             }
           `}
           href="https://apps.apple.com/app/mic-drop/id1489816366"
-          onClick={trackMASLink}
         >
           available on the Mac App Store
         </Link>

@@ -32,14 +32,6 @@ const config = {
     'AKA our blog, in which we talk about spooky ships and fast websites. It is quite the good time!',
   blogUrl: '/blog/',
   dateFormat: 'D MMMM YYYY',
-
-  matomoOptions: {
-    siteId: '6',
-    matomoUrl: 'https://analytics.octopusth.ink',
-    siteUrl: 'https://getmicdrop.com',
-    requireConsent: true,
-    dev: process.env.NODE_ENV !== 'production',
-  },
   // Replace this with a Nautilus Theme object.
   // See: https://nautilus.octopusthink.com
   nautilusTheme: null, // require('./theme'),
