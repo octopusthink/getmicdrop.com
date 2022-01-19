@@ -44,6 +44,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
     {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `getmicdrop.com`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         // Exclude specific pages or groups of pages using glob params

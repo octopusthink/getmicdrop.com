@@ -34,7 +34,7 @@ const NewsletterSignupForm = (props) => {
         `}
       >
         <TextField
-          autocomplete="email"
+          autoComplete="email"
           type="email"
           name="email"
           label="Email"

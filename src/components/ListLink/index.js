@@ -1,33 +1,32 @@
 import { Icon, Link, VisuallyHidden, interfaceUI, useTheme } from '@octopusthink/nautilus';
-import React, { useState } from 'react';
+import React from 'react';
 import { css } from '@emotion/react';
 
 const ListLink = (props) => {
   const { a, children, iconName, link, onClick } = props;
 
-  const [isCurrent, setIsCurrent] = useState();
   const theme = useTheme();
 
   return (
     <li
       css={css`
         ${!iconName &&
-          css`
-            ${interfaceUI.large(theme)};
-            color: ${theme.colors.text.inverse};
-            display: flex;
-            align-items: baseline;
+        css`
+          ${interfaceUI.large(theme)};
+          color: ${theme.colors.text.inverse};
+          display: flex;
+          align-items: baseline;
 
-            @media screen and (min-width: 641px) {
-              &:not(:last-of-type):after {
-                display: inline-block;
-                content: '·';
-                position: relative;
-                padding-left: 0.4rem;
-                padding-right: 0.4rem;
-              }
+          @media screen and (min-width: 641px) {
+            &:not(:last-of-type):after {
+              display: inline-block;
+              content: '·';
+              position: relative;
+              padding-left: 0.4rem;
+              padding-right: 0.4rem;
             }
-          `}
+          }
+        `}
       `}
     >
       <Link
@@ -70,7 +69,7 @@ const ListLink = (props) => {
             }
 
             ${iconName &&
-              css`
+            css`
                 outline: none;
 
                 .icon::before {
@@ -80,31 +79,8 @@ const ListLink = (props) => {
                     border: 0.2rem solid ${theme.colors.state.focusOutline};
               `}
           }
-
-          ${isCurrent &&
-            css`
-              color: ${theme.colors.text.inverseDark};
-            `}
         `}
-        getProps={(linkProps) => {
-          const { isCurrent: isCurrentRouterLink } = linkProps;
-          if (isCurrentRouterLink !== isCurrent) {
-            if (isCurrentRouterLink) {
-              setIsCurrent(true);
-            } else {
-              setIsCurrent(false);
-            }
-          }
-        }}
-        onClick={(event) => {
-          if (typeof onClick === 'function') {
-            onClick(event);
-          }
-
-          if (isCurrent) {
-            event.currentTarget.blur();
-          }
-        }}
+        onClick={onClick}
       >
         <span
           css={css`
