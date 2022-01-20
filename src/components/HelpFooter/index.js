@@ -28,7 +28,7 @@ const HelpFooter = (props) => {
       </Argument>
 
       {!index && (
-        <Button navigation minimal navigationDirection="backward" to="/help" noMargin>
+        <Button navigation minimal navigationDirection="backward" to="/help/" noMargin>
           Back to help
         </Button>
       )}
