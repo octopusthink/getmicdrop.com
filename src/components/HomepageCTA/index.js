@@ -72,7 +72,7 @@ const HomepageCTA = () => {
               box-shadow: none;
             }
           `}
-          to="/help"
+          to="/help/monterey-bluetooth"
         >
           our notes about Monterey & Bluetooth headphones
         </Link>

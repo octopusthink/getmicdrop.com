@@ -3,7 +3,7 @@ title: Compatibility
 component: HelpPage
 ---
 
-import { Icon } from '@octopusthink/nautilus'
+import { Link, Icon, VisuallyHidden } from '@octopusthink/nautilus'
 
 import DownloadLink from 'components/DownloadLink'
 import Panel from 'components/Panel'
@@ -13,7 +13,7 @@ import { downloadURL } from 'utils/downloadURL'
 
 Mic Drop works by muting your audio at the system level, meaning that it works with any app that uses your microphone. Some apps have their own quirks, so we've documented them here. 🙂
 
-**Using macOS Monterey?** There's a bug in macOS Monterey when using Bluetooth headphones. Any time a Bluetooth headset's mic is muted, the output is muted as well. We [reported this bug to Apple in August 2021](https://twitter.com/octopusthink/status/1431689504126078977), but it happens outside of Mic Drop so is up to Apple to fix. 😞
+**Using macOS Monterey?** There's a bug in macOS Monterey when using Bluetooth headphones. We [reported this bug to Apple in August 2021](https://twitter.com/octopusthink/status/1431689504126078977), but it happens outside of Mic Drop so is up to Apple to fix. In the meantime, we're [working on a solution](/roadmap).
 
 Any video conferencing app should work seamlessly with Mic Drop. We haven't tested them all (yet!), but the ones we've tested work perfectly:
 
@@ -43,6 +43,6 @@ If you enable a new Loopback device while Mic Drop is running, Mic Drop will res
 If you have an [unsupported audio device](/help/hardware-issues), you can use Loopback to create an aggregate device that Mic Drop can control. Some users have told us this combo works really well, so it's worth trying if you have an unsupported device. ✨
 
 [^1]: **Zoom** doesn't monitor the system's mute status, so its interfaces won't say that you're muted. Rest assured that muting works as expected! This isn't something we can control—it's up to them to respect the system-level mute status. Feel free to ignore it, or send them a feature request to let them know you'd appreciate a fix!
-[^2]: **Webex** monitors when your microphone is muted, but doesn't detect when you _unmute_ your microphone with Mic Drop (or any other app). If you're using the Webex Mac app, you will need to unmute yourself via Mic Drop and then via Webex. This is a bug with Webex, and we've contacted them to help fix it. In the meantime, you can use the web app, which works properly.
+[^2]: **Webex** monitors when your microphone is muted, but doesn't detect when you _unmute_ your microphone with Mic Drop (or any other app). If you're using the Webex Mac app, you will need to unmute yourself via Mic Drop and then via Webex. This is a bug with Webex, and we've contacted them to help fix it. In the meantime, you can use the web app, which works properly. (<Link to="/help/webex">More information<VisuallyHidden> about Webex</VisuallyHidden></Link>.)
 
 </Panel>

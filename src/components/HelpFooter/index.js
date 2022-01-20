@@ -4,8 +4,9 @@ import React from 'react';
 
 import Argument from 'components/Argument';
 
-const HelpFooter = () => {
+const HelpFooter = (props) => {
   const theme = useTheme();
+  const { index } = props;
 
   return (
     <footer
@@ -14,6 +15,10 @@ const HelpFooter = () => {
         margin: 0 auto;
         max-width: ${theme.site.maxContentWidth};
         text-align: center;
+        ${index &&
+        css`
+          padding-top: ${theme.site.desktopPadding};
+        `}
       `}
     >
       <Argument title="This doesn't answer my question!">
@@ -22,9 +27,11 @@ const HelpFooter = () => {
         get back to you as soon as we can.
       </Argument>
 
-      <Button navigation minimal navigationDirection="backward" to="/help" noMargin>
-        Back to help
-      </Button>
+      {!index && (
+        <Button navigation minimal navigationDirection="backward" to="/help/" noMargin>
+          Back to help
+        </Button>
+      )}
     </footer>
   );
 };

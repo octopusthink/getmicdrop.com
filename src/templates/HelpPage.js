@@ -33,7 +33,7 @@ export const Page = (props) => {
 };
 
 export const pageQuery = graphql`
-  query($id: String!) {
+  query ($id: String!) {
     page: mdx(id: { eq: $id }) {
       fields {
         canonical
