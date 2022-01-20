@@ -3,8 +3,7 @@ title: Monterey Bluetooth Bug
 component: HelpPage
 ---
 
-import Panel from 'components/Panel';
-
+import Panel from 'components/Panel'
 
 <Panel>
 
@@ -16,8 +15,11 @@ We detected the issue in August and [filed a bug report](https://twitter.com/oct
 
 If you’d like to write in to Apple, that may encourage them to fix the bug. You can [file a bug report](https://www.apple.com/feedback/macos.html) on their site.
 
-In the meantime, we're introducing a fix on our end to ensure that Mic Drop still works as intended, and you won't have to resort to using wired headphones like a caveman. Read on for more details!
+In the meantime, we're [working on our own fix for this issue](/roadmap) and should have one ready in January 2022.
 
+<!--
+
+In the meantime, we're introducing a fix on our end to ensure that Mic Drop still works as intended, and you won't have to resort to using wired headphones like a caveman. Read on for more details!
 
 ## How can I fix it?
 
@@ -28,6 +30,8 @@ When Mic Drop detects you're using a Bluetooth as your microphone, it looks for 
 When testing, we found this solution effective for most users, but if it doesn't work for you, you can disable this behaviour with this command in the Terminal app: `defaults write com.octopusthink.Mic-Drop useMontereyBluetoothFix -bool false`.
 
 Some apps may use a different microphone to your system settings, which means they'll collect audio from a microphone that isn't muted. We can't control or predict this, but we do try to prevent other apps from using the input of Bluetooth microphones by disabling other app's access to Bluetooth mics when Mic Drop is running.
+
+-->
 
 <!-- Here's some information about how to change your microphone settings in popular apps: -->
 
