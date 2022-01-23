@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "getmicdrop-com",
+    "site": "mic-drop-app",
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
