@@ -438,20 +438,5 @@
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MCwCFEMeecjPvb3RuoM7kRXjl5SstQ3DAhRPhRN29TVBUAK1dsdHXtk38Mpjbw=="/>
         </item>
-        <item>
-            <title>1.4.0</title>
-            <pubDate>Mon, 24 Jan 2022 18:16:42 +0000</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.4.0.zip" sparkle:version="1404" sparkle:shortVersionString="1.4.0" length="4766734" type="application/octet-stream" sparkle:edSignature="xIIeTH9J74ZunVIIcUL7VCKyoqLazbWHT3uoGcAZO+EQ1/vIKc6wIShZbaNOJ4ABT5w6/lOSOw63sY8wxmCVAw==" sparkle:dsaSignature="MCwCFFeoRc4gOFOE0io4OBVqdRezm7zkAhQNTMV6mcdSSCDrOqeH5U6J8p42kw=="/>
-            <description><![CDATA[
-<p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
-<ul>
-<li>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</li>
-<li>🐜 <strong>Fixed:</strong> The notorious Monterey Bluetooth bug! There's an especially hairy bug with macOS Monterey where muting a Bluetooth device also mutes your headphone audio. Apparently that's NOT what you want in the middle of an audio call. It doesn't look like this was going to be fixed by Apple soon, so we've figured out a workaround on our end.</li>
-</ul>
-<p>We're so excited about this release and we think it'll make your experience with Mic Drop a whole lot better. Let us know what you think on Twitter at <a href="https://twitter.com/octopusthink">@octopusthink</a></p>
-<p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
-]]></description>
-        </item>
     </channel>
 </rss>
