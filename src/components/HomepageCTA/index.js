@@ -57,7 +57,7 @@ const HomepageCTA = () => {
         >
           available on the Mac App Store
         </Link>
-        .<br /> See{' '}
+        .<br /> Works with{' '}
         <Link
           css={css`
             box-shadow: 0 2px ${theme.colors.neutral.grey200};
@@ -74,7 +74,7 @@ const HomepageCTA = () => {
           `}
           to="/help/monterey-bluetooth"
         >
-          our notes about Monterey & Bluetooth headphones
+          Monterey & Bluetooth headphones
         </Link>
         .
       </Paragraph>
