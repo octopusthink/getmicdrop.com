@@ -1,54 +1,49 @@
-<?xml version="1.0" standalone="yes"?><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-<channel>
-
-<title>Mic Drop</title>
-<item>
-<title>0.12.0</title>
-<pubDate>Thu, 02 Apr 2020 12:19:12 +0100</pubDate>
-<description><![CDATA[
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Mic Drop</title>
+        <item>
+            <title>0.12.0</title>
+            <pubDate>Thu, 02 Apr 2020 12:19:12 +0100</pubDate>
+            <description><![CDATA[
         <h1 id="beta-updates">Beta Updates</h1>
         <p>This is the first update and will be unused.</p>
-    ]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MC0CFBVPq3j6NztkgZx60kUxWl9vh8ZiAhUAlTpfF1BofnKXkIC83de5iNy6gKk="/>
-</item>
-<item>
-<title>0.12.1</title>
-<pubDate>Thu, 02 Apr 2020 12:28:48 +0100</pubDate>
-<description><![CDATA[
+    ]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.0.zip" sparkle:version="0.12.0" sparkle:shortVersionString="0.12.0" length="5105905" type="application/octet-stream" sparkle:dsaSignature="MCwCFFqFp1Gps4I6A7RamNVrR6jvS8EmAhRDbVSJEatXWRyKRB4Hm76bcTqg3A=="/>
+        </item>
+        <item>
+            <title>0.12.1</title>
+            <pubDate>Thu, 02 Apr 2020 12:28:48 +0100</pubDate>
+            <description><![CDATA[
         <h1 id="beta-updates">Beta Updates</h1>
         <p>This is largely a tweaked UI update and a beta update test.</p>
-    ]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MC0CFA+b5ezhMA3ynVuNPY2s/apVFldUAhUApwe/aYRagaRkuCukrcV8XGx13j4="/>
-</item>
-<item>
-<title>0.12.3</title>
-<pubDate>Fri, 03 Apr 2020 01:59:59 +0100</pubDate>
-<description><![CDATA[
+    ]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.1.zip" sparkle:version="0.12.1" sparkle:shortVersionString="0.12.1" length="5105926" type="application/octet-stream" sparkle:dsaSignature="MC0CFHSTs+SjbzEXmTm1eu0PGAv3/PceAhUAvRgapBD+SyB4lXnnLYc1qxTy7ZU="/>
+        </item>
+        <item>
+            <title>0.12.3</title>
+            <pubDate>Fri, 03 Apr 2020 01:59:59 +0100</pubDate>
+            <description><![CDATA[
     <p>We've added some links to our help pages to explain how keyboard shortcuts, macOS permissions, and the push-to-talk feature work.</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.3.zip" sparkle:version="324" sparkle:shortVersionString="0.12.3" length="5110282" type="application/octet-stream" sparkle:dsaSignature="MC0CFBgbt6XttfT3124EiR3zZAC52aCXAhUA1MDn4Q1j0ePVzEgQXI/pybdXOfw="/>
-</item>
-
-<item>
-<title>0.12.2</title>
-<pubDate>Fri, 03 Apr 2020 00:45:04 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.3.zip" sparkle:version="324" sparkle:shortVersionString="0.12.3" length="5110282" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDZhiRGnl2x8ouG/GNAZ+BE1IAczgIVAIolZ2vXpL7JU9UeEsb1nNZLUPAI"/>
+        </item>
+        <item>
+            <title>0.12.2</title>
+            <pubDate>Fri, 03 Apr 2020 00:45:04 +0100</pubDate>
+            <description><![CDATA[
     <p>Updated the default shortcut key to Command + Shift + M.</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.2.zip" sparkle:version="305" sparkle:shortVersionString="0.12.2" length="5106634" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCWPYIenrSOh7rMSNWim3NVyuDcxAIVAJBOS2AMIzWg7+xJDPiSh0G8aBGl"/>
-</item>
-<item>
-<title>0.13.0</title>
-<pubDate>Sat, 11 Apr 2020 21:48:14 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.12.2.zip" sparkle:version="305" sparkle:shortVersionString="0.12.2" length="5106634" type="application/octet-stream" sparkle:dsaSignature="MCwCFE+YGpIUDdQaDZKtv6MVp0tHR8VqAhRd+B+kyM2J4NzLn/eL9rAKCjcGkw=="/>
+        </item>
+        <item>
+            <title>0.13.0</title>
+            <pubDate>Sat, 11 Apr 2020 21:48:14 +0100</pubDate>
+            <description><![CDATA[
     <p><strong>Fixed</strong> a bug when unmuting in Zoom, Skype, and Microsoft Teams that would cause some users to have a very low microphone volume for a second or so after unmuting. If you unmuted yourself but others could barely hear you, chances are this was the issue. Fortunately: we’ve totally fixed it.</p>
 
     <p><strong>Fixed</strong> a really rare bug with the keyboard shortcut recorder that could cause the app to crash.</p>
@@ -56,15 +51,14 @@
     <p><strong>Updated</strong> the menu bar icon and our app icon.</p>
 
     <p><strong>Added</strong> a “Check for updates” action in the menu bar, for users who want to manually update Mic Drop (or accidentally dismissed an update notification and don't want to wait a day for the update check to run again).</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.0.zip" sparkle:version="540" sparkle:shortVersionString="0.13.0" length="5016494" type="application/octet-stream" sparkle:dsaSignature="MC0CFQC9u19ki5Ib6ykcYKXK/yRwV0mN2AIUEtEI7u6SxtYG9WPX7yvHAGSxpnA="/>
-</item>
-<item>
-<title>0.13.1</title>
-<pubDate>Sat, 11 Apr 2020 23:45:55 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.0.zip" sparkle:version="540" sparkle:shortVersionString="0.13.0" length="5016494" type="application/octet-stream" sparkle:dsaSignature="MC0CFHZz73Eongx2tnu/jcGANlVTTyNmAhUApyjI2uaUGE/woDmVnVgjcdSEd7o="/>
+        </item>
+        <item>
+            <title>0.13.1</title>
+            <pubDate>Sat, 11 Apr 2020 23:45:55 +0100</pubDate>
+            <description><![CDATA[
     <h2>0.13.1</h2>
     <p>Adjusted the microphone icon size in the menu bar and preferences drop-down.</p>
 
@@ -76,15 +70,14 @@
     <p><strong>Updated</strong> the menu bar icon and our app icon.</p>
 
     <p><strong>Added</strong> a “Check for updates” action in the menu bar, for users who want to manually update Mic Drop (or accidentally dismissed an update notification and don't want to wait a day for the update check to run again).</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.1.zip" sparkle:version="541" sparkle:shortVersionString="0.13.1" length="5019188" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDZVwrcjkVKPnoS3A/UDiJFj3DlpgIUddR20BAMUrCLG9/CughiJTtrIRI="/>
-</item>
-<item>
-<title>1.0.0</title>
-<pubDate>Wed, 15 Apr 2020 03:42:21 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%200.13.1.zip" sparkle:version="541" sparkle:shortVersionString="0.13.1" length="5019188" type="application/octet-stream" sparkle:dsaSignature="MCwCFBcicNPCR9aQhvb1tvObwBmk40nsAhRXgg3Zw/MPQniPSgAQ24LiP3d7QQ=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Wed, 15 Apr 2020 03:42:21 +0100</pubDate>
+            <description><![CDATA[
     <h2>Mic Drop is out of beta!</h2>
     <p>Thanks so much to all the beta testers who submitted feature requests, bug reports, and valuable feedback over the course of our beta period. We really appreciate it and we hope you like the final version of the app.</p>
 
@@ -93,15 +86,14 @@
     <p>We hope that, even in these wild times, at least your meetings are a bit calmer thanks to Mic Drop.</p>
 
     <p>❤️ and 🐙, from Sarah and Matt from <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.0.zip" sparkle:version="550" sparkle:shortVersionString="1.0.0" length="4023911" type="application/octet-stream" sparkle:dsaSignature="MC0CFF/XGCkEqgbquRooXNqSdebX04agAhUAvRwhEtvr+tC+g7h3mSvvFaWG7K4="/>
-</item>
-<item>
-<title>1.0.1</title>
-<pubDate>Sat, 02 May 2020 01:23:44 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.0.zip" sparkle:version="550" sparkle:shortVersionString="1.0.0" length="4023911" type="application/octet-stream" sparkle:dsaSignature="MCwCFFwCJ9EADXBrOh56inVpIGWNNpQKAhR5OonrYdjcjeM1uoZsauTr6QuvVw=="/>
+        </item>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 02 May 2020 01:23:44 +0100</pubDate>
+            <description><![CDATA[
     <p>We squashed a few annoying bugs.</p>
 
     <h3>Bug Fixes</h3>
@@ -114,15 +106,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. <a href="https://getmicdrop.com/">getmicdrop.com</a> is the website to share if you know anyone else spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt from <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.1.zip" sparkle:version="552" sparkle:shortVersionString="1.0.1" length="3989553" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDcopcs32kk9oJ/mPotEj8nc8uPTAIUSd4EHQU5llwcyl7K9Ro/KhPgeoM="/>
-</item>
-<item>
-<title>1.0.2</title>
-<pubDate>Sat, 02 May 2020 21:20:58 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.1.zip" sparkle:version="552" sparkle:shortVersionString="1.0.1" length="3989553" type="application/octet-stream" sparkle:dsaSignature="MC0CFHLfgORmJOAum4E+ip7IyI/i5/tkAhUAowVRBLAN4X9XApISX1sBDixoylo="/>
+        </item>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Sat, 02 May 2020 21:20:58 +0100</pubDate>
+            <description><![CDATA[
     <p>This release is mostly a few wee bugfixes:</p>
 
     <ul>
@@ -135,15 +126,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. <a href="https://getmicdrop.com/">getmicdrop.com</a> is the website to share if you know anyone else spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt from <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.2.zip" sparkle:version="553" sparkle:shortVersionString="1.0.2" length="3990080" type="application/octet-stream" sparkle:dsaSignature="MCwCFCQzsgubeAYJ4nP1WKV1I07bL+4YAhRysAuOzVA5rUq73IQ8VB7Rwei2uQ=="/>
-</item>
-<item>
-<title>1.0.3</title>
-<pubDate>Wed, 13 May 2020 01:25:30 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.2.zip" sparkle:version="553" sparkle:shortVersionString="1.0.2" length="3990080" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCXldI+E9PrASfQDy3XeK8cGVKWdAIUFkZ3sKBlw7O30Og1GuVo/08VcdM="/>
+        </item>
+        <item>
+            <title>1.0.3</title>
+            <pubDate>Wed, 13 May 2020 01:25:30 +0100</pubDate>
+            <description><![CDATA[
     <p>Just one fix in this release, but it's a good one!</p>
 
     <ul>
@@ -155,15 +145,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. <a href="https://getmicdrop.com/">getmicdrop.com</a> is the website to share if you know anyone else spending a lot of time in meetings. 🙂</p>
 
     <p>If you have any questions or feature requests, <a href="mailto:micdrop@octopusthink.com">send us an email</a> or tweet at <a href="https://twitter.com/octopusthink">@octopusthink</a>.</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.3.zip" sparkle:version="557" sparkle:shortVersionString="1.0.3" length="3947434" type="application/octet-stream" sparkle:dsaSignature="MCwCFF2mjTlHUnj9zudYO0ywvU2lC7YGAhQzeX9UMjjuOPkZdf7vu2Fc0rGu9Q=="/>
-</item>
-<item>
-<title>1.1.0</title>
-<pubDate>Sun, 31 May 2020 03:46:05 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.0.3.zip" sparkle:version="557" sparkle:shortVersionString="1.0.3" length="3947434" type="application/octet-stream" sparkle:dsaSignature="MC0CFEIiIW3XQvP4Zr9VZKtYmW9eM2i/AhUAyPMwCDttchUOPTcseM2EspJuNA0="/>
+        </item>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Sun, 31 May 2020 03:46:05 +0100</pubDate>
+            <description><![CDATA[
     <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
@@ -175,15 +164,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.0.zip" sparkle:version="610" sparkle:shortVersionString="1.1.0" length="4029764" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCPCJhOVcl8mLPNityDtGhOi2iMUQIVAIZTCCRgX6ZRHtIuaYJWbdHDln+B"/>
-</item>
-<item>
-<title>1.1.1</title>
-<pubDate>Mon, 01 Jun 2020 17:39:41 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.0.zip" sparkle:version="610" sparkle:shortVersionString="1.1.0" length="4029764" type="application/octet-stream" sparkle:dsaSignature="MCwCFCbd2pghlp1blqAjE06TOwVs/81qAhQSzZJHUKGB8oFva8WqulsQUds9uQ=="/>
+        </item>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Mon, 01 Jun 2020 17:39:41 +0100</pubDate>
+            <description><![CDATA[
     <p>Oh hello there! We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
@@ -196,15 +184,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.1.zip" sparkle:version="620" sparkle:shortVersionString="1.1.1" length="4033082" type="application/octet-stream" sparkle:dsaSignature="MC0CFCyhOTXLjmbaK23f/5IhyoRA9BeQAhUAn9xsDUYconfNUJ1oNmxhvq/BDME="/>
-</item>
-<item>
-<title>1.1.2</title>
-<pubDate>Tue, 02 Jun 2020 15:35:18 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.1.zip" sparkle:version="620" sparkle:shortVersionString="1.1.1" length="4033082" type="application/octet-stream" sparkle:dsaSignature="MC4CFQC1v/8hfy+eoVTzPU+7fOu6VI7sLQIVAKC22dbFqyQp+Ci+qpaHjuXZAUhs"/>
+        </item>
+        <item>
+            <title>1.1.2</title>
+            <pubDate>Tue, 02 Jun 2020 15:35:18 +0100</pubDate>
+            <description><![CDATA[
     <p>We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
@@ -218,15 +205,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.2.zip" sparkle:version="1120" sparkle:shortVersionString="1.1.2" length="3989217" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDWhQhc7SZHRn0macIUBuclF4Ub2AIUZqD7F5qwVsOMs4gsiUY8I8TG1uM="/>
-</item>
-<item>
-<title>1.1.3</title>
-<pubDate>Wed, 03 Jun 2020 13:08:50 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.2.zip" sparkle:version="1120" sparkle:shortVersionString="1.1.2" length="3989217" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCRBcmD0p2Ec2lQ3GFGuquqpcd04AIVAKhSbv+YiFWOX+SkWwQNoiiVqSha"/>
+        </item>
+        <item>
+            <title>1.1.3</title>
+            <pubDate>Wed, 03 Jun 2020 13:08:50 +0100</pubDate>
+            <description><![CDATA[
     <p>We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
@@ -242,15 +228,14 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.3.zip" sparkle:version="1130" sparkle:shortVersionString="1.1.3" length="3993485" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCuOD0Xvsx0tUvQSmfBud3H1LsQxAIUVFFh3wBDCeu0zwkpu1N3Pm2MMhI="/>
-</item>
-<item>
-<title>1.1.4</title>
-<pubDate>Wed, 03 Jun 2020 18:22:03 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.3.zip" sparkle:version="1130" sparkle:shortVersionString="1.1.3" length="3993485" type="application/octet-stream" sparkle:dsaSignature="MCwCFDm8pumunzaOWcMxINCRR8AeyUSIAhROwnpPnizlxwnZ69rV8O27PjGUCQ=="/>
+        </item>
+        <item>
+            <title>1.1.4</title>
+            <pubDate>Wed, 03 Jun 2020 18:22:03 +0100</pubDate>
+            <description><![CDATA[
     <p>We added a new feature to Mic Drop: a floating, draggable status window. (Special thanks to Enrique for the idea &amp; feedback!)</p>
 
     <ul>
@@ -267,43 +252,40 @@
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.4.zip" sparkle:version="1140" sparkle:shortVersionString="1.1.4" length="3993077" type="application/octet-stream" sparkle:dsaSignature="MCwCFC5ZEL6lP7O9ZN+yLL+eu+f5iIf3AhRZl4/jKe5b7x09LsdAc0IY54RgdA=="/>
-</item>
-<item>
-<title>1.1.5</title>
-<pubDate>Sun, 14 Jun 2020 21:51:07 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.4.zip" sparkle:version="1140" sparkle:shortVersionString="1.1.4" length="3993077" type="application/octet-stream" sparkle:dsaSignature="MCwCFDHAdyvY+yYqsz19XNo3HnCUr9JzAhQkx7Qv7vQzirJN/7OPQdfWbO5wqw=="/>
+        </item>
+        <item>
+            <title>1.1.5</title>
+            <pubDate>Sun, 14 Jun 2020 21:51:07 +0100</pubDate>
+            <description><![CDATA[
     <p>This release fixes a bug with macOS spaces: the status window and preferences window now appear in <em>all</em> spaces, so if you noticed the status window disappearing on you when you changed spaces (or never appearing), this release fixes that bug!</p>
 
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.5.zip" sparkle:version="1150" sparkle:shortVersionString="1.1.5" length="3995343" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDbBsgNg/DLE6ajs5NR6N1LSREi4wIUSe3nZiCO4av5nunoddIcnOSrRi4="/>
-</item>
-<item>
-<title>1.1.6</title>
-<pubDate>Mon, 03 Aug 2020 14:25:38 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.5.zip" sparkle:version="1150" sparkle:shortVersionString="1.1.5" length="3995343" type="application/octet-stream" sparkle:dsaSignature="MC0CFHP+a1H39mu+Dprmp7G1Aujj47tKAhUA0H/URnQ6RCbhUAEK24ZXIjF0nwI="/>
+        </item>
+        <item>
+            <title>1.1.6</title>
+            <pubDate>Mon, 03 Aug 2020 14:25:38 +0100</pubDate>
+            <description><![CDATA[
     <p>This release fixes a bug with Loopback audio devices. If you were experiencing crashes or hangs with Loopback, this should now be fixed. You'll see a warning the first time a new Loopback device is detected, but after that Mic Drop will automatically, quickly restart to make sure Loopback devices are properly supported.</p>
 
     <p>We hope Mic Drop is making your meetings better, and we'd love it if you shared Mic Drop with your friends or coworkers. Send them to <a href="https://getmicdrop.com/">getmicdrop.com</a> if they're spending a lot of time in meetings. 🙂</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.6.zip" sparkle:version="1160" sparkle:shortVersionString="1.1.6" length="3998462" type="application/octet-stream" sparkle:dsaSignature="MCwCFDzhQqvi5CQ2ZSZGTLwLo6IoWBHPAhRwXSMMZEUQs+NF6hiwq2GyvQhUpQ=="/>
-</item>
-<item>
-<title>1.2.0</title>
-<pubDate>Sun, 25 Oct 2020 17:56:13 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.1.6.zip" sparkle:version="1160" sparkle:shortVersionString="1.1.6" length="3998462" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCXcRoGvUTq7UyEr69VKTLgIRUDsQIUO45aqmdH0HKxb//IIkjzDNIX+yQ="/>
+        </item>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Sun, 25 Oct 2020 17:56:13 +0000</pubDate>
+            <description><![CDATA[
     <p>We updated the status window with some snazzy new features:</p>
 
     <ul>
@@ -313,29 +295,27 @@
     </ul>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.2.0.zip" sparkle:version="1200" sparkle:shortVersionString="1.2.0" length="3871445" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCFjI9doSxxr8JDQE/hoi83044aUAIVAIwrMRKjteull0EIZxCAs0aTtyr6"/>
-</item>
-<item>
-<title>1.2.1</title>
-<pubDate>Wed, 28 Oct 2020 10:52:53 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.2.0.zip" sparkle:version="1200" sparkle:shortVersionString="1.2.0" length="3871445" type="application/octet-stream" sparkle:dsaSignature="MCwCFBy0hM+Go4um9g6fyOMsJcD4Ex8qAhQ11wCJ5JBCSqsABKjgcEVJrnYxOA=="/>
+        </item>
+        <item>
+            <title>1.2.1</title>
+            <pubDate>Wed, 28 Oct 2020 10:52:53 +0000</pubDate>
+            <description><![CDATA[
     <p>You can now resize the status window to be even smaller, so only the microphone icon appears.</p>
 
     <p>We also fixed a bug that could cause your mic to stay muted/unmuted when switching between user accounts.</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.2.1.zip" sparkle:version="1210" sparkle:shortVersionString="1.2.1" length="3872001" type="application/octet-stream" sparkle:dsaSignature="MC0CFDDTQVaytwyWhG9aKqKft8aJMw5lAhUAte1cRmWNayJSblDY255srTJMDcs="/>
-</item>
-<item>
-<title>1.3.0</title>
-<pubDate>Thu, 03 Dec 2020 00:11:08 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.2.1.zip" sparkle:version="1210" sparkle:shortVersionString="1.2.1" length="3872001" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCfdAHlkwMZkNn9zv9HxLXTDAjqlwIUYQOREKp+bFVPCTw15hTHOtCANz0="/>
+        </item>
+        <item>
+            <title>1.3.0</title>
+            <pubDate>Thu, 03 Dec 2020 00:11:08 +0000</pubDate>
+            <description><![CDATA[
     <h2>Big Sur and Apple Silicon Update</h2>
 
     <p>Mic Drop has a new icon for Big Sur and we're all set for Apple Silicon!</p>
@@ -347,15 +327,14 @@
     <p>(Mic Drop still works fine with macOS 10.15 Catalina, if you haven't yet upgraded!)</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.0.zip" sparkle:version="1300" sparkle:shortVersionString="1.3.0" length="5203927" type="application/octet-stream" sparkle:dsaSignature="MC0CFDcMEJgVlDj2DPnYP3hBr39nSDyXAhUA3Jpnelu+eyeRVstNcZRM+ygo/Ps="/>
-</item>
-<item>
-<title>1.3.1</title>
-<pubDate>Thu, 03 Dec 2020 23:36:04 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.0.zip" sparkle:version="1300" sparkle:shortVersionString="1.3.0" length="5203927" type="application/octet-stream" sparkle:dsaSignature="MCwCFDxt9Ee4T/rPdN80cAXteTWQXv7cAhQ/kVPok7oo778QJ3iTpEGsG42Ktw=="/>
+        </item>
+        <item>
+            <title>1.3.1</title>
+            <pubDate>Thu, 03 Dec 2020 23:36:04 +0000</pubDate>
+            <description><![CDATA[
     <h2>Big Sur and Apple Silicon Update</h2>
 
     <p>Mic Drop has a new icon for Big Sur and we're all set for Apple Silicon!</p>
@@ -367,15 +346,14 @@
     <p>(Mic Drop still works fine with macOS 10.15 Catalina, if you haven't yet upgraded!)</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.1.zip" sparkle:version="1301" sparkle:shortVersionString="1.3.1" length="5204538" type="application/octet-stream" sparkle:dsaSignature="MCwCFAMNgKiTQdEd16S7ill7kBckYH3nAhQkgjeUXbAxy4BBq2QS8R197nMovw=="/>
-</item>
-<item>
-<title>1.3.2</title>
-<pubDate>Fri, 04 Dec 2020 17:17:25 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.1.zip" sparkle:version="1301" sparkle:shortVersionString="1.3.1" length="5204538" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCtWP/b0GQOdSCSAcy5/c1pYPmLiQIUWQdxeYHHDmQyTVvaH18pvAc0Bmg="/>
+        </item>
+        <item>
+            <title>1.3.2</title>
+            <pubDate>Fri, 04 Dec 2020 17:17:25 +0000</pubDate>
+            <description><![CDATA[
     <h2>Big Sur and Apple Silicon Update</h2>
 
     <p>Mic Drop has a new icon for Big Sur and we're all set for Apple Silicon!</p>
@@ -389,15 +367,14 @@
     <p>(Mic Drop still works fine with macOS 10.15 Catalina, if you haven't yet upgraded!)</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.2.zip" sparkle:version="1302" sparkle:shortVersionString="1.3.2" length="5204554" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCGPvzkUlGCZXXqm473gRYqjyiipgIUDLS+e9lPYSBgQfqtKn+SZ0xTvWw="/>
-</item>
-<item>
-<title>1.3.3</title>
-<pubDate>Fri, 04 Dec 2020 18:27:05 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.2.zip" sparkle:version="1302" sparkle:shortVersionString="1.3.2" length="5204554" type="application/octet-stream" sparkle:dsaSignature="MC0CFFSSzxC9dzzD+D1oBjxdC1T26F+8AhUAh1bAnz3jpdMKDrfKc4ORPxfGhoU="/>
+        </item>
+        <item>
+            <title>1.3.3</title>
+            <pubDate>Fri, 04 Dec 2020 18:27:05 +0000</pubDate>
+            <description><![CDATA[
     <h2>Big Sur and Apple Silicon Update</h2>
 
     <p>Mic Drop has a new icon for Big Sur and we're all set for Apple Silicon!</p>
@@ -411,15 +388,14 @@
     <p>(Mic Drop still works fine with macOS 10.15 Catalina, if you haven't yet upgraded!)</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.3.zip" sparkle:version="1303" sparkle:shortVersionString="1.3.3" length="5202558" type="application/octet-stream" sparkle:dsaSignature="MC4CFQC3d1sV4uVHP2HusYlYbJdt7NvlYQIVALPa2DcFVeez40QwpW/X9MOcirOH"/>
-</item>
-<item>
-<title>1.3.4</title>
-<pubDate>Sun, 06 Dec 2020 14:39:16 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.3.zip" sparkle:version="1303" sparkle:shortVersionString="1.3.3" length="5202558" type="application/octet-stream" sparkle:dsaSignature="MC0CFCRE89+vMG0zcJZICW2QMdK5+lq5AhUAx4J7rQj/JniR0QutKtGP8k9kxFk="/>
+        </item>
+        <item>
+            <title>1.3.4</title>
+            <pubDate>Sun, 06 Dec 2020 14:39:16 +0000</pubDate>
+            <description><![CDATA[
     <h2>Big Sur and Apple Silicon Update</h2>
 
     <p>Mic Drop has a new icon for Big Sur and we're all set for Apple Silicon!</p>
@@ -433,53 +409,49 @@
     <p>(Mic Drop still works fine with macOS 10.15 Catalina, if you haven't yet upgraded!)</p>
 
     <p>❤️ and 🐙, from Sarah and Matt at <a href="https://octopusthink.com/">Octopus Think</a></p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.4.zip" sparkle:version="1304" sparkle:shortVersionString="1.3.4" length="5204442" type="application/octet-stream" sparkle:dsaSignature="MCwCFFZbEeQ8RVdQMtSaEtCli/OWamJsAhQ1Oey7u9/ZGCIchtKT8qgth/94Rg=="/>
-</item>
-<item>
-<title>1.3.5</title>
-<pubDate>Wed, 06 Jan 2021 12:18:53 +0000</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.4.zip" sparkle:version="1304" sparkle:shortVersionString="1.3.4" length="5204442" type="application/octet-stream" sparkle:dsaSignature="MCwCFDJ+NlGeuFM6WI9uCagUWAPM2PAGAhR1Zw/JfKVlYKqWtkM+iRB66wr6/g=="/>
+        </item>
+        <item>
+            <title>1.3.5</title>
+            <pubDate>Wed, 06 Jan 2021 12:18:53 +0000</pubDate>
+            <description><![CDATA[
     <p>Some accessibility fixes for VoiceOver users:</p>
 
     <ul>
         <li>Improved support for VoiceOver by improving the text in the menubar item.</li>
         <li>Fixed a bug that caused a crash when activating Mic Drop's menubar item using VoiceOver.</li>
     </ul>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.5.zip" sparkle:version="1305" sparkle:shortVersionString="1.3.5" length="5207206" type="application/octet-stream" sparkle:dsaSignature="MCwCFGutmOE8xGNXZq6qkCM4KV3gW6LSAhQ0PVW0B4Ho4NVuLPoPlO5Ya7jtdA=="/>
-<sparkle:deltas>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1305-1304.delta" sparkle:version="1305" sparkle:shortVersionString="1.3.5" sparkle:deltaFrom="1304" length="248941" type="application/octet-stream" sparkle:dsaSignature="MC0CFCpkpCx1PjQnBB6rGcCsLnyvptxqAhUA1sV8hz351kPZ1crse1t3X59fhmA="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1305-1303.delta" sparkle:version="1305" sparkle:shortVersionString="1.3.5" sparkle:deltaFrom="1303" length="257994" type="application/octet-stream" sparkle:dsaSignature="MC0CFEbHjeg+kvoGwF18dz05RYt/NmbFAhUAhFKMHWahfVZIS67dY9tkA63qe+8="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1305-1300.delta" sparkle:version="1305" sparkle:shortVersionString="1.3.5" sparkle:deltaFrom="1300" length="262424" type="application/octet-stream" sparkle:dsaSignature="MCwCFEndVKF5yWnOj4fqcQHoSDlVUteGAhQPUi27EbXUkhYpSUr7XmmgKX4SBA=="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1305-1302.delta" sparkle:version="1305" sparkle:shortVersionString="1.3.5" sparkle:deltaFrom="1302" length="255899" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDBRJJOGT997onidderCkI90RW6GwIVANG9IlTYB3nefrefCwOz5Jn1iKib"/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1305-1301.delta" sparkle:version="1305" sparkle:shortVersionString="1.3.5" sparkle:deltaFrom="1301" length="259899" type="application/octet-stream" sparkle:dsaSignature="MC4CFQC8ddybdSVSM53XBfs2b/+dTEESYQIVAI3r7tD92zX4P8thiNx7uLAOUaKv"/></sparkle:deltas>
-</item>
-<item>
-<title>1.3.6</title>
-<pubDate>Sat, 28 Aug 2021 19:57:23 +0100</pubDate>
-<description><![CDATA[
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.5.zip" sparkle:version="1305" sparkle:shortVersionString="1.3.5" length="5207206" type="application/octet-stream" sparkle:dsaSignature="MCwCFADwmm5yV/P7Ki8Bfz1776rcFSy0AhQjVu8GgfeQvulpdYLWx2f4l2vy1Q=="/>
+        </item>
+        <item>
+            <title>1.3.6</title>
+            <pubDate>Sat, 28 Aug 2021 19:57:23 +0100</pubDate>
+            <description><![CDATA[
     <p>This release includes some under-the-hood improvements to make Mic Drop consume fewer resources and includes some UI fixes for users of macOS 12 Monterey.</p>
 
     <p>We also fixed a rare crash that could happen after you activated your Mic Drop license. If you encountered that: we're very sorry and it should now be fixed!</p>
-]]>
-</description>
-<sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MC0CFCS/eKnvU12wgmjXWclaSSCpO8GlAhUAzFmdbJroPnrxIbySzRKRUlyOBUE="/>
-<sparkle:deltas>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1306-1305.delta" sparkle:version="1306" sparkle:shortVersionString="1.3.6" sparkle:deltaFrom="1305" length="1450635" type="application/octet-stream" sparkle:dsaSignature="MC4CFQC0zPJu0lcXZ3aSCo9crxGZpM3AuQIVANoqPQ3bD6D7o8wsoTaO+FVH++QA"/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1306-1304.delta" sparkle:version="1306" sparkle:shortVersionString="1.3.6" sparkle:deltaFrom="1304" length="1467481" type="application/octet-stream" sparkle:dsaSignature="MCwCFGBiVL61zMLW3RkmnMDCayfxooaHAhREUfu4F5EkBY/22qoeuwN1nsfdzQ=="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1306-1303.delta" sparkle:version="1306" sparkle:shortVersionString="1.3.6" sparkle:deltaFrom="1303" length="1474798" type="application/octet-stream" sparkle:dsaSignature="MCwCFGZ8MW/rcRCLbqSLIbBml37xinc/AhQXRo2c1CLlMlxh7WuEPhOzq/frcQ=="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1306-1302.delta" sparkle:version="1306" sparkle:shortVersionString="1.3.6" sparkle:deltaFrom="1302" length="1472903" type="application/octet-stream" sparkle:dsaSignature="MC0CFEMdnKhllw/EJBWCQyGDuH+sg9M3AhUAjzcIkCf6atoBoZpLuCMQI36a7jI="/>
-<enclosure url="https://getmicdrop.com/downloads/Mic%20Drop1306-1301.delta" sparkle:version="1306" sparkle:shortVersionString="1.3.6" sparkle:deltaFrom="1301" length="1473602" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCNu5SLQwiW5G441U0/TjAE7uhxOQIVAJc7/4rDgTyDT2XvRORYiviI0bJY"/></sparkle:deltas>
-</item>
-
-
-
-
-
-</channel></rss>
+]]></description>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MCwCFEMeecjPvb3RuoM7kRXjl5SstQ3DAhRPhRN29TVBUAK1dsdHXtk38Mpjbw=="/>
+        </item>
+        <item>
+            <title>1.4.0</title>
+            <pubDate>Mon, 24 Jan 2022 18:16:42 +0000</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.4.0.zip" sparkle:version="1404" sparkle:shortVersionString="1.4.0" length="4766734" type="application/octet-stream" sparkle:edSignature="xIIeTH9J74ZunVIIcUL7VCKyoqLazbWHT3uoGcAZO+EQ1/vIKc6wIShZbaNOJ4ABT5w6/lOSOw63sY8wxmCVAw==" sparkle:dsaSignature="MCwCFFeoRc4gOFOE0io4OBVqdRezm7zkAhQNTMV6mcdSSCDrOqeH5U6J8p42kw=="/>
+            <description><![CDATA[
+<p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
+<ul>
+<li>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</li>
+<li>🐜 <strong>Fixed:</strong> The notorious Monterey Bluetooth bug! There's an especially hairy bug with macOS Monterey where muting a Bluetooth device also mutes your headphone audio. Apparently that's NOT what you want in the middle of an audio call. It doesn't look like this was going to be fixed by Apple soon, so we've figured out a workaround on our end.</li>
+</ul>
+<p>We're so excited about this release and we think it'll make your experience with Mic Drop a whole lot better. Let us know what you think on Twitter at <a href="https://twitter.com/octopusthink">@octopusthink</a></p>
+<p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
+]]></description>
+        </item>
+    </channel>
+</rss>

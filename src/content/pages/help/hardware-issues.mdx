@@ -4,8 +4,8 @@ component: HelpPage
 ---
 
 import { Icon } from '@octopusthink/nautilus'
-
 import DownloadLink from 'components/DownloadLink'
+import Image from 'components/Image'
 import Panel from 'components/Panel'
 import { downloadURL } from 'utils/downloadURL'
 
@@ -53,6 +53,25 @@ If you're comfortable messing around with your audio setup (and, if you're using
 - Zoom H5
 
 The above isn't an _exhaustive_ list—there could be other USB microphones that we can't mute. We update this list as we encounter incompatible devices, so please [send us a message](mailto:micdrop@octopusthink.com) if you have a device not listed here that isn't working with Mic Drop.
+
+## Why am I seeing a "Mute error" notification?
+
+<div>
+  <Image
+    alt="Mute error notification (microphone icon with exclamation mark)"
+    src="images/mute-error-notification.png"
+    css={css`
+      margin: 0 auto 2.4rem;
+      max-width: 16rem;
+    `}
+  />
+</div>
+
+If you're seeing this message, it means that Mic Drop can't mute any of the audio devices on your Mac. This only happens if you're using Bluetooth headphones or an incompatible audio device with a Mac that doesn't have a built-in microphone, like the Mac Mini or Mac Pro.
+
+Unfortunately, due to a [bug with Monterey](/help/hardware-issues), Bluetooth headphones can't be reliably muted on a system level. This is a known issue that affects all apps and all Bluetooth devices. We're hoping that Apple fixes this issue soon.
+
+Unfortunately this means that, for the time being, the only solution is to purchase a compatible wired microphone. Alternatively, if you have a USB device that isn't compatible, you can try [using Loopback to create a virtual audio device](/help/using-loopback).
 
 [^1]: The **Logitech HD C920/C922 Pro webcams** have a driver issue unrelated to Mic Drop. If you mute your C920/C922 webcam, then put your Mac to sleep or change microphones with the webcam still muted, it will stay muted until you unplug it and plug it back in. Unfortunately, we can't fix this issue as it's not caused by Mic Drop (it happens with any app that mutes the C920/C922).
 [^2]: The **Logitech H800 headset** cannot be muted in USB mode, but it works fine in Bluetooth mode.
