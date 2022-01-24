@@ -10,7 +10,7 @@ import Panel from 'components/Panel'
 
 macOS Monterey ships with a Bluetooth bug that causes all output to be muted whenever a Bluetooth device's microphone is muted.
 
-**We fixed this bug** in Mic Drop 1.4. If you just want your headphones to work again, download the <DownloadLink>latest version of Mic Drop</DownloadLink> and you're golden.
+**We fixed this bug** in Mic Drop 1.4. If you just want your headphones to work again, <DownloadLink>download the latest version of Mic Drop</DownloadLink> and you're golden.
 
 Keep reading for more on the bug and our hacktastic fix. 🤓
 
@@ -18,7 +18,7 @@ Keep reading for more on the bug and our hacktastic fix. 🤓
 
 This is a **bug in macOS Monterey.** Bluetooth input and output are (incorrectly) linked in Monterey so anytime your Bluetooth mic is muted, the audio will cut out. It happens with any app that mutes the mic, although it only impacts Bluetooth headphones.
 
-We detected the issue in August and filed a [bug report](https://twitter.com/octopusthink/status/1431689504126078977) with Apple. They haven't responded or resolved the issue, so it's unclear when or if it will be fixed.
+We detected the issue in August and filed a [bug report](https://twitter.com/octopusthink/status/1431689504126078977) with Apple. They haven't responded or resolved the issue, so it's not clear when it will be fixed.
 
 ## How can I fix it?
 
@@ -30,7 +30,7 @@ When Mic Drop detects you're using a Bluetooth mic as your microphone, it automa
 
 Whenever you mute using Mic Drop, we mute all inputs _except_ Bluetooth devices. This stops your Bluetooth headphones from being muted, but it also means you can't use the mic built in to your Bluetooth headphones.
 
-Fortunately, most Macs have a reliable built-in mic, so we've found this workaround tends to work well. Mic Drop will select the first non-Bluetooth mic it finds, but you can change the input in System Preferences > Input.
+Fortunately, most Macs have a reliable built-in mic, so this approach works well. Mic Drop will select the first non-Bluetooth mic it finds, but you can change the input in System Preferences > Input.
 
 <!--
 When testing, we found this solution effective for most users, but if it doesn't work for you, you can disable this behaviour with this command in the Terminal app: `defaults write com.octopusthink.Mic-Drop useBluetoothWorkaround -bool false`.
