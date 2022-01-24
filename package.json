@@ -6,6 +6,7 @@
   "license": "CC-BY-4.0",
   "scripts": {
     "build": "npm run clean:appcast && gatsby build",
+    "build:preview": "rimraf -rf 'static/downloads/Mic Drop*.zip' && npm run build",
     "build:pp": "gatsby build --prefix-paths",
     "build:gh": "npm run clean && npm run build && gh-pages -d public",
     "clean": "npm run clean:appcast && rm -rf public && rm -rf .cache",
