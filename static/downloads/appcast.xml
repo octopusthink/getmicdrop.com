@@ -11,13 +11,13 @@
     <p>We also fixed a rare crash that could happen after you activated your Mic Drop license. If you encountered that: we're very sorry and it should now be fixed!</p>
 ]]></description>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://downloads.getmicdrop.com/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MC0CFG41tsMqvBRH5BnWBKRFkmG75V4uAhUAsTd4Yu/O83/YLyBiHgvFf+np9mE="/>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MC0CFG41tsMqvBRH5BnWBKRFkmG75V4uAhUAsTd4Yu/O83/YLyBiHgvFf+np9mE="/>
         </item>
         <item>
             <title>1.4.1</title>
             <pubDate>Mon, 24 Jan 2022 19:57:14 +0000</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://downloads.getmicdrop.com/Mic%20Drop%201.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MC0CFBwKNaflIOPpJQn1y3AJvupKjHucAhUAr59ZJSPwUK/2hLcwyAFCIoBte3g="/>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MC0CFBwKNaflIOPpJQn1y3AJvupKjHucAhUAr59ZJSPwUK/2hLcwyAFCIoBte3g="/>
             <description><![CDATA[
 <p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
 <p>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</p>
