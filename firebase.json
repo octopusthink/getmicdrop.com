@@ -20,8 +20,8 @@
         "type": 302
       },
       {
-        "source": "/downloads/:file*",
-        "destination": "https://downloads.getmicdrop.com/:file*",
+        "source": "/downloads/:file*.zip",
+        "destination": "https://downloads.getmicdrop.com/:file*.zip",
         "type": 302
       }
     ],
