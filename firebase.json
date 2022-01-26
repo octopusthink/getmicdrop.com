@@ -16,7 +16,12 @@
       },
       {
         "source": "/downloads/latest.zip",
-        "destination": "/downloads/Mic%20Drop%201.4.1.zip",
+        "destination": "https://downloads.getmicdrop.com/Mic%20Drop%201.4.1.zip",
+        "type": 302
+      },
+      {
+        "source": "/downloads/:file*",
+        "destination": "https://downloads.getmicdrop.com/:file*",
         "type": 302
       }
     ],
