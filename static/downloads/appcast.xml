@@ -17,7 +17,7 @@
             <title>1.4.1</title>
             <pubDate>Mon, 24 Jan 2022 19:57:14 +0000</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MC0CFBwKNaflIOPpJQn1y3AJvupKjHucAhUAr59ZJSPwUK/2hLcwyAFCIoBte3g="/>
+            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.1/Mic.Drop.1.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MC0CFBwKNaflIOPpJQn1y3AJvupKjHucAhUAr59ZJSPwUK/2hLcwyAFCIoBte3g="/>
             <description><![CDATA[
 <p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
 <p>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</p>
