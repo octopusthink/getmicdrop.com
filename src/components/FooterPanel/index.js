@@ -37,7 +37,7 @@ const FooterPanel = () => {
             font-size: 1.4rem;
           `}
         >
-          30-day free trial & a no-questions-asked refund policy.
+          Works on Intel and M1 Macs, and even works with Bluetooth headphones in macOS Monterey.
         </Paragraph>
       </div>
 

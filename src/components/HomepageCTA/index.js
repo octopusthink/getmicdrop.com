@@ -37,27 +37,7 @@ const HomepageCTA = () => {
       <CTAButtons source="Header" />
 
       <Paragraph inverse small>
-        Also{' '}
-        <Link
-          as="a"
-          css={css`
-            box-shadow: 0 2px ${theme.colors.neutral.grey200};
-
-            &,
-            &:hover,
-            &:focus {
-              color: ${theme.colors.text.inverseLight};
-            }
-
-            &:hover {
-              box-shadow: none;
-            }
-          `}
-          href="https://apps.apple.com/app/mic-drop/id1489816366"
-        >
-          available on the Mac App Store
-        </Link>
-        .<br /> Works with{' '}
+        Works with{' '}
         <Link
           css={css`
             box-shadow: 0 2px ${theme.colors.neutral.grey200};

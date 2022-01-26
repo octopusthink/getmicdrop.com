@@ -39,7 +39,7 @@ const MacAppStoreBadge = () => {
             transform: scale(1.05);
           }
         `}
-        href="https://apps.apple.com/app/mic-drop/id1489816366"
+        href="/download-on-the-app-store"
       >
         <img
           src={MacAppStoreBadgeSVG}
