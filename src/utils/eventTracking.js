@@ -5,5 +5,5 @@ export const trackEvent = (eventName, eventProps) => {
     return;
   }
 
-  plausible(eventName, eventProps);
+  plausible(eventName, { props: eventProps });
 };
