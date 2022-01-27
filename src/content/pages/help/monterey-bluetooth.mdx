@@ -40,4 +40,10 @@ When testing, we found this solution effective for most users, but if it doesn't
 
 Some apps may try to use a different microphone to your system settings, which means they'll collect audio from a microphone that isn't muted. We can't control or predict this, but we do try to prevent other apps from using the input of Bluetooth microphones by disabling other app's access to Bluetooth mics when Mic Drop is running.
 
+## Built-in microphones and clamshell mode
+
+Recent MacBooks (since about 2018), including all M1 MacBooks, have a physical disconnect for the built-in microphone when the lid is closed. This is to prevent sleeping devices from listening to you, but it means you can't use the built-in microphone in clamshell mode.
+
+Because Mic Drop will use the built-in microphone instead of a Bluetooth microphone, this can cause issues when you're using clamshell mode and Bluetooth. We're working on a fix to ignore the built-in microphone when in chamshell mode, but for now: if you use clamshell mode please select another wired microphone (like the one built into your webcam) for your microphone audio to work.
+
 </Panel>
