@@ -32,6 +32,8 @@ Whenever you mute using Mic Drop, we mute all inputs _except_ Bluetooth devices.
 
 Fortunately, most Macs have a reliable built-in mic, so this approach works well. Mic Drop will select the first non-Bluetooth mic it finds, but you can change the input in System Preferences > Input.
 
+Matt wrote [a whole blog post on how we implemented our Monterey Bluetooth workaround](https://octopusthink.com/blog/2022-01-26-how-we-fixed-the-mic-on-macos-monterey).
+
 <!--
 When testing, we found this solution effective for most users, but if it doesn't work for you, you can disable this behaviour with this command in the Terminal app: `defaults write com.octopusthink.Mic-Drop useBluetoothWorkaround -bool false`.
 -->
