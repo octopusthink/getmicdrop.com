@@ -11,15 +11,29 @@
     <p>We also fixed a rare crash that could happen after you activated your Mic Drop license. If you encountered that: we're very sorry and it should now be fixed!</p>
 ]]></description>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MC0CFG41tsMqvBRH5BnWBKRFkmG75V4uAhUAsTd4Yu/O83/YLyBiHgvFf+np9mE="/>
+            <enclosure url="https://getmicdrop.com/downloads/Mic%20Drop%201.3.6.zip" sparkle:version="1306" sparkle:shortVersionString="1.3.6" length="4111295" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDcfcNUK+dMyvX7vE8MQDUj0qbbiwIVAK+00mhCaRNBAWM1Is5nZLSFHTcB"/>
         </item>
         <item>
             <title>1.4.1</title>
             <pubDate>Mon, 24 Jan 2022 19:57:14 +0000</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.1/Mic.Drop.1.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MC0CFBwKNaflIOPpJQn1y3AJvupKjHucAhUAr59ZJSPwUK/2hLcwyAFCIoBte3g="/>
+            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.1/Mic.Drop.1.4.1.zip" sparkle:version="1412" sparkle:shortVersionString="1.4.1" length="4767160" type="application/octet-stream" sparkle:edSignature="GezClo8oxVDtOIe+QDsfV8tBy9fUG5vlF2ky7TtxKvNrdlOh9M7ld3ArNO8efV5hsP+hhqXnrWnU/rWU0QceDA==" sparkle:dsaSignature="MCwCFEb/01vcRZOe2ITGU8BXODo8+8MRAhQ1TxkTtJ34JhsGFWAzbVgqxbQFFQ=="/>
             <description><![CDATA[
 <p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
+<p>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</p>
+<p>🐜 <strong>Fixed:</strong> The notorious Monterey Bluetooth bug! There's an especially hairy bug with macOS Monterey where muting a Bluetooth device also mutes your headphone audio. Apparently that's NOT what you want in the middle of an audio call. It doesn't look like this was going to be fixed by Apple soon, so we've figured out a workaround on our end.</p>
+<p>We're so excited about this release and we think it'll make your experience with Mic Drop a whole lot better. Let us know what you think on Twitter at <a href="https://twitter.com/octopusthink">@octopusthink</a></p>
+<p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
+]]></description>
+        </item>
+        <item>
+            <title>1.4.2</title>
+            <pubDate>Sun, 06 Feb 2022 22:34:21 +0000</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.2/Mic.Drop.1.4.2.zip" sparkle:version="1420" sparkle:shortVersionString="1.4.2" length="4786448" type="application/octet-stream" sparkle:edSignature="prsfTRWtE/P85kGs0O98+j6eJx/ejc4Bt1BowKNnSGVaz2I6GpWGrp7ODkTiUv956v2/h90Fjy3vzushiO5rDA==" sparkle:dsaSignature="MC0CFQDS73hYXoMgiyRFeqh5BHnQdi0AFgIURzwe4+3t7YHvTSIHpu0kAri7mXM="/>
+            <description><![CDATA[
+<p>You can use your Bluetooth headphones with Mic Drop again! 🎉 Also, visual notifications help you know when you're muted.</p>
+<p>This update fixes an issue with newer MacBooks running in clamshell mode when using Bluetooth headphones.</p>
 <p>✨ <strong>New:</strong> Visual notifications! Now it's easier to tell when you've toggled the mute. Notifications are off by default, but you can enable them in Preferences.</p>
 <p>🐜 <strong>Fixed:</strong> The notorious Monterey Bluetooth bug! There's an especially hairy bug with macOS Monterey where muting a Bluetooth device also mutes your headphone audio. Apparently that's NOT what you want in the middle of an audio call. It doesn't look like this was going to be fixed by Apple soon, so we've figured out a workaround on our end.</p>
 <p>We're so excited about this release and we think it'll make your experience with Mic Drop a whole lot better. Let us know what you think on Twitter at <a href="https://twitter.com/octopusthink">@octopusthink</a></p>
