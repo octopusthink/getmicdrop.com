@@ -74,6 +74,7 @@ module.exports = {
               maxWidth: 1280,
             },
           },
+          { resolve: 'gatsby-remark-autolink-headers' },
           { resolve: 'gatsby-remark-copy-linked-files' },
           { resolve: 'gatsby-remark-smartypants' },
         ],

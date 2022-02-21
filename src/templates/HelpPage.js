@@ -21,7 +21,7 @@ export const Page = (props) => {
   return (
     <App>
       <SEO canonical={canonical} title={title} description={description} pathname={slug} />
-      <PageWrapper>
+      <PageWrapper className="help">
         <PageHeader>{title}</PageHeader>
         <PageBody>
           <MDXRenderer>{body}</MDXRenderer>
