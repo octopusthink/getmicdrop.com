@@ -16,7 +16,7 @@ Keep reading for more on the bug and our hacktastic fix. 🤓
 
 ## Why does my audio mute when I mute my microphone on a Bluetooth device?
 
-This is a **bug in macOS Monterey.** Bluetooth input and output are (incorrectly) linked in Monterey so anytime your Bluetooth mic is muted, the audio will cut out. It happens with any app that mutes the mic, although it only impacts Bluetooth headphones.
+This is a **bug in macOS Monterey.** Bluetooth input and output are (incorrectly) linked in Monterey, so anytime your Bluetooth mic is muted, the audio will cut out. It happens with any app that mutes the mic, although it only impacts Bluetooth headphones.
 
 We detected the issue in August and filed a [bug report](https://twitter.com/octopusthink/status/1431689504126078977) with Apple. They haven't responded or resolved the issue, so it's not clear when it will be fixed.
 
@@ -46,6 +46,6 @@ Some apps may try to use a different microphone to your system settings, which m
 
 Recent MacBooks (since about 2018), including all M1 MacBooks, have a physical disconnect for the built-in microphone when the lid is closed. This is to prevent sleeping devices from listening to you, but it means you can't use the built-in microphone in clamshell mode.
 
-Because Mic Drop will use the built-in microphone instead of a Bluetooth microphone, this can cause issues when you're using clamshell mode and Bluetooth. We're working on a fix to ignore the built-in microphone when in chamshell mode, but for now: if you use clamshell mode please select another wired microphone (like the one built into your webcam) for your microphone audio to work.
+Mic Drop will ignore the built-in microphone in clamshell mode when using Bluetooth headphones, instead trying to use another mic (like the one built into your webcam). If no mutable microphones are available in clamshell mode, we'll let you know with a "Mute Error" notification.
 
 </Panel>
