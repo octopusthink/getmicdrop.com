@@ -8,35 +8,29 @@ import Panel from 'components/Panel'
 
 <Panel>
 
-macOS Monterey ships with a Bluetooth bug that causes all output to be muted whenever a Bluetooth device's microphone is muted.
+macOS Monterey 12.0-12.3 shipped with a Bluetooth bug that caused all output to be muted whenever a Bluetooth device's microphone is muted.
 
-**We fixed this bug** in Mic Drop 1.4. If you just want your headphones to work again, <DownloadLink>download the latest version of Mic Drop</DownloadLink> and you're golden.
+Apple fixed this bug in 12.4. We encourage all users to **upgrade to macOS Monterey 12.4** or newer you so you can use Bluetooth microphones with no issues.
 
-Keep reading for more on the bug and our hacktastic fix. 🤓
+If you are using macOS 12.0-12.3, Mic Drop will use a workaround that forces the Bluetooth microphone to be unused and will use your Mac's built-in microphone instead.
 
 ## Why does my audio mute when I mute my microphone on a Bluetooth device?
 
-This is a **bug in macOS Monterey.** Bluetooth input and output are (incorrectly) linked in Monterey, so anytime your Bluetooth mic is muted, the audio will cut out. It happens with any app that mutes the mic, although it only impacts Bluetooth headphones.
-
-We detected the issue in August and filed a [bug report](https://twitter.com/octopusthink/status/1431689504126078977) with Apple. They haven't responded or resolved the issue, so it's not clear when it will be fixed.
+This was a **bug in macOS Monterey until version 12.4.** Bluetooth input and output were (incorrectly) linked in these versions of Monterey, so anytime your Bluetooth mic was muted, the audio would cut out. It happened with any app that mutes the mic, although it only impacts Bluetooth headphones.
 
 ## How can I fix it?
 
-We fixed it **for you**! Update Mic Drop to the latest version and let us know how it works for you. Now you won't have to resort to using wired headphones like a caveman.
+The best way to fix it is to upgrade your Mac to macOS 12.4 or newer.
 
-## How does the fix work?
+## How does the workaround work?
 
-When Mic Drop detects you're using a Bluetooth mic as your microphone, it automatically **switches your Mac's microphone** to a non-Bluetooth mic. In many cases, this will be your Mac's built-in microphone or your webcam.
+If you're using macOS Monterey before version 12.4, when Mic Drop detects you're using a Bluetooth mic as your microphone, it automatically **switches your Mac's microphone** to a non-Bluetooth mic. In many cases, this will be your Mac's built-in microphone or your webcam.
 
 Whenever you mute using Mic Drop, we mute all inputs _except_ Bluetooth devices. This stops your Bluetooth headphones from being muted, but it also means you can't use the mic built in to your Bluetooth headphones.
 
 Fortunately, most Macs have a reliable built-in mic, so this approach works well. Mic Drop will select the first non-Bluetooth mic it finds, but you can change the input in System Preferences > Input.
 
 Matt wrote [a whole blog post on how we implemented our Monterey Bluetooth workaround](https://octopusthink.com/blog/2022-01-26-how-we-fixed-the-mic-on-macos-monterey).
-
-<!--
-When testing, we found this solution effective for most users, but if it doesn't work for you, you can disable this behaviour with this command in the Terminal app: `defaults write com.octopusthink.Mic-Drop useBluetoothWorkaround -bool false`.
--->
 
 ## Make sure other apps aren't using Bluetooth input
 
