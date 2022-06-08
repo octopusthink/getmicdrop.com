@@ -9,13 +9,17 @@
             <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.3/Mic.Drop.1.4.3.zip" sparkle:version="1430" sparkle:shortVersionString="1.4.3" length="4795326" type="application/octet-stream" sparkle:edSignature="5v3USJR1bRg48niSasVev/Xh7cFGQVqAM3h6CrXnn2LL2ERinGro+qHu0QfTeUIE+FUhC4BV8/7jj4N/qlFxCA==" sparkle:dsaSignature="MCwCFCKy2fTp5mfauZypjrq2dSWePUtdAhQxTR8YX5l7E5T436lnwLrz+Wt2Lg=="/>
         </item>
         <item>
-            <title>1.4.4</title>
-            <pubDate>Tue, 07 Jun 2022 19:08:19 +0100</pubDate>
+            <title>1.4.5</title>
+            <pubDate>Wed, 08 Jun 2022 01:15:55 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.4/Mic.Drop.1.4.4.zip" sparkle:version="1440" sparkle:shortVersionString="1.4.4" length="4795355" type="application/octet-stream" sparkle:edSignature="uAtdfZQd+NAoOxIazKZV12lc9asEnHjbw9A/BWtG7qtp8rE0d5NpL8IoSC+SlykeAnrlvk5XDxOGOuN0VLGQAA==" sparkle:dsaSignature="MC0CFFRCO0pbacr033KDHWVIqVKgPtqEAhUA3EjcPf0fROOnn6RTX6L4di6IQ3M="/>
+            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.5/Mic.Drop.1.4.5.zip" sparkle:version="1450" sparkle:shortVersionString="1.4.5" length="4795836" type="application/octet-stream" sparkle:edSignature="6G2O50vqhvWip99mfYO5ZK/QzBJAnB0fkPQ22OKQyjLfxoyqPbsLw9IyCu8RDx1k/ulQnpXDzOlx3HL+m4UDAg==" sparkle:dsaSignature="MCwCFGypjEjc8oqLX2KLBhog2TQkDvwhAhRqoJyvpDi4MoqeuxgXDPxdvTGleQ=="/>
             <description><![CDATA[
-<p><strong>macOS Monterey 12.4 Bluetooth compatibility.</strong> macOS Monterey 12.4 fixed the infamous Bluetooth bug, so this version of Mic Drop lets you use your AirPods and other Bluetooth microphones with Mic Drop again! Yay!</p>
-<p>Previous versions of Monterey will still use the Bluetooth workaround that uses your built-in microphone instead of Bluetooth mic.</p>
+<p><strong>We’ve improved Bluetooth support in macOS Monterey.</strong> macOS 12.4 fixed the infamous Bluetooth bug, so this version of Mic Drop lets you use your AirPods and other Bluetooth microphones with Mic Drop again. Yay!</p>
+
+<p>✨ <strong>New:</strong> Bluetooth mic support in Monterey 12.4. Thanks to Apple fixing the Montery Bluetooth bug in macOS 12.4, we’ve enabled Bluetooth mics without any workarounds if you’re running macOS 12.4 or newer. (Previous versions of Monterey will still use the Bluetooth workaround that uses your built-in microphone instead of Bluetooth mic.)</p>
+
+<p>🐜 <strong>Fixed:</strong> An issue with MS Teams and high CPU usage when muting the mic with Mic Drop.</p>
+
 <p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
 ]]></description>
         </item>
