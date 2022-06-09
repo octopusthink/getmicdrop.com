@@ -23,5 +23,22 @@
 <p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
 ]]></description>
         </item>
+        <item>
+            <title>1.4.6</title>
+            <pubDate>Thu, 09 Jun 2022 11:39:12 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.6/Mic.Drop.1.4.6.zip" sparkle:version="1460" sparkle:shortVersionString="1.4.6" length="4795762" type="application/octet-stream" sparkle:edSignature="TRkyDuSD9kxUDgeRtmS7/79Nvr21c5TBakqOe7eONrH8zbz+X4Y92AsuZbHwhrCioeAWMSlJxUIbdlei5U+/DQ==" sparkle:dsaSignature="MC0CFQCezQigyPNeCLy1VKub5dQ5m2yLdwIUXTt5Eojxk3/1CtRsBMnRP5g5wFs="/>
+            <description><![CDATA[
+<p><strong>We’ve improved Bluetooth support in macOS Monterey.</strong> macOS 12.4 fixed the infamous Bluetooth bug, so this version of Mic Drop lets you use your AirPods and other Bluetooth microphones with Mic Drop again. Yay!</p>
+
+<p>✨ <strong>New:</strong> Bluetooth mic support in Monterey 12.4. Thanks to Apple fixing the Montery Bluetooth bug in macOS 12.4, we’ve enabled Bluetooth mics without any workarounds if you’re running macOS 12.4 or newer. (Previous versions of Monterey will still use the Bluetooth workaround that uses your built-in microphone instead of Bluetooth mic.)</p>
+
+<p>🐜 <strong>Fixed:</strong> An issue with MS Teams and high CPU usage when muting the mic with Mic Drop.</p>
+
+<p>🐜 <strong>Fixed:</strong> An issue that could cause a Bluetooth device warning even when running on macOS 12.4.</p>
+
+<p>❤️ from your fishy friends at <a href="https://octopusthink.com/?source=macAppReleaseNotes">Octopus Think</a></p>
+]]></description>
+        </item>
     </channel>
 </rss>

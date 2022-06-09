@@ -16,7 +16,7 @@
       },
       {
         "source": "/downloads/latest.zip",
-        "destination": "https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.5/Mic.Drop.1.4.5.zip",
+        "destination": "https://github.com/octopusthink/getmicdrop.com/releases/download/v1.4.6/Mic.Drop.1.4.6.zip",
         "type": 302
       }
     ],
