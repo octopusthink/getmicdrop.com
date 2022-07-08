@@ -60,7 +60,7 @@
     "invariant": "^2.2.4",
     "lodash": "^4.17.21",
     "markdown-to-jsx": "^7.1.5",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "pluralize": "^8.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
