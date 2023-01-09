@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 
 import Image from 'components/Image';
 
-const TestimonialLink = ({ company, name, url }) => {
+const TestimonialLink = ({ company, name, twitter, url }) => {
   const theme = useTheme();
 
   if (!url) {
@@ -29,13 +29,13 @@ const TestimonialLink = ({ company, name, url }) => {
         }
       `}
     >
-      {company || name}
+      {twitter || company || name}
     </Link>
   );
 };
 
 const Testimonial = (props) => {
-  const { name, children, company, photo, title, url } = props;
+  const { name, children, company, photo, title, twitter, url } = props;
   const theme = useTheme();
 
   let attribution;
@@ -109,6 +109,8 @@ const Testimonial = (props) => {
               filter: grayscale(100%);
               margin-right: 0.8rem;
               width: 4.8rem;
+              height: 4.8rem;
+              border-radius: 50%;
             `}
           />
         )}

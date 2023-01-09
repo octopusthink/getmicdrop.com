@@ -20,12 +20,19 @@ const TestimonialCarousel = () => {
     return null;
   }
 
-  const { company, name, photo, quote, title, url } = testimonial;
+  const { company, name, photo, quote, title, twitter, url } = testimonial;
 
   return (
     <React.Fragment>
       <Panel dark>
-        <Testimonial name={name} photo={photo} title={title} company={company} url={url}>
+        <Testimonial
+          name={name}
+          photo={photo}
+          title={title}
+          company={company}
+          url={url}
+          twitter={twitter}
+        >
           <Markdown
             components={{
               // eslint-disable-next-line react/jsx-props-no-spreading
