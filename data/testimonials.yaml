@@ -4,3 +4,83 @@
   url: https://www.g2i.co
   quote: I interview people over Zoom on a daily basis and take notes on my computer while doing so. One of my pain points was having to click back and forth between applications to mute and unmute myself—I found it disrupted the flow of the interview and created some awkward pauses. Using Mic Drop has made this process so much smoother and now I use it every day!
   photo: src/images/christie.png
+
+- id: tnorthcutt
+  name: Travis Northcutt
+  twitter: tnorthcutt
+  url: https://twitter.com/tnorthcutt/status/1511374280705028096?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+  quote: |
+    Mic Drop ... is a fantastic piece of software (mac only) for easy mute/unmute. Crucially it has a menu bar icon to show mute status.
+
+    Highly, highly recommended if you do any kind of calls, podcasting, screencasting, etc.
+  photo: src/images/tnorthcutt.jpg
+
+- id: mattarderne
+  name: Matt Arderne
+  twitter: mattarderne
+  url:
+  quote: |
+    When my free trial of Mic Drop ended, I felt like I was suddenly missing something *very* important.
+
+    Instant Buy. Love this product. 
+
+    Best is muting and un-muting without stopping typing, across any/all apps.
+  photo: src/images/mattarderne.jpg
+
+- id: casarock
+  name: casarock@hessen.social
+  twitter: casarock
+  url: https://twitter.com/casarock/status/1346456416345862144?s=20
+  quote: Using Mic Drop by @octopusthinks for several weeks now and I love it! Mute/unmute your mic with a global shortcut is worth every penny it costs!
+  photo: src/images/casarock.jpg
+
+- id: henrik
+  name: henrik@ruby.social
+  twitter: henrik
+  url: https://twitter.com/henrik/status/1330130220930785282?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+  quote: |
+    I can really recommend a global mute/unmute if you use more than one conferencing/screen sharing app (we use Zoom, Tuple, sometimes Slack).
+
+    I've used Shush before, but it seems unmaintained. Mic Drop by @octopusthinks looks like an excellent replacement
+  photo: src/images/henrik.jpg
+
+- id: jezdez
+  name: Jannis Leidel
+  twitter: jezdez
+  url: https://twitter.com/jezdez/status/1293220450781339649?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+  quote: |
+    I'm really happy with @octopusthinks' Mic Drop app since it reliably mutes all apps I have and has a global hot key.
+  photo: src/images/jezdez.jpg
+
+- id: ketcomp
+  name: Gaurav Ketkar
+  twitter: ketcomp
+  url: https://twitter.com/ketcomp/status/1279184230703140865?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+  quote: Mic Drop has been surprisingly reliable & that alone makes it worth what it costs. It mutes/unmutes your mic no matter what app is highlighted and so far has worked flawlessly. The only issue is it requires modifier keys to set a shortcut. Shift + cmd etc..
+  photo: src/images/ketcomp.jpg
+
+- id: JSNoble
+  name: James Noble
+  twitter: JSNoble
+  url: https://twitter.com/JSNoble/status/1267965064343990273?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+  quote: Just grabbed Mic Drop from @octopusthinks—a universal mic mute app for my Mac. Brilliantly designed, easy to use!
+  photo: src/images/jsnoble.jpg
+
+- id: JSNoble2
+  name: James Noble
+  twitter: JSNoble
+  url: https://twitter.com/JSNoble/status/1534357574744944640
+  quote: |
+    Genuinely ❤️ Mic Drop
+
+    Super lightweight, menubar, system-level muting… and can be triggered by any key combo (I use double-tap option key).
+
+    Made by a small dev team, who are super responsive. I had a Teams CPU issue that they tracked and kept me updated about.
+  photo: src/images/jsnoble.jpg
+
+- id: rajat15
+  name: Rajar
+  twitter: rajat15
+  url: https://twitter.com/rajat15/status/1605866847492096002
+  quote: For headsets without a dedicated mute key/mechanism (such as the AirPods I use on my Mac), an app like Mic Drop is PHENOMENAL.
+  photo: src/images/rajat15.jpg

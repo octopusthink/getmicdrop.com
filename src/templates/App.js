@@ -42,6 +42,21 @@ export const App = (props) => {
           ol + h2,
           ol + h3 {
             padding-top: 3.2rem;
+
+            .anchor {
+              padding-top: 2.8rem;
+            }
+          }
+
+          .anchor {
+            display: none;
+          }
+
+          @media screen and (min-width: 720px) {
+            .help .anchor {
+              display: block;
+              padding-right: 0.8rem;
+            }
           }
 
           .roadmap li:before {

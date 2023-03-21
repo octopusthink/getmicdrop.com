@@ -1,8 +1,8 @@
 import React from 'react';
 
 const PageWrapper = (props) => {
-  const { children } = props;
-  return <article>{children}</article>;
+  const { children, className } = props;
+  return <article className={className}>{children}</article>;
 };
 
 export default PageWrapper;

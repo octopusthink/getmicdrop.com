@@ -45,7 +45,7 @@ const NewsletterSignupForm = (props) => {
           `}
         />
         <input type="hidden" value="1" name="embed" />
-        <input type="hidden" name="tag" value="from-getmicdrop.com octopus-thoughts" />
+        <input type="hidden" name="tag" value="from-getmicdrop.com" />
       </div>
       <Button
         css={css`

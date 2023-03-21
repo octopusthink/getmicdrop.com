@@ -1,0 +1,45 @@
+---
+title: Love letters
+---
+
+import Panel from 'components/Panel'
+
+<Panel>
+
+Sometimes people say nice things, and then we put them here because we don't have anywhere better to put them as of yet.
+
+Show all testimonials here:
+
+<Testimonial name={name} photo={photo} title={title} company={company} url={url} twitter={twitter}>
+  <Markdown
+    components={{
+      // eslint-disable-next-line react/jsx-props-no-spreading
+      p: (props) => <Paragraph large inverse {...props} />
+    }}
+  >
+    {quote}
+  </Markdown>
+</Testimonial>
+
+<!--
+
+    https://twitter.com/tnorthcutt/status/1511374280705028096?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/rdrn_/status/1357662312459624448
+
+    https://twitter.com/jcornick/status/1485993090192232451?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/casarock/status/1346456416345862144?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/henrik/status/1330130220930785282?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/jezdez/status/1293220450781339649?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/ketcomp/status/1279184230703140865?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/JSNoble/status/1267965064343990273?s=20&t=9bULfW4p2E3ARnzAVORQ7A
+
+    https://twitter.com/JSNoble/status/1534357574744944640
+-->
+
+</Panel>
